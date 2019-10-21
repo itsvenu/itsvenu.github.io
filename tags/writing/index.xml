@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing | The Data Diary</title>
+    <link>/tags/writing/</link>
+      <atom:link href="/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Writing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Writing</title>
+      <link>/tags/writing/</link>
+    </image>
+    
+    <item>
+      <title>Divide and Conquer</title>
+      <link>/post/divide-conquer/</link>
+      <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/post/divide-conquer/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Father: Son, How do you eat an elephant ?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Son: One bite at a time.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Exactly. Divide a task into as many micro tasks as possible. So far, this is the best way to trick your brain to achieve massive goals. But why am I saying this? Because, I followed this and it seems working like charm.&lt;/p&gt;
+
+&lt;p&gt;Recently, I had to write my 6-8 months PhD progress report which should include my thesis’s main goals, what has been done in past six months including methods I applied and results I got and finally what will be done in near future. If you are a student like me, let’s admit it. &lt;em&gt;WE SUCK AT WRITING&lt;/em&gt;. It’s not that I do not like writing,&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;it’s about the high effort mental process I need to go through&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It’s about controlling myself from distractions&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It’s about concentrating on one goal for a long time&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sounds familiar ? Welcome to &lt;strong&gt;&lt;em&gt;ADHD community&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Evenmore, as a natural human tendency we avoid tasks that burden our &lt;em&gt;unused brains (pun intended)&lt;/em&gt;. I have friends who say, given a chance they will complete their PhD without writing (don’t say it loud, I also feel same). But we can make writing process more fun, less intense with the &lt;strong&gt;&lt;em&gt;“Semantic Tree”&lt;/em&gt;&lt;/strong&gt; approach I described in &lt;a href=&#34;https://venuthatikonda.github.io/blog/note-to-remember/&#34;&gt;one of my previous posts&lt;/a&gt;. Here is how you can implement.&lt;/p&gt;
+
+&lt;h3 id=&#34;draw&#34;&gt;Draw&lt;/h3&gt;
+
+&lt;p&gt;Come up with a statement that is most obvious goal of your PhD thesis. For example, finding epigenetic targets of Lung Cancer or designing small molecule to target  enzyme X.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You know what my statement was?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Completing Thesis” (yeah, laugh at me)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then draw branches from that statement for every major project. For each project-branch draw sub-branches with the following names
+(&lt;em&gt;below you can find a template&lt;/em&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introducing research area&lt;/li&gt;
+&lt;li&gt;Broad aim / Goals of the project&lt;/li&gt;
+&lt;li&gt;Why filling this gap is important and what previous research says&lt;/li&gt;
+&lt;li&gt;Data availability and methods to implement&lt;/li&gt;
+&lt;li&gt;What results I have and how far it is from main goals&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You will be having more than one project-branch depending on the type of work and projects you are handling.&lt;/p&gt;
+
+&lt;h3 id=&#34;fill&#34;&gt;Fill&lt;/h3&gt;
+
+&lt;p&gt;Now you are on the track. Under each sub-branch write in bullet points with minimum words what that sub-branch is about. As many points as you can. Remember quality doesn’t matter at this stage but QUANTITY. This also helps in reflecting on your own knowledge of the field. Here is my template&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./semantic-tree-writing.jpg&#34; alt=&#34;semantic-tree&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;After writing points under each sub-branch, you are few steps away from your first draft. Now connect points under each sub-branch to write paragraphs. Yeah, that’s how it works for most cases.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Idea -&amp;gt; words -&amp;gt; sentences -&amp;gt; paragraphs -&amp;gt; whatever ..&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Write paragraphs for each of the sub-branch. As much information as you can.
+Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&lt;/em&gt; first draft. This first draft serves many purposes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you understand completed does not necessarily mean final?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Congrats! You have your first draft. Now have a coffee.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./Drawing.jpg&#34; alt=&#34;coffee&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;edit&#34;&gt;Edit&lt;/h3&gt;
+
+&lt;p&gt;Now start reading from the beginning. Take your audience into account. If this report will be read by professionals in the field you don’t need to be too descriptive about every context you described. Consider following two scenarios&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scenario - 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I bought colors, painting brush and canvas. Then I drew an outline of what I want to paint. Following the outline I made this beautiful painting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Scenario - 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I drew an outline and followed it to make this beautiful painting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Scenario - 1 should be for general audience and Scenario - 2 should be for professionals in the field.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Got the difference ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After this editing, read your report one more time, check how the flow is, make sure you are not jumping from &lt;strong&gt;A&lt;/strong&gt; to &lt;strong&gt;C&lt;/strong&gt; without talking about &lt;strong&gt;B&lt;/strong&gt;. Add or remove some of the sentences where you feel they are not fitting. Spend sometime to include &lt;strong&gt;&lt;em&gt;scientific jargon&lt;/em&gt;&lt;/strong&gt; and to remove layman sentences. You know why this is important, right?&lt;/p&gt;
+
+&lt;p&gt;I wrote my report with this method. Believe me, it takes a very short time.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Happy writing !&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./writing.jpg&#34; alt=&#34;writing&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>When I hit by a quote on the internet and started writing ...</title>
+      <link>/post/when-i-hit/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/post/when-i-hit/</guid>
+      <description>&lt;p&gt;Every time I begin to work on writing for my blog, something stops me. I always try to fight back and lose. Obviously. I have been &lt;strong&gt;THINKING&lt;/strong&gt; to write on a topic for more than a month. Notice &lt;strong&gt;THINKING&lt;/strong&gt;. Just to stress that I am only thinking. Doing nothing about it.&lt;/p&gt;
+
+&lt;p&gt;While submitting a new post, I always tell myself &lt;strong&gt;&lt;em&gt;“I should write one post per week. Okay, at least one per 2 weeks, keeping in mind other scientific projects”&lt;/em&gt;&lt;/strong&gt;. Good excuse right! I know.&lt;/p&gt;
+
+&lt;p&gt;One day, while having a small-talk with a friend of mine, I mentioned “I was planning to write something on this topic”, that I have been thinking. &lt;strong&gt;&lt;em&gt;Well&lt;/em&gt;&lt;/strong&gt;, he said&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“there is nothing wrong in making plans. You can make as many plans as you want.”&lt;/em&gt;&lt;/strong&gt; Then my face turned like this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./facepalm.jpg&#34; alt=&#34;face&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;As you see, this comment hides some meaning. We do not see any problems while making plans. Even if we expect to see some, many other problems show up when we actually working on.&lt;/p&gt;
+
+&lt;p&gt;Similarly, each time I sit to write, I face &lt;em&gt;many&lt;/em&gt; problems and all these forces me to postpone the work. Two most dangerous problems, of &lt;em&gt;many&lt;/em&gt;, are &lt;strong&gt;&lt;em&gt;Procrastination&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;Distraction&lt;/em&gt;&lt;/strong&gt; (PD). I am a &lt;strong&gt;PRO&lt;/strong&gt; of &lt;strong&gt;PRO&lt;/strong&gt;crastination. Oh boy! I’m telling you. I love those tomorrows. Everyday, my today’s work would be postponed to tomorrow. And these tomorrows are a never ending chain. If I start talking about my distractions, this post will take you somewhere &lt;strong&gt;&lt;em&gt;off-track&lt;/em&gt;&lt;/strong&gt; and you’ll be distracted. It is difficult for me to resist the temptation of thinking about the vast number of topics in the world which are completely useless to me. I start with topic-A and my brain quickly jumps onto some random topic-K which is no way related to the initial one.&lt;/p&gt;
+
+&lt;h3 id=&#34;then-this-happened&#34;&gt;Then this happened&lt;/h3&gt;
+
+&lt;p&gt;As a daily routine, I postponed my writing and started wasting time on random topics on the internet. I stumbled upon a quote.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;b&gt;You can not edit a blank page&lt;/b&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;This hit me in the face. I felt terrible. I felt embarrassed. I know what I want to do. I know how to do. But, why it is not happening? I always imagine myself writing, but never initiated an action. How do I improve myself editing my writing without having anything on the paper ? This really changed my rest of the day. I grabbed a notebook and pencil and drawn an outline on what and how to write.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./outline.jpg&#34; alt=&#34;out&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Added some details to the initial outline. Some more to the second one and so on. Drawn few cartoon pictures. All this while, I fought my temptations to procrastinate, to open a new-tab and waste time on some random internet page and finally made “When I hit by a quote on the internet and started writing...”&lt;/p&gt;
+
+&lt;p&gt;If you are also having the same problems like &lt;strong&gt;&lt;em&gt;stupid&lt;/em&gt;&lt;/strong&gt; me, do not wait until something punch you in the face. Nothing is really important, if it is, you obviously find time for it. Stop scrolling  &lt;strong&gt;&lt;em&gt;f&#39;ng&lt;/em&gt;&lt;/strong&gt; facebook and install &lt;a href=&#34;https://chrome.google.com/webstore/detail/block-site/eiimnmioipafcokbfikbljfdeojpcgbh?hl=en&#34;&gt;BlockSite&lt;/a&gt; and &lt;a href=&#34;https://chrome.google.com/webstore/detail/pomodoro-timer/hfgjlgjnpkpmnpojkkpfkogapiclopop?hl=en&#34;&gt;Pomodoro&lt;/a&gt;. These two chrome extensions are helping me a lot to increase my productivity step by step. It takes a huge effort to free yourself from &lt;strong&gt;PD&lt;/strong&gt; but it is definitely possible.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A note to my six months younger-self</title>
+      <link>/post/note-to-remember/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/note-to-remember/</guid>
+      <description>&lt;p&gt;Hey, you!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Who me?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, you. Seem so excited about starting your PhD?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ofcourse. You know how many nights I burnt to get here?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That is exactly why I am here. I am your future-self who is six months into your PhD and I would like to give you some suggestions. Please keep them in mind during your PhD.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Suggestions? Meh..&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Please, you have to listen..&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Okay! Tell me&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;research-draw-a-semantic-tree-for-every-new-concept-you-encounter&#34;&gt;Research: Draw a semantic tree for every new concept you encounter&lt;/h4&gt;
+
+&lt;p&gt;Let me explain it with a simple example. Say, you need to understand the anatomy &amp;amp; physiology of leaves and start your research work around the topic. You can’t directly jump onto literature on leaves and understand everything. First you need to know about tree, different parts of a tree, what role each part is performing in the life of a tree, how each part is connected to other. Then narrow down your focus onto leaves. Dig deeper. Probe the literature on what people tried to reveal about leaves, watch related videos/documentaries, read blog posts ..&lt;em&gt;etc&lt;/em&gt;. Write down the open questions, know what data you have/need to solve one of those open and IMPORTANT questions.&lt;/p&gt;
+
+&lt;p&gt;Here is a semantic tree for above example to narrow down your focus from a broad context.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./sematic-tree.jpg&#34; alt=&#34;semantic-tree&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a simple example. You are going to work on one of the complex organs in human body, Brain. Be careful. Don’t just read. For every obscure statement, seek evidence from multiple sources. Don’t afraid to question.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Effective questioning brings insight, which fuels curiosity, which cultivates wisdom”&lt;/em&gt;&lt;/strong&gt;  - &lt;em&gt;Chip Bell&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;failure-you-will-fail-multiple-times-but-it-is-okay&#34;&gt;Failure: You will fail. Multiple times. But it is okay!&lt;/h4&gt;
+
+&lt;p&gt;Yes. It is hard to digest when someone tells you in the face that you are going to fail. Remember that old but GOLD saying? &lt;strong&gt;&lt;em&gt;“Failures are stepping stones to Success”&lt;/em&gt;&lt;/strong&gt;. That is &lt;em&gt;101% true&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sometimes the method you design to address the problem won’t work as you expected or is just not suitable for the question at your hand. Don’t worry. This is how you learn what works better for the problem. When you fail at something, don’t be hard on yourself. Laugh at your innocence. Do not try to fix it as soon as you realize it failed. Take some time for retrospection. Analyse step by step what you have done. Find at which stage you took a wrong step. Well, there is no obvious wrong step but is just not appropriate for the situation. Ask a question &lt;strong&gt;&lt;em&gt;“How can you modify that procedure to work better”&lt;/em&gt;&lt;/strong&gt; ?&lt;/p&gt;
+
+&lt;p&gt;Retrospection will be easy when you have documentation on what has been done.
+Do not forget to write down everything you are doing. Every single step. Do not ignore or do not procrastinate. A great anonymous once said &lt;strong&gt;&lt;em&gt;“Documentation is a love letter you write to yourself”&lt;/em&gt;&lt;/strong&gt;. Write it beautifully, so you can read it anytime you want.&lt;/p&gt;
+
+&lt;h4 id=&#34;nonscience-do-not-forget-what-else-you-love-other-than-science&#34;&gt;Non-science: Do not forget what else you love other than science&lt;/h4&gt;
+
+&lt;p&gt;I have seen you several times drawing cartoons, reading fiction novels, is that you? If yes, keep that habit. &lt;strong&gt;&lt;em&gt;Never abandon what you love other than science&lt;/em&gt;&lt;/strong&gt;. It gives you pleasure. Keep reading. Number of books on different subjects. Reading non-work related areas broadens your knowledge horizons. Do not ask why &amp;amp; how this helps with your PhD. You will understand. Thank me later. Develop writing as a habit. Write about various topics. Do not hesitate to share your failures through writing or public speaking. It helps other fellows. Let them know they are not the only ones.&lt;/p&gt;
+
+&lt;h4 id=&#34;health--family-last-but-not-least-take-care-of-your-health&#34;&gt;Health &amp;amp; Family: Last but not least, Take care of your health&lt;/h4&gt;
+
+&lt;p&gt;You are going to live away from your family, away from your friends, away from people you know, away from places you are familiar with. I know you spent overnights for various reasons with no effect on your health. But now it is different. You need to balance your physical and mental health. Follow a healthy diet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Good health is a crown on the head of a well person that only a sick person can see”&lt;/em&gt;&lt;/strong&gt; - &lt;em&gt;Robin Sharma&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Do not be depressed when you fail. Do not get frustrated when things don’t work. Sometimes you will do nothing productive through out a complete day. It is okay. Just take a coffee and walk for a while.&lt;/p&gt;
+
+&lt;p&gt;Someone is going to break your heart. Do not complain. Respect their decision and move on. It is okay to break your heart a couple of times. Remember &lt;strong&gt;&lt;em&gt;“The more it happens, the less it hurts”&lt;/em&gt;&lt;/strong&gt;. Period. You can handle that. &lt;em&gt;DO NOT EVER CONNECT YOUR EMOTIONS WITH ALCOHOL.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Talk to your family very frequently, more frequent than previous years. Do not pretend you are busy. It is the best medicine when you feel low. Talk to that friend of yours and discuss those stupid topics which do not make sense to anyone in this world, except you and your friend. &lt;em&gt;Laugh a lot, stay healthy&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have fun with your PhD. Make most out of it. Make memories !&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Is that all?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Okay, Thanks!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

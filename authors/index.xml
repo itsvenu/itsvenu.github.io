@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | The Data Diary</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;style&gt;
+body {
+text-align: justify}
+&lt;/style&gt;
+
+&lt;p&gt;Hallo, I&amp;rsquo;m a bioinformatics PhD student working on [epi]genomics and other genome wide high throughput data. Though I work with data in many different contexts, my main interest is understanding tumor promoting mechanisms of pediatric cancers.&lt;/p&gt;
+
+&lt;p&gt;In addition to working on cancer related data, I&amp;rsquo;m highly interested in the field of  machine learning &amp;amp; data science to generate hypotheses, answer questions and explore data to unravel the hidden patterns by building models.&lt;/p&gt;
+
+&lt;p&gt;I would love to simplify scientific findings to spread the knowledge to a broader audience. I believe general public needs to understand the scientific work in a meaningful way instead of imbibing wrong information from random websites on the internet.&lt;/p&gt;
+
+&lt;p&gt;And programming is love!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robert Ford</title>
+      <link>/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

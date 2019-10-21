@@ -1,0 +1,2176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Data Diary</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>The Data Diary</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>The Data Diary</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example1/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example2/</guid>
+      <description>
+
+&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A deep dive into &#39;Forests&#39;</title>
+      <link>/post/brca-random-forests/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/post/brca-random-forests/</guid>
+      <description>&lt;style&gt;
+body {
+text-align: justify}
+&lt;/style&gt;
+
+&lt;p&gt;[&lt;em&gt;Jupyter notebook for this project is available &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/BreastCancer_RandomForest/BRCA_RandomForests.ipynb&#34;&gt;here&lt;/a&gt;&lt;/em&gt;]&lt;/p&gt;
+
+&lt;p&gt;I have been spending a lot of time understanding different concepts behind Machine learning techniques (ML), one concept at a time! In this post, I will discuss and try to simplify some of the concepts behind an ML technique, &lt;code&gt;RandomForests&lt;/code&gt;. While there are many resources explaining in which areas this method is useful, I am not going to touch that. So, without much jibber-jabber, let&#39;s get into &#39;Forests&#39;!&lt;/p&gt;
+
+&lt;h3 id=&#34;randomforests&#34;&gt;RandomForests?&lt;/h3&gt;
+
+&lt;p&gt;RandomForests are a frequently used ML technique to predict either a continous outcome, e.g. house prices or a discrete outcome e.g. whether a disease is present in a tissue or not.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-does-randomforests-work&#34;&gt;How does RandomForests work?&lt;/h3&gt;
+
+&lt;p&gt;Before going into the details of how the method works, we need to familiarise with a couple of terms. Just imagine (or look below) a table with rows and columns&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;sample_table.png&#34; alt=&#34;sample&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Features&lt;/code&gt; - a feature is a a type of measurement. It could be continuous e.g. in an examination of a tissue, it can be size, diameter etc or could be discrete e.g. the tissue is narrower or wider. &lt;code&gt;Features&lt;/code&gt; are the most important details in building any ML model&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Instance&lt;/code&gt; - let&#39;s say each row in above table is a patient. In a more technical way, these are called &lt;code&gt;Instaces&lt;/code&gt; or &lt;code&gt;Observations&lt;/code&gt; in ML language&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Each value in each cell is a measurement for a particular observation and feature&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Entropy&lt;/code&gt; - from our school physics, we know this as &#39;randomness&#39;. So here it is randomness in the data. How can one quantify randomness in a given dataset?&lt;/p&gt;
+
+&lt;p&gt;For the above table, entropy is calculated with the following formula&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;p&lt;/code&gt; - probability of being &#39;Present&#39;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;n&lt;/code&gt; - probability of being &#39;Absent&#39;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Entropy = I(p,n) = -(p/(p+n)) * log2(p/(p+n)) - (n/(p+n)) * log2(n/(p+n))
+        = I(3,1) = -(3/(3+1)) * log2(3/(3+1)) - (1/(3+1)) * log2(1/(3+1))
+        = 0.811
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So the &lt;code&gt;entropy&lt;/code&gt; or the randomness in our dataset is &lt;code&gt;0.811&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And a few terms that are specific to &lt;code&gt;RandomForests&lt;/code&gt;. The following figure is called a decision tree&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;sample_decision.png&#34; alt=&#34;decision&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Root node&lt;/code&gt; - Root node is a feature from which data splitting starts based on a binary decision and two branches emerge&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Decision node&lt;/code&gt; - Decision nodes are branches from &lt;code&gt;root node&lt;/code&gt; at which binary decisions are made to split further&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Leaf node&lt;/code&gt; - Leaf node holds a final predicted outcome label. After a leaf node is generated, there will be no splitting of the data is possible. Leaf nodes are also called as &lt;code&gt;Terminal nodes&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Splitting&lt;/code&gt; - Process of splitting the data into two sets depending on a binary decision&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that we know a bit of alien terms, let&#39;s talk about how RandomForests work. In the above example data, given four &lt;code&gt;features&lt;/code&gt;, we would like to predict the &lt;code&gt;outcome&lt;/code&gt; label.&lt;/p&gt;
+
+&lt;p&gt;Behind the scenes, RandomForests work by randomly choosing a &lt;code&gt;feature&lt;/code&gt; and a value within that feature (making it a &lt;code&gt;Root node&lt;/code&gt;) and splitting the data into two branches. One branch contains the feature values above the chosen value (&lt;code&gt;TRUE&lt;/code&gt;) and the other branch contains feature values below the chosen value (&lt;code&gt;FALSE&lt;/code&gt;), &lt;strong&gt;a binary decision&lt;/strong&gt;. The random feature and random value are chosen in a way that the resulting two branches contains the &lt;code&gt;entropy&lt;/code&gt; lower than the entropy of the &lt;code&gt;Root node&lt;/code&gt; or the raw data. The process continues on each node generated from the root node until the final &lt;code&gt;leaf node&lt;/code&gt;s are generated or the final &lt;code&gt;entropy&lt;/code&gt; becomes zero, meaning each observation is classified according to the given label.&lt;/p&gt;
+
+&lt;p&gt;For example, in the above table, we calculated that our initial entropy is 0.811. If we choose the feature &lt;code&gt;Feature-1&lt;/code&gt; and the value &lt;code&gt;5.4&lt;/code&gt; and split the data into two branches, one that contains &lt;code&gt;Feature-1&lt;/code&gt; values &lt;code&gt;&amp;lt;=5.4&lt;/code&gt; [&lt;code&gt;TRUE&lt;/code&gt;] other that contains &lt;code&gt;Feature-1&lt;/code&gt; values &lt;code&gt;&amp;gt;5.4&lt;/code&gt; [&lt;code&gt;FALSE&lt;/code&gt;]. With this split, although one branch contains pure &lt;code&gt;Present&lt;/code&gt; label, the other branch&#39;s &lt;code&gt;entropy&lt;/code&gt; is higher than the initial entropy, suggests the split is not ideal.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;example_decisions.png&#34; alt=&#34;ex&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead, if we choose &lt;code&gt;Feature-1&lt;/code&gt; and value &lt;code&gt;0.5&lt;/code&gt; as the splitting point, we will end up with 2 branches whose &lt;code&gt;entropy&lt;/code&gt; is lower than the root node and contains a homogenous set of samples.&lt;/p&gt;
+
+&lt;p&gt;That is the basic idea behind a &lt;code&gt;RandomForest&lt;/code&gt;. But the question is, is that all we need to get the results we want? or close to the results we want? Of course not. To get better results, we build many many trees as the one above and at the end, average of all trees is taken as the final results. Higher the number of trees, higher the accuracy of the final results. Of these many trees, each tree is ran with a random subsample of the original data or the random data of same size drawn from original data with replacement, which we call &lt;code&gt;bootstraping&lt;/code&gt; in ML terminology. The final results are calculated in two different ways.&lt;/p&gt;
+
+&lt;p&gt;For example, we have two outcome labels &lt;code&gt;YES&lt;/code&gt; and &lt;code&gt;NO&lt;/code&gt;. If we ran 100 trees and an &lt;code&gt;observation&lt;/code&gt; is classified as &lt;code&gt;YES&lt;/code&gt; more frequently than &lt;code&gt;NO&lt;/code&gt;, the final outcome for this observation will be &lt;code&gt;YES&lt;/code&gt;, basically, the label with majority of votes wins. Instead, each tree can produce the probability for being &lt;code&gt;YES&lt;/code&gt; and proability for being &lt;code&gt;NO&lt;/code&gt; for each observation. At the end, all probabilities for being &lt;code&gt;YES&lt;/code&gt; and &lt;code&gt;NO&lt;/code&gt; are averaged for each observation and the final outcome will be the one with higest probability.&lt;/p&gt;
+
+&lt;p&gt;Now let&#39;s look at a real world, complex cancer data and implement &lt;code&gt;RandomForests&lt;/code&gt; to classify if a patient has &lt;code&gt;Malignant&lt;/code&gt; (cancer tumor) or a &lt;code&gt;Benign&lt;/code&gt; (non-cancer tumor).&lt;/p&gt;
+
+&lt;h3 id=&#34;classification-of-breast-cancers-with-randomforests&#34;&gt;Classification of Breast cancers with RandomForests&lt;/h3&gt;
+
+&lt;p&gt;In order to implement RandomForests on Breast cancer data, I downloaded the data from &lt;a href=&#34;https://www.kaggle.com/uciml/breast-cancer-wisconsin-data&#34;&gt;kaggle&lt;/a&gt;. The data contains 569 patients/observations and 30 features and one more column with &lt;code&gt;diagnosis&lt;/code&gt; either as label &lt;code&gt;M&lt;/code&gt; for manlignant or &lt;code&gt;B&lt;/code&gt; for benign, a classification problem. All features are various continuous measurements of breast tissue to classify the tumor type.&lt;/p&gt;
+
+&lt;p&gt;I will be using &lt;code&gt;python&lt;/code&gt; and a famous machine learning library &lt;code&gt;sklearn&lt;/code&gt; to implement RandomForest classifications.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h4 id=&#34;load-required-libraries&#34;&gt;Load required libraries&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import seaborn as sns; sns.set(font_scale = 2)
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;read-data-and-clean&#34;&gt;Read data and clean&lt;/h4&gt;
+
+&lt;p&gt;I downloaded data from above mentioned &lt;code&gt;kaggle&lt;/code&gt; link. Here, we read the data into &lt;code&gt;df_raw&lt;/code&gt; and remove unnecessary columns/features.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## read data
+df_raw = pd.read_csv(&#39;data.csv&#39;, index_col = &#39;id&#39;)
+df_raw.head().transpose()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div&gt;
+&lt;style scoped&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&#34;1&#34; class=&#34;dataframe&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&#34;text-align: right;&#34;&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;842302&lt;/th&gt;
+      &lt;th&gt;842517&lt;/th&gt;
+      &lt;th&gt;84300903&lt;/th&gt;
+      &lt;th&gt;84348301&lt;/th&gt;
+      &lt;th&gt;84358402&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;diagnosis&lt;/th&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;M&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;radius_mean&lt;/th&gt;
+      &lt;td&gt;17.99&lt;/td&gt;
+      &lt;td&gt;20.57&lt;/td&gt;
+      &lt;td&gt;19.69&lt;/td&gt;
+      &lt;td&gt;11.42&lt;/td&gt;
+      &lt;td&gt;20.29&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;texture_mean&lt;/th&gt;
+      &lt;td&gt;10.38&lt;/td&gt;
+      &lt;td&gt;17.77&lt;/td&gt;
+      &lt;td&gt;21.25&lt;/td&gt;
+      &lt;td&gt;20.38&lt;/td&gt;
+      &lt;td&gt;14.34&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;perimeter_mean&lt;/th&gt;
+      &lt;td&gt;122.8&lt;/td&gt;
+      &lt;td&gt;132.9&lt;/td&gt;
+      &lt;td&gt;130&lt;/td&gt;
+      &lt;td&gt;77.58&lt;/td&gt;
+      &lt;td&gt;135.1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;area_mean&lt;/th&gt;
+      &lt;td&gt;1001&lt;/td&gt;
+      &lt;td&gt;1326&lt;/td&gt;
+      &lt;td&gt;1203&lt;/td&gt;
+      &lt;td&gt;386.1&lt;/td&gt;
+      &lt;td&gt;1297&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;smoothness_mean&lt;/th&gt;
+      &lt;td&gt;0.1184&lt;/td&gt;
+      &lt;td&gt;0.08474&lt;/td&gt;
+      &lt;td&gt;0.1096&lt;/td&gt;
+      &lt;td&gt;0.1425&lt;/td&gt;
+      &lt;td&gt;0.1003&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;compactness_mean&lt;/th&gt;
+      &lt;td&gt;0.2776&lt;/td&gt;
+      &lt;td&gt;0.07864&lt;/td&gt;
+      &lt;td&gt;0.1599&lt;/td&gt;
+      &lt;td&gt;0.2839&lt;/td&gt;
+      &lt;td&gt;0.1328&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;concavity_mean&lt;/th&gt;
+      &lt;td&gt;0.3001&lt;/td&gt;
+      &lt;td&gt;0.0869&lt;/td&gt;
+      &lt;td&gt;0.1974&lt;/td&gt;
+      &lt;td&gt;0.2414&lt;/td&gt;
+      &lt;td&gt;0.198&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;concave points_mean&lt;/th&gt;
+      &lt;td&gt;0.1471&lt;/td&gt;
+      &lt;td&gt;0.07017&lt;/td&gt;
+      &lt;td&gt;0.1279&lt;/td&gt;
+      &lt;td&gt;0.1052&lt;/td&gt;
+      &lt;td&gt;0.1043&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;symmetry_mean&lt;/th&gt;
+      &lt;td&gt;0.2419&lt;/td&gt;
+      &lt;td&gt;0.1812&lt;/td&gt;
+      &lt;td&gt;0.2069&lt;/td&gt;
+      &lt;td&gt;0.2597&lt;/td&gt;
+      &lt;td&gt;0.1809&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;fractal_dimension_mean&lt;/th&gt;
+      &lt;td&gt;0.07871&lt;/td&gt;
+      &lt;td&gt;0.05667&lt;/td&gt;
+      &lt;td&gt;0.05999&lt;/td&gt;
+      &lt;td&gt;0.09744&lt;/td&gt;
+      &lt;td&gt;0.05883&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;radius_se&lt;/th&gt;
+      &lt;td&gt;1.095&lt;/td&gt;
+      &lt;td&gt;0.5435&lt;/td&gt;
+      &lt;td&gt;0.7456&lt;/td&gt;
+      &lt;td&gt;0.4956&lt;/td&gt;
+      &lt;td&gt;0.7572&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;texture_se&lt;/th&gt;
+      &lt;td&gt;0.9053&lt;/td&gt;
+      &lt;td&gt;0.7339&lt;/td&gt;
+      &lt;td&gt;0.7869&lt;/td&gt;
+      &lt;td&gt;1.156&lt;/td&gt;
+      &lt;td&gt;0.7813&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;perimeter_se&lt;/th&gt;
+      &lt;td&gt;8.589&lt;/td&gt;
+      &lt;td&gt;3.398&lt;/td&gt;
+      &lt;td&gt;4.585&lt;/td&gt;
+      &lt;td&gt;3.445&lt;/td&gt;
+      &lt;td&gt;5.438&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;area_se&lt;/th&gt;
+      &lt;td&gt;153.4&lt;/td&gt;
+      &lt;td&gt;74.08&lt;/td&gt;
+      &lt;td&gt;94.03&lt;/td&gt;
+      &lt;td&gt;27.23&lt;/td&gt;
+      &lt;td&gt;94.44&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;smoothness_se&lt;/th&gt;
+      &lt;td&gt;0.006399&lt;/td&gt;
+      &lt;td&gt;0.005225&lt;/td&gt;
+      &lt;td&gt;0.00615&lt;/td&gt;
+      &lt;td&gt;0.00911&lt;/td&gt;
+      &lt;td&gt;0.01149&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;compactness_se&lt;/th&gt;
+      &lt;td&gt;0.04904&lt;/td&gt;
+      &lt;td&gt;0.01308&lt;/td&gt;
+      &lt;td&gt;0.04006&lt;/td&gt;
+      &lt;td&gt;0.07458&lt;/td&gt;
+      &lt;td&gt;0.02461&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;concavity_se&lt;/th&gt;
+      &lt;td&gt;0.05373&lt;/td&gt;
+      &lt;td&gt;0.0186&lt;/td&gt;
+      &lt;td&gt;0.03832&lt;/td&gt;
+      &lt;td&gt;0.05661&lt;/td&gt;
+      &lt;td&gt;0.05688&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;concave points_se&lt;/th&gt;
+      &lt;td&gt;0.01587&lt;/td&gt;
+      &lt;td&gt;0.0134&lt;/td&gt;
+      &lt;td&gt;0.02058&lt;/td&gt;
+      &lt;td&gt;0.01867&lt;/td&gt;
+      &lt;td&gt;0.01885&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;symmetry_se&lt;/th&gt;
+      &lt;td&gt;0.03003&lt;/td&gt;
+      &lt;td&gt;0.01389&lt;/td&gt;
+      &lt;td&gt;0.0225&lt;/td&gt;
+      &lt;td&gt;0.05963&lt;/td&gt;
+      &lt;td&gt;0.01756&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;fractal_dimension_se&lt;/th&gt;
+      &lt;td&gt;0.006193&lt;/td&gt;
+      &lt;td&gt;0.003532&lt;/td&gt;
+      &lt;td&gt;0.004571&lt;/td&gt;
+      &lt;td&gt;0.009208&lt;/td&gt;
+      &lt;td&gt;0.005115&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;radius_worst&lt;/th&gt;
+      &lt;td&gt;25.38&lt;/td&gt;
+      &lt;td&gt;24.99&lt;/td&gt;
+      &lt;td&gt;23.57&lt;/td&gt;
+      &lt;td&gt;14.91&lt;/td&gt;
+      &lt;td&gt;22.54&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;texture_worst&lt;/th&gt;
+      &lt;td&gt;17.33&lt;/td&gt;
+      &lt;td&gt;23.41&lt;/td&gt;
+      &lt;td&gt;25.53&lt;/td&gt;
+      &lt;td&gt;26.5&lt;/td&gt;
+      &lt;td&gt;16.67&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;perimeter_worst&lt;/th&gt;
+      &lt;td&gt;184.6&lt;/td&gt;
+      &lt;td&gt;158.8&lt;/td&gt;
+      &lt;td&gt;152.5&lt;/td&gt;
+      &lt;td&gt;98.87&lt;/td&gt;
+      &lt;td&gt;152.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;area_worst&lt;/th&gt;
+      &lt;td&gt;2019&lt;/td&gt;
+      &lt;td&gt;1956&lt;/td&gt;
+      &lt;td&gt;1709&lt;/td&gt;
+      &lt;td&gt;567.7&lt;/td&gt;
+      &lt;td&gt;1575&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;smoothness_worst&lt;/th&gt;
+      &lt;td&gt;0.1622&lt;/td&gt;
+      &lt;td&gt;0.1238&lt;/td&gt;
+      &lt;td&gt;0.1444&lt;/td&gt;
+      &lt;td&gt;0.2098&lt;/td&gt;
+      &lt;td&gt;0.1374&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;compactness_worst&lt;/th&gt;
+      &lt;td&gt;0.6656&lt;/td&gt;
+      &lt;td&gt;0.1866&lt;/td&gt;
+      &lt;td&gt;0.4245&lt;/td&gt;
+      &lt;td&gt;0.8663&lt;/td&gt;
+      &lt;td&gt;0.205&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;concavity_worst&lt;/th&gt;
+      &lt;td&gt;0.7119&lt;/td&gt;
+      &lt;td&gt;0.2416&lt;/td&gt;
+      &lt;td&gt;0.4504&lt;/td&gt;
+      &lt;td&gt;0.6869&lt;/td&gt;
+      &lt;td&gt;0.4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;concave points_worst&lt;/th&gt;
+      &lt;td&gt;0.2654&lt;/td&gt;
+      &lt;td&gt;0.186&lt;/td&gt;
+      &lt;td&gt;0.243&lt;/td&gt;
+      &lt;td&gt;0.2575&lt;/td&gt;
+      &lt;td&gt;0.1625&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;symmetry_worst&lt;/th&gt;
+      &lt;td&gt;0.4601&lt;/td&gt;
+      &lt;td&gt;0.275&lt;/td&gt;
+      &lt;td&gt;0.3613&lt;/td&gt;
+      &lt;td&gt;0.6638&lt;/td&gt;
+      &lt;td&gt;0.2364&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;fractal_dimension_worst&lt;/th&gt;
+      &lt;td&gt;0.1189&lt;/td&gt;
+      &lt;td&gt;0.08902&lt;/td&gt;
+      &lt;td&gt;0.08758&lt;/td&gt;
+      &lt;td&gt;0.173&lt;/td&gt;
+      &lt;td&gt;0.07678&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Unnamed: 32&lt;/th&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Remove &lt;code&gt;Unnamed: 32&lt;/code&gt; as it has only &lt;code&gt;NaN&lt;/code&gt; values in it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## id is patient ID
+## remove &#39;Unnamed: 32&#39;
+
+df_raw = df_raw.drop(&#39;Unnamed: 32&#39;, axis=1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;split-the-data-into-train-and-test-sets&#34;&gt;Split the data into train and test sets&lt;/h4&gt;
+
+&lt;p&gt;In order to build a model and validate it&#39;s performance, we need to split the data into training and test set. After training the RandomForest model on training data, we&#39;ll test it&#39;s performance on test set. Here we split the 569 patients into 75% as training data and 25% as test data.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## split into training and test sets
+train_df, test_df = train_test_split(df_raw, test_size=0.25)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(train_df)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;426
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(test_df)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;143
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div&gt;
+&lt;style scoped&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&#34;1&#34; class=&#34;dataframe&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&#34;text-align: right;&#34;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;diagnosis&lt;/th&gt;
+      &lt;th&gt;radius_mean&lt;/th&gt;
+      &lt;th&gt;texture_mean&lt;/th&gt;
+      &lt;th&gt;perimeter_mean&lt;/th&gt;
+      &lt;th&gt;area_mean&lt;/th&gt;
+      &lt;th&gt;smoothness_mean&lt;/th&gt;
+      &lt;th&gt;compactness_mean&lt;/th&gt;
+      &lt;th&gt;concavity_mean&lt;/th&gt;
+      &lt;th&gt;concave points_mean&lt;/th&gt;
+      &lt;th&gt;symmetry_mean&lt;/th&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;th&gt;radius_worst&lt;/th&gt;
+      &lt;th&gt;texture_worst&lt;/th&gt;
+      &lt;th&gt;perimeter_worst&lt;/th&gt;
+      &lt;th&gt;area_worst&lt;/th&gt;
+      &lt;th&gt;smoothness_worst&lt;/th&gt;
+      &lt;th&gt;compactness_worst&lt;/th&gt;
+      &lt;th&gt;concavity_worst&lt;/th&gt;
+      &lt;th&gt;concave points_worst&lt;/th&gt;
+      &lt;th&gt;symmetry_worst&lt;/th&gt;
+      &lt;th&gt;fractal_dimension_worst&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;9010259&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;13.05&lt;/td&gt;
+      &lt;td&gt;18.59&lt;/td&gt;
+      &lt;td&gt;85.09&lt;/td&gt;
+      &lt;td&gt;512.0&lt;/td&gt;
+      &lt;td&gt;0.10820&lt;/td&gt;
+      &lt;td&gt;0.13040&lt;/td&gt;
+      &lt;td&gt;0.09603&lt;/td&gt;
+      &lt;td&gt;0.05603&lt;/td&gt;
+      &lt;td&gt;0.2035&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;14.19&lt;/td&gt;
+      &lt;td&gt;24.85&lt;/td&gt;
+      &lt;td&gt;94.22&lt;/td&gt;
+      &lt;td&gt;591.2&lt;/td&gt;
+      &lt;td&gt;0.1343&lt;/td&gt;
+      &lt;td&gt;0.2658&lt;/td&gt;
+      &lt;td&gt;0.25730&lt;/td&gt;
+      &lt;td&gt;0.12580&lt;/td&gt;
+      &lt;td&gt;0.3113&lt;/td&gt;
+      &lt;td&gt;0.08317&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;8812816&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;13.65&lt;/td&gt;
+      &lt;td&gt;13.16&lt;/td&gt;
+      &lt;td&gt;87.88&lt;/td&gt;
+      &lt;td&gt;568.9&lt;/td&gt;
+      &lt;td&gt;0.09646&lt;/td&gt;
+      &lt;td&gt;0.08711&lt;/td&gt;
+      &lt;td&gt;0.03888&lt;/td&gt;
+      &lt;td&gt;0.02563&lt;/td&gt;
+      &lt;td&gt;0.1360&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;15.34&lt;/td&gt;
+      &lt;td&gt;16.35&lt;/td&gt;
+      &lt;td&gt;99.71&lt;/td&gt;
+      &lt;td&gt;706.2&lt;/td&gt;
+      &lt;td&gt;0.1311&lt;/td&gt;
+      &lt;td&gt;0.2474&lt;/td&gt;
+      &lt;td&gt;0.17590&lt;/td&gt;
+      &lt;td&gt;0.08056&lt;/td&gt;
+      &lt;td&gt;0.2380&lt;/td&gt;
+      &lt;td&gt;0.08718&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;9112085&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;13.38&lt;/td&gt;
+      &lt;td&gt;30.72&lt;/td&gt;
+      &lt;td&gt;86.34&lt;/td&gt;
+      &lt;td&gt;557.2&lt;/td&gt;
+      &lt;td&gt;0.09245&lt;/td&gt;
+      &lt;td&gt;0.07426&lt;/td&gt;
+      &lt;td&gt;0.02819&lt;/td&gt;
+      &lt;td&gt;0.03264&lt;/td&gt;
+      &lt;td&gt;0.1375&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;15.05&lt;/td&gt;
+      &lt;td&gt;41.61&lt;/td&gt;
+      &lt;td&gt;96.69&lt;/td&gt;
+      &lt;td&gt;705.6&lt;/td&gt;
+      &lt;td&gt;0.1172&lt;/td&gt;
+      &lt;td&gt;0.1421&lt;/td&gt;
+      &lt;td&gt;0.07003&lt;/td&gt;
+      &lt;td&gt;0.07763&lt;/td&gt;
+      &lt;td&gt;0.2196&lt;/td&gt;
+      &lt;td&gt;0.07675&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;88206102&lt;/th&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;20.51&lt;/td&gt;
+      &lt;td&gt;27.81&lt;/td&gt;
+      &lt;td&gt;134.40&lt;/td&gt;
+      &lt;td&gt;1319.0&lt;/td&gt;
+      &lt;td&gt;0.09159&lt;/td&gt;
+      &lt;td&gt;0.10740&lt;/td&gt;
+      &lt;td&gt;0.15540&lt;/td&gt;
+      &lt;td&gt;0.08340&lt;/td&gt;
+      &lt;td&gt;0.1448&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;24.47&lt;/td&gt;
+      &lt;td&gt;37.38&lt;/td&gt;
+      &lt;td&gt;162.70&lt;/td&gt;
+      &lt;td&gt;1872.0&lt;/td&gt;
+      &lt;td&gt;0.1223&lt;/td&gt;
+      &lt;td&gt;0.2761&lt;/td&gt;
+      &lt;td&gt;0.41460&lt;/td&gt;
+      &lt;td&gt;0.15630&lt;/td&gt;
+      &lt;td&gt;0.2437&lt;/td&gt;
+      &lt;td&gt;0.08328&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;904971&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;10.94&lt;/td&gt;
+      &lt;td&gt;18.59&lt;/td&gt;
+      &lt;td&gt;70.39&lt;/td&gt;
+      &lt;td&gt;370.0&lt;/td&gt;
+      &lt;td&gt;0.10040&lt;/td&gt;
+      &lt;td&gt;0.07460&lt;/td&gt;
+      &lt;td&gt;0.04944&lt;/td&gt;
+      &lt;td&gt;0.02932&lt;/td&gt;
+      &lt;td&gt;0.1486&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;12.40&lt;/td&gt;
+      &lt;td&gt;25.58&lt;/td&gt;
+      &lt;td&gt;82.76&lt;/td&gt;
+      &lt;td&gt;472.4&lt;/td&gt;
+      &lt;td&gt;0.1363&lt;/td&gt;
+      &lt;td&gt;0.1644&lt;/td&gt;
+      &lt;td&gt;0.14120&lt;/td&gt;
+      &lt;td&gt;0.07887&lt;/td&gt;
+      &lt;td&gt;0.2251&lt;/td&gt;
+      &lt;td&gt;0.07732&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;5 rows × 31 columns&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;B    95
+M    48
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;train_df.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;B    262
+M    164
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df_raw.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;B    357
+M    212
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;binarize-the-outcome-labels&#34;&gt;Binarize the outcome labels&lt;/h4&gt;
+
+&lt;p&gt;As the computers do not understand Malignant or Benign, we need to convert them to &lt;code&gt;1&lt;/code&gt; and &lt;code&gt;0&lt;/code&gt; for &lt;code&gt;M&lt;/code&gt; and &lt;code&gt;B&lt;/code&gt; respectively.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## binarize &#39;diagnosis&#39;
+outcome_label = np.where(train_df[&#39;diagnosis&#39;] == &#39;M&#39;, 1, 0)
+outcome_label
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;array([1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+       0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+       0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1,
+       0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0,
+       0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0,
+       1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1,
+       0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1,
+       1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1,
+       0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1,
+       1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0,
+       1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0,
+       0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+       0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0,
+       0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0,
+       0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1,
+       0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0,
+       0, 1, 0, 0, 0, 0, 0, 1])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;train_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div&gt;
+&lt;style scoped&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&#34;1&#34; class=&#34;dataframe&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&#34;text-align: right;&#34;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;diagnosis&lt;/th&gt;
+      &lt;th&gt;radius_mean&lt;/th&gt;
+      &lt;th&gt;texture_mean&lt;/th&gt;
+      &lt;th&gt;perimeter_mean&lt;/th&gt;
+      &lt;th&gt;area_mean&lt;/th&gt;
+      &lt;th&gt;smoothness_mean&lt;/th&gt;
+      &lt;th&gt;compactness_mean&lt;/th&gt;
+      &lt;th&gt;concavity_mean&lt;/th&gt;
+      &lt;th&gt;concave points_mean&lt;/th&gt;
+      &lt;th&gt;symmetry_mean&lt;/th&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;th&gt;radius_worst&lt;/th&gt;
+      &lt;th&gt;texture_worst&lt;/th&gt;
+      &lt;th&gt;perimeter_worst&lt;/th&gt;
+      &lt;th&gt;area_worst&lt;/th&gt;
+      &lt;th&gt;smoothness_worst&lt;/th&gt;
+      &lt;th&gt;compactness_worst&lt;/th&gt;
+      &lt;th&gt;concavity_worst&lt;/th&gt;
+      &lt;th&gt;concave points_worst&lt;/th&gt;
+      &lt;th&gt;symmetry_worst&lt;/th&gt;
+      &lt;th&gt;fractal_dimension_worst&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;857793&lt;/th&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;14.71&lt;/td&gt;
+      &lt;td&gt;21.59&lt;/td&gt;
+      &lt;td&gt;95.55&lt;/td&gt;
+      &lt;td&gt;656.9&lt;/td&gt;
+      &lt;td&gt;0.11370&lt;/td&gt;
+      &lt;td&gt;0.13650&lt;/td&gt;
+      &lt;td&gt;0.12930&lt;/td&gt;
+      &lt;td&gt;0.08123&lt;/td&gt;
+      &lt;td&gt;0.2027&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;17.87&lt;/td&gt;
+      &lt;td&gt;30.70&lt;/td&gt;
+      &lt;td&gt;115.70&lt;/td&gt;
+      &lt;td&gt;985.5&lt;/td&gt;
+      &lt;td&gt;0.1368&lt;/td&gt;
+      &lt;td&gt;0.4290&lt;/td&gt;
+      &lt;td&gt;0.3587&lt;/td&gt;
+      &lt;td&gt;0.18340&lt;/td&gt;
+      &lt;td&gt;0.3698&lt;/td&gt;
+      &lt;td&gt;0.10940&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;855625&lt;/th&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;19.07&lt;/td&gt;
+      &lt;td&gt;24.81&lt;/td&gt;
+      &lt;td&gt;128.30&lt;/td&gt;
+      &lt;td&gt;1104.0&lt;/td&gt;
+      &lt;td&gt;0.09081&lt;/td&gt;
+      &lt;td&gt;0.21900&lt;/td&gt;
+      &lt;td&gt;0.21070&lt;/td&gt;
+      &lt;td&gt;0.09961&lt;/td&gt;
+      &lt;td&gt;0.2310&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;24.09&lt;/td&gt;
+      &lt;td&gt;33.17&lt;/td&gt;
+      &lt;td&gt;177.40&lt;/td&gt;
+      &lt;td&gt;1651.0&lt;/td&gt;
+      &lt;td&gt;0.1247&lt;/td&gt;
+      &lt;td&gt;0.7444&lt;/td&gt;
+      &lt;td&gt;0.7242&lt;/td&gt;
+      &lt;td&gt;0.24930&lt;/td&gt;
+      &lt;td&gt;0.4670&lt;/td&gt;
+      &lt;td&gt;0.10380&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;905520&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;11.04&lt;/td&gt;
+      &lt;td&gt;16.83&lt;/td&gt;
+      &lt;td&gt;70.92&lt;/td&gt;
+      &lt;td&gt;373.2&lt;/td&gt;
+      &lt;td&gt;0.10770&lt;/td&gt;
+      &lt;td&gt;0.07804&lt;/td&gt;
+      &lt;td&gt;0.03046&lt;/td&gt;
+      &lt;td&gt;0.02480&lt;/td&gt;
+      &lt;td&gt;0.1714&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;12.41&lt;/td&gt;
+      &lt;td&gt;26.44&lt;/td&gt;
+      &lt;td&gt;79.93&lt;/td&gt;
+      &lt;td&gt;471.4&lt;/td&gt;
+      &lt;td&gt;0.1369&lt;/td&gt;
+      &lt;td&gt;0.1482&lt;/td&gt;
+      &lt;td&gt;0.1067&lt;/td&gt;
+      &lt;td&gt;0.07431&lt;/td&gt;
+      &lt;td&gt;0.2998&lt;/td&gt;
+      &lt;td&gt;0.07881&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;87163&lt;/th&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;13.43&lt;/td&gt;
+      &lt;td&gt;19.63&lt;/td&gt;
+      &lt;td&gt;85.84&lt;/td&gt;
+      &lt;td&gt;565.4&lt;/td&gt;
+      &lt;td&gt;0.09048&lt;/td&gt;
+      &lt;td&gt;0.06288&lt;/td&gt;
+      &lt;td&gt;0.05858&lt;/td&gt;
+      &lt;td&gt;0.03438&lt;/td&gt;
+      &lt;td&gt;0.1598&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;17.98&lt;/td&gt;
+      &lt;td&gt;29.87&lt;/td&gt;
+      &lt;td&gt;116.60&lt;/td&gt;
+      &lt;td&gt;993.6&lt;/td&gt;
+      &lt;td&gt;0.1401&lt;/td&gt;
+      &lt;td&gt;0.1546&lt;/td&gt;
+      &lt;td&gt;0.2644&lt;/td&gt;
+      &lt;td&gt;0.11600&lt;/td&gt;
+      &lt;td&gt;0.2884&lt;/td&gt;
+      &lt;td&gt;0.07371&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;915664&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;14.81&lt;/td&gt;
+      &lt;td&gt;14.70&lt;/td&gt;
+      &lt;td&gt;94.66&lt;/td&gt;
+      &lt;td&gt;680.7&lt;/td&gt;
+      &lt;td&gt;0.08472&lt;/td&gt;
+      &lt;td&gt;0.05016&lt;/td&gt;
+      &lt;td&gt;0.03416&lt;/td&gt;
+      &lt;td&gt;0.02541&lt;/td&gt;
+      &lt;td&gt;0.1659&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;15.61&lt;/td&gt;
+      &lt;td&gt;17.58&lt;/td&gt;
+      &lt;td&gt;101.70&lt;/td&gt;
+      &lt;td&gt;760.2&lt;/td&gt;
+      &lt;td&gt;0.1139&lt;/td&gt;
+      &lt;td&gt;0.1011&lt;/td&gt;
+      &lt;td&gt;0.1101&lt;/td&gt;
+      &lt;td&gt;0.07955&lt;/td&gt;
+      &lt;td&gt;0.2334&lt;/td&gt;
+      &lt;td&gt;0.06142&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;5 rows × 31 columns&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;selecting-features&#34;&gt;Selecting &lt;code&gt;Features&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;Here, I selected all the 30 features that were present in the data to train the model. While testing the performance of the model, we need to provide data for all the &lt;code&gt;feature&lt;/code&gt;s used during training&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## get features to be used = remove &#39;diagnosis&#39; column
+features = train_df.columns[1:]
+features
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Index([&#39;radius_mean&#39;, &#39;texture_mean&#39;, &#39;perimeter_mean&#39;, &#39;area_mean&#39;,
+       &#39;smoothness_mean&#39;, &#39;compactness_mean&#39;, &#39;concavity_mean&#39;,
+       &#39;concave points_mean&#39;, &#39;symmetry_mean&#39;, &#39;fractal_dimension_mean&#39;,
+       &#39;radius_se&#39;, &#39;texture_se&#39;, &#39;perimeter_se&#39;, &#39;area_se&#39;, &#39;smoothness_se&#39;,
+       &#39;compactness_se&#39;, &#39;concavity_se&#39;, &#39;concave points_se&#39;, &#39;symmetry_se&#39;,
+       &#39;fractal_dimension_se&#39;, &#39;radius_worst&#39;, &#39;texture_worst&#39;,
+       &#39;perimeter_worst&#39;, &#39;area_worst&#39;, &#39;smoothness_worst&#39;,
+       &#39;compactness_worst&#39;, &#39;concavity_worst&#39;, &#39;concave points_worst&#39;,
+       &#39;symmetry_worst&#39;, &#39;fractal_dimension_worst&#39;],
+      dtype=&#39;object&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;randomforestclassifier&#34;&gt;RandomForestClassifier&lt;/h4&gt;
+
+&lt;p&gt;Here, we implement &lt;code&gt;RandomForestClassifier&lt;/code&gt; function imported from the &lt;code&gt;sklearn.ensemble&lt;/code&gt; library above.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;n_estimators&lt;/code&gt; - sklearn library calls trees as estimators. Here, I asked the function to run &lt;code&gt;100&lt;/code&gt; trees and provide me the average of these 100 trees.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## implement RF
+brca_clf = RandomForestClassifier(n_jobs=2, random_state=0, n_estimators=100)
+brca_clf.fit(train_df[features], outcome_label)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;RandomForestClassifier(bootstrap=True, class_weight=None, criterion=&#39;gini&#39;,
+            max_depth=None, max_features=&#39;auto&#39;, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=2,
+            oob_score=False, random_state=0, verbose=0, warm_start=False)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;implement-the-model-on-test-data&#34;&gt;Implement the model on test data&lt;/h4&gt;
+
+&lt;p&gt;Following command implements the &lt;code&gt;RandomForestClassifier&lt;/code&gt; model we built above on test data set we saved for performance evaluation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;brca_clf.predict(test_df[features])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;array([0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1,
+       0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1,
+       0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0,
+       1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1,
+       0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;map-the-m-or-b-labels-to-binary-outcomes&#34;&gt;Map the &lt;code&gt;M&lt;/code&gt; or &lt;code&gt;B&lt;/code&gt; labels to binary outcomes&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_labels = test_df[&amp;quot;diagnosis&amp;quot;].unique()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## map labels to ooutcomes from the model
+test_predictions = test_labels[brca_clf.predict(test_df[features])]
+test_predictions[0:10]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;array([&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;M&#39;, &#39;B&#39;, &#39;B&#39;, &#39;M&#39;, &#39;B&#39;, &#39;M&#39;, &#39;M&#39;], dtype=object)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;build-a-confusion-matrix-with-groud-truth-and-model-predictions&#34;&gt;Build a confusion matrix with &lt;code&gt;Groud Truth&lt;/code&gt; and &lt;code&gt;Model predictions&lt;/code&gt;&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## ground truth from the test_df and predictions
+
+conf_matrix = pd.crosstab(test_df[&amp;quot;diagnosis&amp;quot;], test_predictions, rownames=[&amp;quot;Ground Truth&amp;quot;], colnames=[&amp;quot;Model Predictions&amp;quot;])
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;plt.figure(figsize = (5,4))
+sns.heatmap(conf_matrix, annot=True, linecolor=&#39;white&#39;, linewidths=1.5, annot_kws={&amp;quot;size&amp;quot;: 30})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2b8ef6d8&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;output_19_1.png&#34; alt=&#34;png&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;accuracy&#34;&gt;Accuracy&lt;/h4&gt;
+
+&lt;p&gt;In our test data, there are 95 Benign and 48 Malignant labels out of 143 obsevrations. However, we misclassified 1 Benign case as Malignant and misclassified 2 Malignant cases as Benign cases. In total, there are 3 misclassifications and 140 correct predictions. Let&#39;s look at the accuracy percentage&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  (140/143) * 100 = 97.90%
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A whooping accuracy of &lt;code&gt;~98%&lt;/code&gt;. Looks like we built a reasonably very good model. Well done!&lt;/p&gt;
+
+&lt;h4 id=&#34;feature-importance&#34;&gt;Feature importance&lt;/h4&gt;
+
+&lt;p&gt;It is often of high interest to look at the features that were most important in predicting the labels. Meaning, shuffling the values of this feature will reduce the accuracy we are supposed to achieve. Feature importance can be calculated and visualized by following functions&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot feature importance scores
+feat_importances = pd.Series(brca_clf.feature_importances_, index=train_df.columns[1:])
+feat_importances.head()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;radius_mean        0.023095
+texture_mean       0.019641
+perimeter_mean     0.059293
+area_mean          0.032830
+smoothness_mean    0.007325
+dtype: float64
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;plt.figure(figsize = (9,5))
+feat_importances.nlargest(10).plot(kind=&#39;barh&#39;, color=&#39;black&#39;)
+plt.title(&amp;quot;Feature importance&amp;quot;)
+plt.ylabel(&amp;quot;Measured feature&amp;quot;)
+plt.xlabel(&amp;quot;importance score&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Text(0.5, 0, &#39;importance score&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;output_21_1.png&#34; alt=&#34;png&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s briefly look at the important feature values in test data and how their values are distributed in &lt;code&gt;Malignant&lt;/code&gt; and &lt;code&gt;Benign&lt;/code&gt; tumors. Important feature value distribution must be high in one or the other class&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot box plots for M and B for first 5 features
+## see how much they differ
+test_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div&gt;
+&lt;style scoped&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&#34;1&#34; class=&#34;dataframe&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&#34;text-align: right;&#34;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;diagnosis&lt;/th&gt;
+      &lt;th&gt;radius_mean&lt;/th&gt;
+      &lt;th&gt;texture_mean&lt;/th&gt;
+      &lt;th&gt;perimeter_mean&lt;/th&gt;
+      &lt;th&gt;area_mean&lt;/th&gt;
+      &lt;th&gt;smoothness_mean&lt;/th&gt;
+      &lt;th&gt;compactness_mean&lt;/th&gt;
+      &lt;th&gt;concavity_mean&lt;/th&gt;
+      &lt;th&gt;concave points_mean&lt;/th&gt;
+      &lt;th&gt;symmetry_mean&lt;/th&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;th&gt;radius_worst&lt;/th&gt;
+      &lt;th&gt;texture_worst&lt;/th&gt;
+      &lt;th&gt;perimeter_worst&lt;/th&gt;
+      &lt;th&gt;area_worst&lt;/th&gt;
+      &lt;th&gt;smoothness_worst&lt;/th&gt;
+      &lt;th&gt;compactness_worst&lt;/th&gt;
+      &lt;th&gt;concavity_worst&lt;/th&gt;
+      &lt;th&gt;concave points_worst&lt;/th&gt;
+      &lt;th&gt;symmetry_worst&lt;/th&gt;
+      &lt;th&gt;fractal_dimension_worst&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;9010259&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;13.05&lt;/td&gt;
+      &lt;td&gt;18.59&lt;/td&gt;
+      &lt;td&gt;85.09&lt;/td&gt;
+      &lt;td&gt;512.0&lt;/td&gt;
+      &lt;td&gt;0.10820&lt;/td&gt;
+      &lt;td&gt;0.13040&lt;/td&gt;
+      &lt;td&gt;0.09603&lt;/td&gt;
+      &lt;td&gt;0.05603&lt;/td&gt;
+      &lt;td&gt;0.2035&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;14.19&lt;/td&gt;
+      &lt;td&gt;24.85&lt;/td&gt;
+      &lt;td&gt;94.22&lt;/td&gt;
+      &lt;td&gt;591.2&lt;/td&gt;
+      &lt;td&gt;0.1343&lt;/td&gt;
+      &lt;td&gt;0.2658&lt;/td&gt;
+      &lt;td&gt;0.25730&lt;/td&gt;
+      &lt;td&gt;0.12580&lt;/td&gt;
+      &lt;td&gt;0.3113&lt;/td&gt;
+      &lt;td&gt;0.08317&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;8812816&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;13.65&lt;/td&gt;
+      &lt;td&gt;13.16&lt;/td&gt;
+      &lt;td&gt;87.88&lt;/td&gt;
+      &lt;td&gt;568.9&lt;/td&gt;
+      &lt;td&gt;0.09646&lt;/td&gt;
+      &lt;td&gt;0.08711&lt;/td&gt;
+      &lt;td&gt;0.03888&lt;/td&gt;
+      &lt;td&gt;0.02563&lt;/td&gt;
+      &lt;td&gt;0.1360&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;15.34&lt;/td&gt;
+      &lt;td&gt;16.35&lt;/td&gt;
+      &lt;td&gt;99.71&lt;/td&gt;
+      &lt;td&gt;706.2&lt;/td&gt;
+      &lt;td&gt;0.1311&lt;/td&gt;
+      &lt;td&gt;0.2474&lt;/td&gt;
+      &lt;td&gt;0.17590&lt;/td&gt;
+      &lt;td&gt;0.08056&lt;/td&gt;
+      &lt;td&gt;0.2380&lt;/td&gt;
+      &lt;td&gt;0.08718&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;9112085&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;13.38&lt;/td&gt;
+      &lt;td&gt;30.72&lt;/td&gt;
+      &lt;td&gt;86.34&lt;/td&gt;
+      &lt;td&gt;557.2&lt;/td&gt;
+      &lt;td&gt;0.09245&lt;/td&gt;
+      &lt;td&gt;0.07426&lt;/td&gt;
+      &lt;td&gt;0.02819&lt;/td&gt;
+      &lt;td&gt;0.03264&lt;/td&gt;
+      &lt;td&gt;0.1375&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;15.05&lt;/td&gt;
+      &lt;td&gt;41.61&lt;/td&gt;
+      &lt;td&gt;96.69&lt;/td&gt;
+      &lt;td&gt;705.6&lt;/td&gt;
+      &lt;td&gt;0.1172&lt;/td&gt;
+      &lt;td&gt;0.1421&lt;/td&gt;
+      &lt;td&gt;0.07003&lt;/td&gt;
+      &lt;td&gt;0.07763&lt;/td&gt;
+      &lt;td&gt;0.2196&lt;/td&gt;
+      &lt;td&gt;0.07675&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;88206102&lt;/th&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;20.51&lt;/td&gt;
+      &lt;td&gt;27.81&lt;/td&gt;
+      &lt;td&gt;134.40&lt;/td&gt;
+      &lt;td&gt;1319.0&lt;/td&gt;
+      &lt;td&gt;0.09159&lt;/td&gt;
+      &lt;td&gt;0.10740&lt;/td&gt;
+      &lt;td&gt;0.15540&lt;/td&gt;
+      &lt;td&gt;0.08340&lt;/td&gt;
+      &lt;td&gt;0.1448&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;24.47&lt;/td&gt;
+      &lt;td&gt;37.38&lt;/td&gt;
+      &lt;td&gt;162.70&lt;/td&gt;
+      &lt;td&gt;1872.0&lt;/td&gt;
+      &lt;td&gt;0.1223&lt;/td&gt;
+      &lt;td&gt;0.2761&lt;/td&gt;
+      &lt;td&gt;0.41460&lt;/td&gt;
+      &lt;td&gt;0.15630&lt;/td&gt;
+      &lt;td&gt;0.2437&lt;/td&gt;
+      &lt;td&gt;0.08328&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;904971&lt;/th&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;10.94&lt;/td&gt;
+      &lt;td&gt;18.59&lt;/td&gt;
+      &lt;td&gt;70.39&lt;/td&gt;
+      &lt;td&gt;370.0&lt;/td&gt;
+      &lt;td&gt;0.10040&lt;/td&gt;
+      &lt;td&gt;0.07460&lt;/td&gt;
+      &lt;td&gt;0.04944&lt;/td&gt;
+      &lt;td&gt;0.02932&lt;/td&gt;
+      &lt;td&gt;0.1486&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;12.40&lt;/td&gt;
+      &lt;td&gt;25.58&lt;/td&gt;
+      &lt;td&gt;82.76&lt;/td&gt;
+      &lt;td&gt;472.4&lt;/td&gt;
+      &lt;td&gt;0.1363&lt;/td&gt;
+      &lt;td&gt;0.1644&lt;/td&gt;
+      &lt;td&gt;0.14120&lt;/td&gt;
+      &lt;td&gt;0.07887&lt;/td&gt;
+      &lt;td&gt;0.2251&lt;/td&gt;
+      &lt;td&gt;0.07732&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;5 rows × 31 columns&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df[[&amp;quot;diagnosis&amp;quot;, &amp;quot;perimeter_worst&amp;quot;]].boxplot(by = &amp;quot;diagnosis&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2a282b38&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;output_23_1.png&#34; alt=&#34;png&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df[[&amp;quot;diagnosis&amp;quot;, &amp;quot;concave points_worst&amp;quot;]].boxplot(by = &amp;quot;diagnosis&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2a2c48d0&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;output_24_1.png&#34; alt=&#34;png&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;visualize-decision-trees&#34;&gt;Visualize decision trees&lt;/h4&gt;
+
+&lt;p&gt;In this section, I visualize a decision tree and what&#39;s happening at each binary decision point. As we ran 100 trees, I randomly chose tree number &lt;code&gt;25&lt;/code&gt; to show splittings. The code to visualize the decision trees is from &lt;a href=&#34;https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot decision trees
+
+from sklearn.tree import export_graphviz
+
+train_labels = train_df[&amp;quot;diagnosis&amp;quot;].unique()
+
+## randomly chose tree-9 to plot
+estimator = brca_clf.estimators_[25]
+
+# Export as dot file
+export_graphviz(estimator, out_file=&#39;tree.dot&#39;, 
+                feature_names = features,
+                class_names = train_labels,
+                rounded = True, proportion = False, 
+                precision = 2, filled = True)
+
+# Convert to png using system command (requires Graphviz)
+from subprocess import call
+call([&#39;dot&#39;, &#39;-Tpng&#39;, &#39;tree.dot&#39;, &#39;-o&#39;, &#39;tree.png&#39;, &#39;-Gdpi=600&#39;])
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.display import Image
+Image(filename = &#39;tree.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;output_26_0.png&#34; alt=&#34;png&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;As one can see from the above decision tree, the first &lt;code&gt;feature&lt;/code&gt; in tree number 25 is &lt;code&gt;concave points_worst&lt;/code&gt; making it the root node and the splitting value &lt;code&gt;&amp;lt;=0.14&lt;/code&gt; producing two branches with lower &lt;code&gt;entropy&lt;/code&gt; than the root node. Further, the two branch nodes are splitting again by selecting two different &lt;code&gt;feature&lt;/code&gt;s for each branch. This process will be continued until &lt;code&gt;entropy&lt;/code&gt; value is 0. After all 100 trees are built, the probabilities for being class &lt;code&gt;M&lt;/code&gt; and &lt;code&gt;B&lt;/code&gt; are averaged to give us the final class of each observation.&lt;/p&gt;
+
+&lt;p&gt;Here, with a basic model, we achieved an accuracy of &lt;code&gt;98%&lt;/code&gt; on a test data that the model has not seen before. By feature scaling, hyper-parameter tuning and further complex feature engineering, just imagine how well &lt;code&gt;RandomForests&lt;/code&gt; can perform!&lt;/p&gt;
+
+&lt;h3 id=&#34;notes-highly-recommended-if-you-want-to-learn-more&#34;&gt;NOTES (Highly recommended if you want to learn more)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://course18.fast.ai/lessonsml1/lesson1.html&#34;&gt;Jeremy Howard, Fastai - RandomForests&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=DWsJc1xnOZo&amp;amp;t=2016s&#34;&gt;Simplilearn - Machine learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@srnghn/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3&#34;&gt;The Mathematics of Decision Trees, Random Forest and Feature Importance in Scikit-learn and Spark&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://victorzhou.com/blog/gini-impurity/&#34;&gt;A Simple Explanation of Gini Impurity&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The transparent guilt of a PhD student</title>
+      <link>/post/phd-guilt-trip/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/post/phd-guilt-trip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;That’s funny. I don’t recall buying tickets for a guilt trip!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Two weeks back, I spent a whole weekend with some of my friends, cooked lots of food, played basketball and did roam around the city. All this while, there is a voice in my head constantly telling me, &amp;quot;&lt;strong&gt;&lt;em&gt;what are you even doing? You could be working and complete that little thing in your PhD&lt;/em&gt;&lt;/strong&gt;&amp;quot;. Yeah, yeah, I know. I’m feeling bad already :(&lt;/p&gt;
+
+&lt;p&gt;On the weekend after that, I was fully occupied by work. I have been working from saturday morning to sunday late afternoon. All this while, there is a voice in my head constantly telling me, &amp;quot;&lt;strong&gt;&lt;em&gt;what are you even doing with your life? You could be having fun with your friends and living a life.&lt;/em&gt;&lt;/strong&gt;&amp;quot; Yeah, yeah, I know. I’m feeling bad already :(&lt;/p&gt;
+
+&lt;p&gt;As you see, in both cases, I’m feeling bad about myself not doing the other thing. Poor me. It seems like I can still deal with the voice in my head and do whatever I was doing.&lt;/p&gt;
+
+&lt;p&gt;The problem is, I can clearly see myself reaping the benefits of working &lt;em&gt;while having fun with friends&lt;/em&gt;. On the other hand, I can see the benefits of spending quality time with friends &lt;em&gt;while working my *** off&lt;/em&gt;. And that’s not a good feeling. Even worst, you have to deal with it for a long time.&lt;/p&gt;
+
+&lt;p&gt;Don’t tell me you are a PhD student who doesn’t go through this cycle.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./friends_phd.png&#34; alt=&#34;&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shine and let shine!</title>
+      <link>/post/women-in-science/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/post/women-in-science/</guid>
+      <description>&lt;p&gt;On Feb 11th, my twitter feed flooded with totally a new set of tweets which have &lt;strong&gt;&lt;em&gt;#WomenInScience&lt;/em&gt;&lt;/strong&gt;. A hashtag to celebrate women &amp;amp; girls in science. Celebrating women &amp;amp; girls in science started in 2015 (&lt;a href=&#34;https://womeninscienceday.org&#34;&gt;https://womeninscienceday.org&lt;/a&gt;), which should have started hundreds of years earlier. Yes, something was terribly wrong in history. Good thing is, it’s changing rapidly and many more women are raising to the top in STEM.&lt;/p&gt;
+
+&lt;p&gt;On Feb 11th, I was checking my twitter feed once in a while during the day. A lot of women from STEM tweeted personal experiences, struggles faced, showing gratitude to the people who helped them to stand their position.&lt;/p&gt;
+
+&lt;p&gt;As a data scientist (&lt;em&gt;yeah, I call myself that&lt;/em&gt;), I was really inspired and at the same time fascinated to visualize all locations around the world where these tweets are coming from.&lt;/p&gt;
+
+&lt;h4 id=&#34;womeninscienceday-around-the-world&#34;&gt;#WomenInScienceDay around the world&lt;/h4&gt;
+
+&lt;p&gt;Without much explanation, here is the plot with unique locations around the world (indicated by red dot) from where people talked about &lt;strong&gt;&lt;em&gt;#WomenInScienceDay&lt;/em&gt;&lt;/strong&gt; on Feb 11th.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./wis.png&#34; alt=&#34;wis&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, one can do a lot of analysis on social interactions &amp;amp; visualize connections among different countries, e.g. a tweet originated from a country (node) and retweeted by people from other countries (edges).&lt;/p&gt;
+
+&lt;p&gt;If anyone is interested to continue the analysis, data, code and techinical details are available here: &lt;a href=&#34;https://github.com/itsvenu/womenInScienceDay&#34;&gt;https://github.com/itsvenu/womenInScienceDay&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Code block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+
+&lt;p&gt;Block math:&lt;/p&gt;
+
+&lt;p&gt;$$
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+   One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google and my travel history</title>
+      <link>/post/travel-history/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/post/travel-history/</guid>
+      <description>&lt;style&gt;
+body {
+text-align: justify}
+&lt;/style&gt;
+
+&lt;p&gt;I never thought of looking back on my travel history until I saw &lt;a href=&#34;https://towardsdatascience.com/create-a-heat-map-from-your-google-location-history-in-3-easy-steps-e66c93925914&#34;&gt;this article&lt;/a&gt;. Immediately, I decided to download my data and explore it from different angles. Here, I performed a bit of exploratory analysis on my google location history data of past one year, December, 2017 - December, 2018.&lt;/p&gt;
+
+&lt;p&gt;Why one year? Well, I never had an android phone until April, 2017. Even after that I haven&#39;t used mobile internet for a long time. My google location history data itself started in December 2017. In other words, I had no choice but to use data from December, 2017.&lt;/p&gt;
+
+&lt;h3 id=&#34;some-points-before-jumping-into-the-data&#34;&gt;Some points before jumping into the data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;At the moment, I am residing in Heidelberg, Germany and travel to different European countries once in a while.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In December, 2017, I went back to India in the beginning of the month and returned to Germany by the end of the month. For the most part, I travelled in India and used the mobile internet frequently.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I downloaded google location history data on 22nd December, 2018, so I restricted data from December, 2017 to before 22nd.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There are different types of attributes in downloaded json file. I do not need all attributes for my analysis. If you would like to know the meaning of different attributes check &lt;a href=&#34;https://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/&#34;&gt;this post&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Briefly, I kept the following attributes,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;timestampMs&lt;/code&gt;, time at the point google tracked my location. This format is converted to regular human readable format.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;latitudeE7&lt;/code&gt;, lattitude of the location.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;longitudeE7&lt;/code&gt;, longitude of the location. Later in the analysis, these lattitude &amp;amp; longitude combinations are used to predict the city name and country. Also to calculate the distance travelled.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;accuracy&lt;/code&gt;, accuracy of the tracking (lower the number, higher the accuracy). I filtered for data with &amp;lt; 1000 accuracy value.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;activity&lt;/code&gt;, means of travelling while tracking. There are multiple types within &lt;code&gt;activity&lt;/code&gt;, e.g. &lt;code&gt;BY_FOOT&lt;/code&gt;, &lt;code&gt;WALKING&lt;/code&gt;..etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;activity_confidence&lt;/code&gt;, confidence with which &lt;code&gt;activity&lt;/code&gt; is predicted. Higher the value, higher the confidence. I filtered for &amp;gt;10 confidence value.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Okay, let&#39;s not wait to eat the delicious cookie,&lt;/p&gt;
+
+&lt;h3 id=&#34;how-much-distance-did-i-travel-permonth&#34;&gt;How much distance did I travel per-month?&lt;/h3&gt;
+
+&lt;p&gt;Here, I calculated the distance travelled (in kilometers) per-month for the past one year&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./TotalDistance_per_month.png&#34; alt=&#34;total-distance&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Huh, interesting. I was feeling my 2018 was pretty boring. I totally forgot the big peaks in Feb &amp;amp; May, 2018. That made me feel better. I wanted to look at where did I travel to in these times along with December, 2017.&lt;/p&gt;
+
+&lt;p&gt;So, I took out the data for these 4 months and calculated the number of cities I crossed while travelling to &amp;amp; back from the major destination point. I am really curious to know how many cities contributed to these 1000s of kilometers.&lt;/p&gt;
+
+&lt;p&gt;Here it is&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./high_distance_city_plot.png&#34; alt=&#34;high-distance&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;One interesting obsevration here is that, I travelled to 3 to 4 big cities in December, 2017 in India. But only one place, Barcelona; Spain, in December, 2018. The number of cities contributing to these two months are very closer (December-2017, 35; December-2018, 29). This might be due to, in europe, the city boundaries are very small and zip codes are very different within a small region. Where as in India, cities are spread across a very wide region. (Note: This is just a hypothesis)&lt;/p&gt;
+
+&lt;p&gt;So far so good. Now I would like to see by which means of transportation did I travel in these 4 months. As I explained in the beginning, &lt;code&gt;activity&lt;/code&gt; type represents the means of transporation. Unfortunately, there are some attributes for which I did not find proper meaning, e.g. &lt;code&gt;TILTING&lt;/code&gt;, &lt;code&gt;STILL&lt;/code&gt;. However, I included them in the analysis to know how many kilometers this transportation contributed.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./high_distance_activity_distance_plot.png&#34; alt=&#34;hdad&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I felt little ambiguous interpreting this results. As I mentioned, there are some ambiguous terms for which I was not able to figure out the meaning. However, I would hazard a guess for some of these depending on the transportation I took (and remember). In December, 2018, I definitely travelled more by train than bus, so I believe, &lt;code&gt;IN_VEHICLE&lt;/code&gt; means to a high degree, train. This makes sense for the same attribute in December, 2017. I travelled by bus more than train in India. Again this is consistent with big peaks in February, 2018, in which I&#39;ve been on a long road trip by car. All in all, bus/car and train journeys are not much different in the data I analyzed here. One more observation here is in Feb &amp;amp; May, 2018, &lt;code&gt;ON_FOOT&lt;/code&gt; distances are closer (and higher), which suggests that europe, to a high degree is a place to experience by walk looking at historical architectures and beautiful streets.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-did-google-perform-in-2018-in-germany&#34;&gt;How did google perform in 2018 in Germany?&lt;/h3&gt;
+
+&lt;p&gt;Now, I only looked at 2018, Germany data. I took top 10 cities within Germany which has the highest distances recorded according to google.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./de_distance_percity_plot.png&#34; alt=&#34;depercity&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;These results are pretty obvious except the &lt;code&gt;Niederrad&lt;/code&gt;. I consciously never been to this place and it doesn&#39;t even seem to be closer to Heidelberg. I suspect, this place is closer/overlapping a place where I frequently travel to but because of zip code change, google must assigned a different city name. Otherwise, I&#39;m completely not sure how this came out to be one of the top 10 cities (Or this might be a mistake from google).&lt;/p&gt;
+
+&lt;h3 id=&#34;how-about-my-favourite-city-heidelberg&#34;&gt;How about my favourite city Heidelberg?&lt;/h3&gt;
+
+&lt;p&gt;Finally, I looked into the data concerning only Heidelberg in 2018. I calculated the distance travelled by different means of and how the distances are distributed over a week, meaning on which day I travlled most or least.&lt;/p&gt;
+
+&lt;p&gt;As I have shown the total distance assigned to &lt;code&gt;Heidelberg&lt;/code&gt; in above plot, I will not show it again.&lt;/p&gt;
+
+&lt;h5 id=&#34;different-transportation-means-within-heidelberg-2018&#34;&gt;Different transportation means within Heidelberg, 2018&lt;/h5&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./hd_distance_plot.png&#34; alt=&#34;hddistance&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, I use bike most of the times within Heidelberg. There are some outliers within &lt;code&gt;TILTING&lt;/code&gt; and &lt;code&gt;IN_VEHICLE&lt;/code&gt; attributes, these might be coming from long distances I travelled by train or bus.&lt;/p&gt;
+
+&lt;h5 id=&#34;on-which-day-did-i-roam-around-more&#34;&gt;On which day did I roam around more?&lt;/h5&gt;
+
+&lt;p&gt;To calculate this, I summed up distances of same day in a month. I.e., sum of all Mondays or Tuesdays..etc in a month.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./hd_weekday_2018_distance_plot.png&#34; alt=&#34;hd2018&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are an Indian living in Germany, you can easily relate to why the distances increased slightly on Saturdays and droppped on Sundays. Sundays are kind of boring in Germany which gives us an opportunity to be lazy and just stick to your bed whole day.&lt;/p&gt;
+
+&lt;h3 id=&#34;so-in-conclusion&#34;&gt;So, in conclusion,&lt;/h3&gt;
+
+&lt;p&gt;I explored, mostly distance parameter, from my google location history of one year. I learned that,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;There are some interesting facts, supported by data, you can realize abour yourself. Example, in which travel destination you saw many tourist places based on distance convered. This can depend on who did you go with or the purpose of the visit.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Google is something you have to be careful about. If anyone in this world knows more about you, that is Google.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Most importantly, I learned that my 2018 is not that boring after all.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;suggested-resources&#34;&gt;Suggested resources:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ALL CODE WRITTEN FOR THIS ANALYSIS IS AVAILABLE &lt;a href=&#34;https://github.com/itsvenu/google-location-history&#34;&gt;HERE AS JUPYTER-NOTEBOOK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://shiring.github.io/maps/2016/12/30/Standortverlauf_post&#34;&gt;How to map your Google location history with R&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/analyzing-my-google-location-history-d3a5c56c7b70&#34;&gt;Analyzing my Google Location History&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/&#34;&gt;Analyze Your Google Location History: Exploring Data&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://demo.datathings.com/lumo/&#34;&gt;Heatmap visualizer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to many people on the internet who already faced the propblems I faced during the analysis and those who answered them. And thanks to &lt;a href=&#34;https://unsplash.com/&#34;&gt;https://unsplash.com/&lt;/a&gt; for providing cover image for this post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code, Pizza and my Stupidity</title>
+      <link>/post/stupidity/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/post/stupidity/</guid>
+      <description>&lt;h3 id=&#34;morning-0900&#34;&gt;Morning 09:00&lt;/h3&gt;
+
+&lt;p&gt;Saturday morning. Quite a peaceful day. I am so excited to write the code for a web application that I have been working on. Little did I know that I am going to spend the entire day debugging an error that is hiding in my code.&lt;/p&gt;
+
+&lt;p&gt;I had a strong espresso before sitting in front of my laptop and divided the task into three components.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Take input data files from user&lt;/li&gt;
+&lt;li&gt;Perform calculations on received data&lt;/li&gt;
+&lt;li&gt;Show the results to user&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I started writing code for the first part. At each stage I was testing how the application is going to look in the browser. I was careful enough not to miss any &lt;strong&gt;&lt;em&gt;semicolons (;)&lt;/em&gt;&lt;/strong&gt;. Because, I remember&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;http://media02.hongkiat.com/programming-jokes/joke-semi-colon.jpg&#34; alt=&#34;semi&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;afternoon-1300&#34;&gt;Afternoon 13:00&lt;/h3&gt;
+
+&lt;p&gt;By this time I successfully wrote the code to take-in the user provided data into server to perform some calculations.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Me&lt;/strong&gt;: I feel Good.
+&lt;strong&gt;Brain&lt;/strong&gt;: Enough, Go grab a coffee.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I had one more espresso, this time &lt;a href=&#34;https://www.google.de/search?q=indian+sundara+espresso&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=0ahUKEwjyn82qg63WAhXIvxQKHR-vBcEQ_AUICigB&amp;amp;biw=1115&amp;amp;bih=483&#34;&gt;&lt;strong&gt;&lt;em&gt;Indian Sundara&lt;/em&gt;&lt;/strong&gt; (&lt;em&gt;Highly recommended&lt;/em&gt;)&lt;/a&gt;. While having coffee, I mentally drew a framework how I am going to write the code to perform calculations. Task started again. Sublime page is being filled with the code to perform calculations. This time it took three hours to complete the code including the code for final task, “showing results to user”. It’s time for testing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input some test data&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Start calculations&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      PROGRAM RUNNING . . .
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It showed something. It was not the results but an error.&lt;/p&gt;
+
+&lt;p&gt;Nooo. I don’t want this to be happening. I closed the application and tested it again. Of course the error didn&#39;t correct by itself.&lt;/p&gt;
+
+&lt;p&gt;I carefully gone through the entire code scanning for any obvious bugs. I didn’t find any. I tried to print exactly the input data as result on the screen without performing any calculations. It showed perfectly. I concluded that the error is in the code to perform calculations. I started probing the internet for this kind of error. I found some similar ones but not the exact one. I tried different debugging methods, some of which I already knew and some are completely new. I got to know different debugging methods which I didn&#39;t know before. Different methods work for different bugs. But none worked for mine. It seems the error is not the usual one, if it is, it should&#39;ve been caught by one of these debugging methods.&lt;/p&gt;
+
+&lt;h3 id=&#34;evening-1800&#34;&gt;Evening, 18:00&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Me&lt;/strong&gt;: Heck, this err..
+&lt;strong&gt;Brain&lt;/strong&gt;: Stop complaining, go get a coffee and write the entire code again.
+&lt;strong&gt;Me&lt;/strong&gt;: Okay, as you say!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I started writing entire code again. This time with utmost care, hoping to avoid the error. After 90-100 minutes of coding, I tested the application again.&lt;/p&gt;
+
+&lt;h3&gt;&lt;center&gt;&lt;b&gt;Error&lt;/b&gt;&lt;/center&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Oh God! Do you even know that I exist in this world. I know you are busy but at least help me once in a decade&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What is wrong with this code, I yelled. Again, I started probing the internet. Every time, I found the same solutions which didn’t work. I checked the code again. Tested the application with different test data. Printed again the input without calculations. Came to the same conclusion that the error is in code to do calculations.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Brain&lt;/strong&gt;: I don’t think you are a good fit for this job. Quit and look for a simple and easy job.
+&lt;strong&gt;Me&lt;/strong&gt;: 😏&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;night-2300&#34;&gt;Night: 23:00&lt;/h3&gt;
+
+&lt;p&gt;Aargh! I am feeling hungry. Let’s work on this tomorrow, I thought. I went to buy pizza, &lt;em&gt;yes I love pizza at midnight&lt;/em&gt;, at a shop across the street. I was walking down the empty streets filled with darkness and dim lights, with my pizza.&lt;/p&gt;
+
+&lt;p&gt;All of a sudden something striked in my mind. In simplest explanation, what I was writing in the code is the following&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;II x 2&amp;quot; and expecting it to give 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Obviously, program is unable to understand two different formats (roman number and numeric), that was what causing the error. I have to convert one format type to the other in order to get the results. That is&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;2 x 2&amp;quot; which should give 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yes, that was the error. I rushed back home, modified the code and tested the application.&lt;/p&gt;
+
+&lt;p&gt;Guess what ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/LFiOdYoOlEKac/giphy.gif&#34; width=&#34;300&#34; height=&#34;300&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, my code is working perfect.&lt;/p&gt;
+
+&lt;p&gt;Aww! I am such a stupid. This is a simple bug. I spent almost 6-7 hours to find this.&lt;/p&gt;
+
+&lt;h4 id=&#34;did-i-simply-waste-67-hours-&#34;&gt;Did I simply waste 6-7 hours ?&lt;/h4&gt;
+
+&lt;p&gt;No, all those hours were not waste. In the process&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I got more command on the programming language&lt;/li&gt;
+&lt;li&gt;I learnt more debugging methods which are definitely useful in the long run&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and most importantly,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I learnt &lt;strong&gt;patience being a millennial&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;to overcome self-doubt inner voice&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;that when things don&#39;t work, I should leave everything and go out for a walk (and buy pizza)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;that I&#39;m a STUPID&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Divide and Conquer</title>
+      <link>/post/divide-conquer/</link>
+      <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/post/divide-conquer/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Father: Son, How do you eat an elephant ?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Son: One bite at a time.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Exactly. Divide a task into as many micro tasks as possible. So far, this is the best way to trick your brain to achieve massive goals. But why am I saying this? Because, I followed this and it seems working like charm.&lt;/p&gt;
+
+&lt;p&gt;Recently, I had to write my 6-8 months PhD progress report which should include my thesis’s main goals, what has been done in past six months including methods I applied and results I got and finally what will be done in near future. If you are a student like me, let’s admit it. &lt;em&gt;WE SUCK AT WRITING&lt;/em&gt;. It’s not that I do not like writing,&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;it’s about the high effort mental process I need to go through&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It’s about controlling myself from distractions&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It’s about concentrating on one goal for a long time&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sounds familiar ? Welcome to &lt;strong&gt;&lt;em&gt;ADHD community&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Evenmore, as a natural human tendency we avoid tasks that burden our &lt;em&gt;unused brains (pun intended)&lt;/em&gt;. I have friends who say, given a chance they will complete their PhD without writing (don’t say it loud, I also feel same). But we can make writing process more fun, less intense with the &lt;strong&gt;&lt;em&gt;“Semantic Tree”&lt;/em&gt;&lt;/strong&gt; approach I described in &lt;a href=&#34;https://venuthatikonda.github.io/blog/note-to-remember/&#34;&gt;one of my previous posts&lt;/a&gt;. Here is how you can implement.&lt;/p&gt;
+
+&lt;h3 id=&#34;draw&#34;&gt;Draw&lt;/h3&gt;
+
+&lt;p&gt;Come up with a statement that is most obvious goal of your PhD thesis. For example, finding epigenetic targets of Lung Cancer or designing small molecule to target  enzyme X.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You know what my statement was?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Completing Thesis” (yeah, laugh at me)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then draw branches from that statement for every major project. For each project-branch draw sub-branches with the following names
+(&lt;em&gt;below you can find a template&lt;/em&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introducing research area&lt;/li&gt;
+&lt;li&gt;Broad aim / Goals of the project&lt;/li&gt;
+&lt;li&gt;Why filling this gap is important and what previous research says&lt;/li&gt;
+&lt;li&gt;Data availability and methods to implement&lt;/li&gt;
+&lt;li&gt;What results I have and how far it is from main goals&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You will be having more than one project-branch depending on the type of work and projects you are handling.&lt;/p&gt;
+
+&lt;h3 id=&#34;fill&#34;&gt;Fill&lt;/h3&gt;
+
+&lt;p&gt;Now you are on the track. Under each sub-branch write in bullet points with minimum words what that sub-branch is about. As many points as you can. Remember quality doesn’t matter at this stage but QUANTITY. This also helps in reflecting on your own knowledge of the field. Here is my template&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./semantic-tree-writing.jpg&#34; alt=&#34;semantic-tree&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;After writing points under each sub-branch, you are few steps away from your first draft. Now connect points under each sub-branch to write paragraphs. Yeah, that’s how it works for most cases.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Idea -&amp;gt; words -&amp;gt; sentences -&amp;gt; paragraphs -&amp;gt; whatever ..&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Write paragraphs for each of the sub-branch. As much information as you can.
+Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&lt;/em&gt; first draft. This first draft serves many purposes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you understand completed does not necessarily mean final?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Congrats! You have your first draft. Now have a coffee.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./Drawing.jpg&#34; alt=&#34;coffee&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;edit&#34;&gt;Edit&lt;/h3&gt;
+
+&lt;p&gt;Now start reading from the beginning. Take your audience into account. If this report will be read by professionals in the field you don’t need to be too descriptive about every context you described. Consider following two scenarios&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scenario - 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I bought colors, painting brush and canvas. Then I drew an outline of what I want to paint. Following the outline I made this beautiful painting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Scenario - 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I drew an outline and followed it to make this beautiful painting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Scenario - 1 should be for general audience and Scenario - 2 should be for professionals in the field.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Got the difference ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After this editing, read your report one more time, check how the flow is, make sure you are not jumping from &lt;strong&gt;A&lt;/strong&gt; to &lt;strong&gt;C&lt;/strong&gt; without talking about &lt;strong&gt;B&lt;/strong&gt;. Add or remove some of the sentences where you feel they are not fitting. Spend sometime to include &lt;strong&gt;&lt;em&gt;scientific jargon&lt;/em&gt;&lt;/strong&gt; and to remove layman sentences. You know why this is important, right?&lt;/p&gt;
+
+&lt;p&gt;I wrote my report with this method. Believe me, it takes a very short time.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Happy writing !&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./writing.jpg&#34; alt=&#34;writing&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics &amp; Biostars QA forum</title>
+      <link>/post/bioinformatics-biostars/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/post/bioinformatics-biostars/</guid>
+      <description>&lt;p&gt;Biostars, (&lt;a href=&#34;https://www.biostars.org/&#34;&gt;https://www.biostars.org/&lt;/a&gt;) is a QA forum for bioinformatics related stuff, much like stack overflow. I have to admit and be grateful to this site and the community as it’s played (&amp;amp; still playing) an important role since I started Bioinformatics after Masters/MS to this day. Today, I’m a PhD student in Bioinformatics, and I frequently get help from this site whenever I’m stuck with problems. Thank you Biostars.&lt;/p&gt;
+
+&lt;p&gt;There are many questions on this site starting from how to get started with bioinformatics to latest techs in sequencing world. The &lt;em&gt;data scientist&lt;/em&gt; in me was curious to look at the data this site accumulated over the years (2009 - 2019). In this blog post, I will look at some of the questions I’ve been interested about Bioinformatics.&lt;/p&gt;
+
+&lt;p&gt;Here are the few question I will answer in this blog post&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Which programming language is most used in Bioinformatics in last ~10 years&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Growing importance of Bioinformatics reflected by total number of questions per year in last ~10 years&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Frequency of topics discussed on this site&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I used web-scraping approach to scrape questions and associated tags and engineered some of the features per each question. Code to reproduce the analysis is available &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;here&lt;/a&gt; (NOTE: Data is scraped on 23/02/2019 there might be slight changes when it is reproduced as new threads are opened after 23rd Feb, 2019).&lt;/p&gt;
+
+&lt;h4 id=&#34;bioinformatics--programming-languages&#34;&gt;Bioinformatics &amp;amp; programming languages&lt;/h4&gt;
+
+&lt;p&gt;Here, I took all tags for each question and summarised the number of questions per-year with following tags, &lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt; &amp;amp; &lt;code&gt;Perl&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./Biostars_perYear_languageQuestions.png&#34; alt=&#34;lan&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The rapid increase in use of &lt;code&gt;R&lt;/code&gt; in Bioinformatics is not surprising given the large community of users, visualization libraries and most importantly &lt;code&gt;Bioconductor&lt;/code&gt; project. Use of &lt;code&gt;Python&lt;/code&gt; is increasing but relatively slow compared to &lt;code&gt;R&lt;/code&gt;, I guess the major reason for this might be lack of a resource such as &lt;code&gt;Bioconductor&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;importance-of-bioinformatics-in-research&#34;&gt;Importance of Bioinformatics in research&lt;/h4&gt;
+
+&lt;p&gt;Following graph shows the number of questions appeared on Biostars per year. This reflects the number of researchers getting into Bioinformatics and the growing importance of high throughput analysis in basic sciences and disease research.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./Biostars_perYear_numberOfQuestions.png&#34; alt=&#34;numQ&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;frequency-of-topics-discussed&#34;&gt;Frequency of topics discussed&lt;/h4&gt;
+
+&lt;p&gt;What’s the most discussed topic on Biostars? Or what’s the topic on which most bioinformaticians get stuck? Following word cloud shows the frequency of each tag associated with all questions from last ~ 10 years.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./Biostars_allTagsWordcloud.png&#34; alt=&#34;tags&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RNA-seq&lt;/strong&gt; it is. This is one of the revolutionary sequencing technology to get informations on transcriptomic changes depending the contexts but it does seem like it is also one of the most difficult topic in terms of computational analysis. Don’t even get me started on &lt;em&gt;single-cell technology&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are more interesting questions I would like to answer with this resource whose code requires a more expensive computational resource than my laptop. I will update this blog post as I do additional analysis.&lt;/p&gt;
+
+&lt;h4 id=&#34;further-discussions&#34;&gt;Further discussions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.biostars.org/p/365738/&#34;&gt;Blog: Evolution of Biostars&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/nerd_yie/status/1099696141577392128&#34;&gt;Twitter thread&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Source code: &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;https://github.com/itsvenu/Biostars-datascience&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>When I hit by a quote on the internet and started writing ...</title>
+      <link>/post/when-i-hit/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/post/when-i-hit/</guid>
+      <description>&lt;p&gt;Every time I begin to work on writing for my blog, something stops me. I always try to fight back and lose. Obviously. I have been &lt;strong&gt;THINKING&lt;/strong&gt; to write on a topic for more than a month. Notice &lt;strong&gt;THINKING&lt;/strong&gt;. Just to stress that I am only thinking. Doing nothing about it.&lt;/p&gt;
+
+&lt;p&gt;While submitting a new post, I always tell myself &lt;strong&gt;&lt;em&gt;“I should write one post per week. Okay, at least one per 2 weeks, keeping in mind other scientific projects”&lt;/em&gt;&lt;/strong&gt;. Good excuse right! I know.&lt;/p&gt;
+
+&lt;p&gt;One day, while having a small-talk with a friend of mine, I mentioned “I was planning to write something on this topic”, that I have been thinking. &lt;strong&gt;&lt;em&gt;Well&lt;/em&gt;&lt;/strong&gt;, he said&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“there is nothing wrong in making plans. You can make as many plans as you want.”&lt;/em&gt;&lt;/strong&gt; Then my face turned like this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./facepalm.jpg&#34; alt=&#34;face&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;As you see, this comment hides some meaning. We do not see any problems while making plans. Even if we expect to see some, many other problems show up when we actually working on.&lt;/p&gt;
+
+&lt;p&gt;Similarly, each time I sit to write, I face &lt;em&gt;many&lt;/em&gt; problems and all these forces me to postpone the work. Two most dangerous problems, of &lt;em&gt;many&lt;/em&gt;, are &lt;strong&gt;&lt;em&gt;Procrastination&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;Distraction&lt;/em&gt;&lt;/strong&gt; (PD). I am a &lt;strong&gt;PRO&lt;/strong&gt; of &lt;strong&gt;PRO&lt;/strong&gt;crastination. Oh boy! I’m telling you. I love those tomorrows. Everyday, my today’s work would be postponed to tomorrow. And these tomorrows are a never ending chain. If I start talking about my distractions, this post will take you somewhere &lt;strong&gt;&lt;em&gt;off-track&lt;/em&gt;&lt;/strong&gt; and you’ll be distracted. It is difficult for me to resist the temptation of thinking about the vast number of topics in the world which are completely useless to me. I start with topic-A and my brain quickly jumps onto some random topic-K which is no way related to the initial one.&lt;/p&gt;
+
+&lt;h3 id=&#34;then-this-happened&#34;&gt;Then this happened&lt;/h3&gt;
+
+&lt;p&gt;As a daily routine, I postponed my writing and started wasting time on random topics on the internet. I stumbled upon a quote.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;b&gt;You can not edit a blank page&lt;/b&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;This hit me in the face. I felt terrible. I felt embarrassed. I know what I want to do. I know how to do. But, why it is not happening? I always imagine myself writing, but never initiated an action. How do I improve myself editing my writing without having anything on the paper ? This really changed my rest of the day. I grabbed a notebook and pencil and drawn an outline on what and how to write.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./outline.jpg&#34; alt=&#34;out&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Added some details to the initial outline. Some more to the second one and so on. Drawn few cartoon pictures. All this while, I fought my temptations to procrastinate, to open a new-tab and waste time on some random internet page and finally made “When I hit by a quote on the internet and started writing...”&lt;/p&gt;
+
+&lt;p&gt;If you are also having the same problems like &lt;strong&gt;&lt;em&gt;stupid&lt;/em&gt;&lt;/strong&gt; me, do not wait until something punch you in the face. Nothing is really important, if it is, you obviously find time for it. Stop scrolling  &lt;strong&gt;&lt;em&gt;f&#39;ng&lt;/em&gt;&lt;/strong&gt; facebook and install &lt;a href=&#34;https://chrome.google.com/webstore/detail/block-site/eiimnmioipafcokbfikbljfdeojpcgbh?hl=en&#34;&gt;BlockSite&lt;/a&gt; and &lt;a href=&#34;https://chrome.google.com/webstore/detail/pomodoro-timer/hfgjlgjnpkpmnpojkkpfkogapiclopop?hl=en&#34;&gt;Pomodoro&lt;/a&gt;. These two chrome extensions are helping me a lot to increase my productivity step by step. It takes a huge effort to free yourself from &lt;strong&gt;PD&lt;/strong&gt; but it is definitely possible.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A note to my six months younger-self</title>
+      <link>/post/note-to-remember/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/note-to-remember/</guid>
+      <description>&lt;p&gt;Hey, you!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Who me?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, you. Seem so excited about starting your PhD?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ofcourse. You know how many nights I burnt to get here?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That is exactly why I am here. I am your future-self who is six months into your PhD and I would like to give you some suggestions. Please keep them in mind during your PhD.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Suggestions? Meh..&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Please, you have to listen..&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Okay! Tell me&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;research-draw-a-semantic-tree-for-every-new-concept-you-encounter&#34;&gt;Research: Draw a semantic tree for every new concept you encounter&lt;/h4&gt;
+
+&lt;p&gt;Let me explain it with a simple example. Say, you need to understand the anatomy &amp;amp; physiology of leaves and start your research work around the topic. You can’t directly jump onto literature on leaves and understand everything. First you need to know about tree, different parts of a tree, what role each part is performing in the life of a tree, how each part is connected to other. Then narrow down your focus onto leaves. Dig deeper. Probe the literature on what people tried to reveal about leaves, watch related videos/documentaries, read blog posts ..&lt;em&gt;etc&lt;/em&gt;. Write down the open questions, know what data you have/need to solve one of those open and IMPORTANT questions.&lt;/p&gt;
+
+&lt;p&gt;Here is a semantic tree for above example to narrow down your focus from a broad context.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;./sematic-tree.jpg&#34; alt=&#34;semantic-tree&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a simple example. You are going to work on one of the complex organs in human body, Brain. Be careful. Don’t just read. For every obscure statement, seek evidence from multiple sources. Don’t afraid to question.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Effective questioning brings insight, which fuels curiosity, which cultivates wisdom”&lt;/em&gt;&lt;/strong&gt;  - &lt;em&gt;Chip Bell&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;failure-you-will-fail-multiple-times-but-it-is-okay&#34;&gt;Failure: You will fail. Multiple times. But it is okay!&lt;/h4&gt;
+
+&lt;p&gt;Yes. It is hard to digest when someone tells you in the face that you are going to fail. Remember that old but GOLD saying? &lt;strong&gt;&lt;em&gt;“Failures are stepping stones to Success”&lt;/em&gt;&lt;/strong&gt;. That is &lt;em&gt;101% true&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sometimes the method you design to address the problem won’t work as you expected or is just not suitable for the question at your hand. Don’t worry. This is how you learn what works better for the problem. When you fail at something, don’t be hard on yourself. Laugh at your innocence. Do not try to fix it as soon as you realize it failed. Take some time for retrospection. Analyse step by step what you have done. Find at which stage you took a wrong step. Well, there is no obvious wrong step but is just not appropriate for the situation. Ask a question &lt;strong&gt;&lt;em&gt;“How can you modify that procedure to work better”&lt;/em&gt;&lt;/strong&gt; ?&lt;/p&gt;
+
+&lt;p&gt;Retrospection will be easy when you have documentation on what has been done.
+Do not forget to write down everything you are doing. Every single step. Do not ignore or do not procrastinate. A great anonymous once said &lt;strong&gt;&lt;em&gt;“Documentation is a love letter you write to yourself”&lt;/em&gt;&lt;/strong&gt;. Write it beautifully, so you can read it anytime you want.&lt;/p&gt;
+
+&lt;h4 id=&#34;nonscience-do-not-forget-what-else-you-love-other-than-science&#34;&gt;Non-science: Do not forget what else you love other than science&lt;/h4&gt;
+
+&lt;p&gt;I have seen you several times drawing cartoons, reading fiction novels, is that you? If yes, keep that habit. &lt;strong&gt;&lt;em&gt;Never abandon what you love other than science&lt;/em&gt;&lt;/strong&gt;. It gives you pleasure. Keep reading. Number of books on different subjects. Reading non-work related areas broadens your knowledge horizons. Do not ask why &amp;amp; how this helps with your PhD. You will understand. Thank me later. Develop writing as a habit. Write about various topics. Do not hesitate to share your failures through writing or public speaking. It helps other fellows. Let them know they are not the only ones.&lt;/p&gt;
+
+&lt;h4 id=&#34;health--family-last-but-not-least-take-care-of-your-health&#34;&gt;Health &amp;amp; Family: Last but not least, Take care of your health&lt;/h4&gt;
+
+&lt;p&gt;You are going to live away from your family, away from your friends, away from people you know, away from places you are familiar with. I know you spent overnights for various reasons with no effect on your health. But now it is different. You need to balance your physical and mental health. Follow a healthy diet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Good health is a crown on the head of a well person that only a sick person can see”&lt;/em&gt;&lt;/strong&gt; - &lt;em&gt;Robin Sharma&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Do not be depressed when you fail. Do not get frustrated when things don’t work. Sometimes you will do nothing productive through out a complete day. It is okay. Just take a coffee and walk for a while.&lt;/p&gt;
+
+&lt;p&gt;Someone is going to break your heart. Do not complain. Respect their decision and move on. It is okay to break your heart a couple of times. Remember &lt;strong&gt;&lt;em&gt;“The more it happens, the less it hurts”&lt;/em&gt;&lt;/strong&gt;. Period. You can handle that. &lt;em&gt;DO NOT EVER CONNECT YOUR EMOTIONS WITH ALCOHOL.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Talk to your family very frequently, more frequent than previous years. Do not pretend you are busy. It is the best medicine when you feel low. Talk to that friend of yours and discuss those stupid topics which do not make sense to anyone in this world, except you and your friend. &lt;em&gt;Laugh a lot, stay healthy&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have fun with your PhD. Make most out of it. Make memories !&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Is that all?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Okay, Thanks!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ALPS</title>
+      <link>/project/alps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/alps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISMB2019</title>
+      <link>/project/ismb2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/ismb2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RandomForests</title>
+      <link>/project/brca-randomforests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/brca-randomforests/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
