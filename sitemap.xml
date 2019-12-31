@@ -33,6 +33,31 @@
   </url>
   
   <url>
+    <loc>/post/a-decade/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/retrospection/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/writing/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/brca-random-forests/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
@@ -53,22 +78,12 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/python/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/randomforests/</loc>
-    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -174,11 +189,6 @@
   
   <url>
     <loc>/post/divide-conquer/</loc>
-    <lastmod>2017-07-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/writing/</loc>
     <lastmod>2017-07-18T00:00:00+00:00</lastmod>
   </url>
   
