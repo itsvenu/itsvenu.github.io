@@ -5,12 +5,140 @@
     <link>/tags/writing/</link>
       <atom:link href="/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <description>writing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>writing</title>
       <link>/tags/writing/</link>
     </image>
+    
+    <item>
+      <title>COVID-19 - An exploratory data analysis</title>
+      <link>/post/covid-19/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-19/</guid>
+      <description>&lt;style&gt;
+body {
+text-align: justify}
+&lt;/style&gt;
+
+&lt;p&gt;The World Health Organization (WHO) stated the recent outbreak of corona virus (COVID-19) as &lt;strong&gt;&#39;the worldwide spread of a new disease&#39;&lt;/strong&gt;. WHO further suggests we must be prepared for the global pandemic. The COVID-19 virus belongs to a corona virus family which was not identified before. The closest match of human infected virus has been found in bats (Pangolins), however it might have been mutated within human body to diverge from what has been identified in bats. The first infected person(s) was suspected to work (or got infected from) in wet markets (where people sell meat from diverse animals and flowing water and animal blood is usual) in Wuhan, a city in China.&lt;/p&gt;
+
+&lt;p&gt;Scientists are working towards understanding more about the spread of the disease and potential measures to control its widespread. WHO is releasing daily updates on the COVID-19 spread among countries and number of affected people.&lt;/p&gt;
+
+&lt;p&gt;Here, I have collected data on COVID-19 spread from different sources and performed an explorative data analysis to observe possible trends.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-number-of-affected-people-from-different-countries&#34;&gt;1. Number of affected people from different countries&lt;/h3&gt;
+
+&lt;p&gt;As of 27th, Feb, 2020, here are the number of affected people in differnet countries. As China is the origin of the virus, the number is significantly higher in China than any otehr countries (n=18,55,018), however, we should not disregard how fast the virus is spreading in other continents.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;01_COVID_numberOfCasesPerCountry.png&#34; alt=&#34;01&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;2-top-10-countries-with-most-number-of-infections&#34;&gt;2. Top 10 countries with most number of infections&lt;/h3&gt;
+
+&lt;p&gt;From 22nd Jan - 27th, Feb, 53 countries reported confirmed COVID-19 cases. In the following figure, each red dot represents a region/country with positive case(s). Countries with highlighted names have the highest number of cases so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;02_COVID_Top10AffectedCountry.png&#34; alt=&#34;02&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-fatality-rates-of-affected-countries&#34;&gt;3. Fatality rates of affected countries&lt;/h3&gt;
+
+&lt;p&gt;Fatality rate is the ratio of deaths to the total number of affected cases due to certain cause. However, here is Richard Müller, professor of physics at UC Berkely, &lt;a href=&#34;https://www.quora.com/How-dangerous-is-the-coronavirus-6/answer/Richard-Muller-3&#34;&gt;explaining on quora&lt;/a&gt; why this is not a proper measure in the case of widespread infections like COVID-19. The proper measure according to his suggestion for fatality rate is deaths/(deaths+recovered). Following figure is an estimate of top 10 countries with highest fatality rate.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;03_COVID_FatalityRateAffectedCountries.png&#34; alt=&#34;03&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Though, the number of infected cases in China is way higher than any other country, the death rate is slightly lesser, for example, compared to Philippines or Italy. However, if we calculate the conventional fatality rate, &lt;strong&gt;2.65% of deaths were reported in COVID-19 confirmed cases worldwide&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are a number of factors affecting this fatality rate, for example COVID-19 symptoms are very close to general flu, due to this reason many people who had the actual infection might not even visited the hospital before death.&lt;/p&gt;
+
+&lt;h3 id=&#34;4-fractions-of-confirmed-recovered-and-death-cases&#34;&gt;4. Fractions of confirmed, recovered and death cases&lt;/h3&gt;
+
+&lt;p&gt;Here is the overview of 53 countries with total infected cases divided into confirmed (being treated), recovered and death fractions.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;04_COVID_TotalCasesStats.png&#34; alt=&#34;04&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;As we can see, the number of people died due to infections in higher in Philippines and Iran comprated to other countries.&lt;/p&gt;
+
+&lt;h3 id=&#34;5-china-increase-in-number-of-infected-cases-in-37-days&#34;&gt;5. China: Increase in number of infected cases in 37 days&lt;/h3&gt;
+
+&lt;p&gt;On 31st December, China reported several cases of unknown pneumonia in Wuhan. On 7th Jan, people identified it as new corona virus (2019-nCoV). However, later efforts led to naming this new virus as COVID-19. As of 22nd Jan, 2020, there were ~540 cases identified to be infected with COVID-19. In a span of 37 days (until 27th Feb, 2020), this number has increased to 78,498 cases. And it is constantly increasing.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;05_COVID_ChinaPerDayCases.png&#34; alt=&#34;05&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;This picture is particularly terrifying and warns the world how urgently we need efforts to create vaccines against this virus.&lt;/p&gt;
+
+&lt;h3 id=&#34;6-china-were-the-number-of-diagnoses-high-on-any-weekday&#34;&gt;6. China: Were the number of diagnoses high on any weekday?&lt;/h3&gt;
+
+&lt;p&gt;It would be interesting to see if there are any associations on the weekday and the number of diagnoses reported.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;06_WeekDayDiagnosisChina.png&#34; alt=&#34;06&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Friday, seems to be having very low number of reported cases. However, it is not significantly differnet than other days. Once the information about the virus has been spread from the officials, people started rushing to hospitals everyday, doesn&#39;t matter weekday or the weekend.&lt;/p&gt;
+
+&lt;h3 id=&#34;7-china-any-association-between-gender-and-infection&#34;&gt;7. China: Any association between Gender and infection?&lt;/h3&gt;
+
+&lt;p&gt;For 482 infected cases, the gender information is available in one of my collected sources. If we look at the number of males and females affected by COVID-19, it is also not significantly different than weekday as we saw earlier. However, males were affected slightly more than females.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;07_COVID_numberOfMaleFemaleCases.png&#34; alt=&#34;07&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;8-china-age-group-that-is-most-affected&#34;&gt;8. China: Age group that is most affected&lt;/h3&gt;
+
+&lt;p&gt;Similar to gender associations, we can also look at the age distribution of affected people. I divided age ranges into 8 windows, each with 10 years of range. A total of 466 cases were plotted in below figure.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;08_COVID_MaleFemaleAgeGroupCases.png&#34; alt=&#34;08&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, this shows most number of affected individuals are in the age range of 30-40 years. It might be due to these people are traveling between different places a lot than other age groups. And, the infection after age 65-70 years old might even be due to a compromised immune system. However, we do not know the exact reasons for the peak between 30-40 years age range.&lt;/p&gt;
+
+&lt;h3 id=&#34;9-china-first-symptoms-and-first-hospital-visit&#34;&gt;9. China: First symptoms and first hospital visit&lt;/h3&gt;
+
+&lt;p&gt;According to sources, the virus takes 14-15 days to incubate and show symptoms in the host. However, the number of days people took to visit hospital after the first onset of symptoms observed is very high in the beginning. Before 10th Jan, people waited 10-15 days after experiencing symptoms, potentially assuming that it might be general flu and lack of information on the virus spread. However, people started going to the hospitals very quickly.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;09_COVID_OnsetSymptomsFirstHospitalVisit.png&#34; alt=&#34;09&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The initial days where people had no clue about the infection and took longer to visit hospitals after first onset of symptoms might also be one of the reasons for widespread of the infection.&lt;/p&gt;
+
+&lt;h3 id=&#34;10-symtoms&#34;&gt;10. Symtoms&lt;/h3&gt;
+
+&lt;p&gt;Finally, here is a wordcloud of all symptoms repoprted by clinicians observed in patients with COVID-19 infection&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;10_COVID_SymptomsWordCloud.png&#34; alt=&#34;10&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s hope COVID-19 infection will not turn into a global pandemic. Our scientists are working hard towards gaining control over the spread.&lt;/p&gt;
+
+&lt;p&gt;Check &#39;Further reading&#39; below to get more information and measures of self-care to avoid potential infection.&lt;/p&gt;
+
+&lt;h3 id=&#34;source-code-for-analysis&#34;&gt;Source code for analysis&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects&#34;&gt;https://github.com/itsvenu/DataScience-Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;data-sources&#34;&gt;Data sources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports&#34;&gt;WHO&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/imdevskp/corona-virus-report&#34;&gt;Kaggel&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30026-1/fulltext&#34;&gt;The Lancet Digital Health&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;further-reading&#34;&gt;Further reading&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/world/2020/mar/01/what-is-coronavirus-and-what-should-i-do-symptoms&#34;&gt;What is coronavirus and what should I do if I have symptoms?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/world/2020/mar/01/the-worst-case-scenario-for-coronavirus-dr-jonathan-quick-q-and-a-laura-spinney&#34;&gt;Epidemics expert Jonathan Quick: ‘The worst-case scenario for coronavirus is likely’&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-020-00548-w&#34;&gt;Mystery deepens over animal source of coronavirus&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&#34;&gt;Coronavirus disease (COVID-19) outbreak&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/global-development/2020/feb/18/senior-wuhan-doctor-dies-from-coronavirus-as-authorities-start-to-round-up-patients&#34;&gt;Senior Wuhan doctor dies from coronavirus as authorities start to &#39;round up&#39; patients&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.niaid.nih.gov/news-events/nih-clinical-trial-remdesivir-treat-covid-19-begins&#34;&gt;NIH Clinical Trial of Remdesivir to Treat COVID-19 Begins&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>10 lessons from the past 10 years!</title>
