@@ -5,12 +5,208 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>How to start asking questions as a data scientist?</title>
+      <link>/post/ds-qa/</link>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/ds-qa/</guid>
+      <description>&lt;style&gt;
+body {
+text-align: justify}
+&lt;/style&gt;
+
+&lt;p&gt;Asking good questions is the key to success of any data science project. The ‘good’ part includes a long list of conditions to satisfy, for example how much benefit a project will get after we answer a question spending a significant amount of time. However, listing out all the possible questions and prioritizing will be a good beginning for the project.&lt;/p&gt;
+
+&lt;p&gt;Data science projects involve asking questions in two ways&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A) asking questions when the data already exists without a specific goal (an exploratory analysis)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;B) asking questions for a specific goal and generating/acquiring data to reach that goal&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In most projects, at least in quantitative biology, both of these aspects go together and in some projects the only possible scenario is (A). For example, given a spreadsheet of information, how do you go on asking questions whose results are somehow useful to the company or taking publicly available biological data, how do you produce new insights other than already reported.&lt;/p&gt;
+
+&lt;p&gt;In this blog post, I will demonstrate, with a spreadsheet of information, how to start asking questions that bring out some relationship among the features (columns) and potentially answer some basic questions and provide simple visualizations for each question. For this purpose, I use single-cell database &lt;a href=&#34;https://twitter.com/vallens/status/1263477436513206273&#34;&gt;I came across on twitter&lt;/a&gt; a few days back shared by &lt;a href=&#34;https://twitter.com/vallens&#34;&gt;Valentine Svensson&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is the sample data from this file&lt;/p&gt;
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Shorthand &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; DOI &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Authors &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Journal &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Title &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Date &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; bioRxiv DOI &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; Reported cells total &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Organism &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Tissue &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Technique &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Data location &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; Panel size &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Measurement &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Cell source &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Disease &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Contrasts &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Developmental stage &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; Number of reported cell types or clusters &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Cell clustering &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Pseudotime &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; RNA Velocity &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; PCA &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; tSNE &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; H5AD location &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; Isolation &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; BC --&amp;gt; Cell ID _OR_ BC --&amp;gt; Cluster ID &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Cauli et al PNAS &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 10.1073/pnas.97.11.6144 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; B. Cauli, J. T. Porter, K. Tsuzuki, B. Lambolez, J. Rossier, B. Quenet, E. Audinat &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; PNAS &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Classification of fusiform neocortical interneurons based on unsupervised clustering &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2002-07-26 15:40:52 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 85 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Rat &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Brain &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; sc-RT-mPCR &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 30 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; qPCR &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Cerebral cortex &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 21-27 days &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 3 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Yes &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; No &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; No &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Yes &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; No &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Patch-clamp &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Tietjen et al Neuron &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 10.1016/S0896-6273(03)00229-0 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Ian Tietjen, Jason M. Rihel, Yanxiang Cao, Georgy Koentges, Lisa Zakhary, Catherine Dulac &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Neuron &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Single-Cell Transcriptional Analysis of Neuronal Progenitors &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2004-04-15 10:36:44 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; - &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 37 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Human, Mouse &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Brain &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; PCR &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 13000 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Microarray &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; OSNs, OPCs &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 6 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Manual, LCM &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Now, let&#39;s start answering some questions. But before, a small sisclaimer&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This analysis is only for demonstration of how one can start asking questions simply from a given spreadsheet. Hopefully to help beginners to give a starting point&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How many single-cell RNA-seq papers published per-year?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the above database, the first paper reported was from 2002. One can visualize total number of published papers from 2002-2020 as below using features &lt;code&gt;Date&lt;/code&gt; and &lt;code&gt;Title&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;01.png&#34; alt=&#34;01&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;As you see, the number of published studies constantly increased from 2002. Especially in the last 5 years, single-cell techs gained enormous popularity and importance.&lt;/p&gt;
+
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Journals in which single-cell studies were published&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If there is such an increase in single-cell publications with each year, which journals published these studies. In the following figure, I showed top 50 journals with most published single-cell papers using feature &lt;code&gt;Journal&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;02.png&#34; alt=&#34;02&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that some (most) of the papers uploaded to biorxv might have been published in other peer-reviewed journals.&lt;/p&gt;
+
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Does paper title contain &#39;single-cell&#39; in it?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Next, I looked into published paper titles and asked if the title contains &#39;single-cell&#39; in it. Using features &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Title&lt;/code&gt;, in the following figure, I show what fraction of papers show &#39;single-cell&#39; in their titles from top 15 journals with most published papers&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;03.png&#34; alt=&#34;03&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Looks like most papers carry &#39;single-cell&#39; in their title.&lt;/p&gt;
+
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Number of cells in each study&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here, I show the distribution of the number of cells published in each study in above 15 journals using features &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Reported cells total&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;04.png&#34; alt=&#34;04&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;So far with the available data, it seems like higher the number of cells, a study has the higher chances to get published in journals like nature and cell.&lt;/p&gt;
+
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Most used single-cell technologies&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is one of the interesting questions. Here, I took the top 5 single-cell technologies with most publications in 2019 and calculated their status in last eight years. &lt;code&gt;Journal&lt;/code&gt;, &lt;code&gt;Date&lt;/code&gt; and &lt;code&gt;Technique&lt;/code&gt; are the features used for this analysis&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;05.png&#34; alt=&#34;05&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;From this figure, &#39;SMARTer (C1)&#39; tech was on top in the beginning of this decade and its usage was dropped towards the end, while &#39;Chromium&#39; tech was started in 2017 and quickly became one of the most used technology.&lt;/p&gt;
+
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Which journals published above top technologies?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that we have top 5 single-cell techs, let&#39;s look at the top 5 journals which published papers with these technologies. Features used here are &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Technology&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;06.png&#34; alt=&#34;06&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;There are other features such as tissue, organism studied and analysis strategy used (PCA or TSNE). Using the data available within this spreadsheet, one can do further analysis to get associations such as journal and tissue studied. In addition to analysis shown here, it is also possible to do a sophisticated machine learning analysis using different features (e.g. tissue, number of cells, technology used, organism studied) to build a model to predict the most likely journal in which a study gets published.&lt;/p&gt;
+
+&lt;h4 id=&#34;data-source&#34;&gt;Data source&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1En7-UV0k0laDiIfjFkdn7dggyR7jIk3WH8QgXaMOZF0/edit#gid=0&#34;&gt;Single-cell database&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.biorxiv.org/content/10.1101/742304v2&#34;&gt;A curated database reveals trends in single-cell transcriptomics&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>COVID-19 - An exploratory data analysis</title>
