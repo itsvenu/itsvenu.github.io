@@ -33,22 +33,37 @@
   </url>
   
   <url>
-    <loc>/tags/datascience/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <loc>/post/auto-zoom/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/ds-qa/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <loc>/tags/datascience/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/meetings/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/zoom/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ds-qa/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url>
   
