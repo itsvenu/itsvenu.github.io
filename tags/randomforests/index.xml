@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RandomForests | The Data Diary</title>
-    <link>/tags/randomforests/</link>
-      <atom:link href="/tags/randomforests/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/randomforests/</link>
+      <atom:link href="https://itsvenu.github.io/tags/randomforests/index.xml" rel="self" type="application/rss+xml" />
     <description>RandomForests</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>RandomForests</title>
-      <link>/tags/randomforests/</link>
+      <link>https://itsvenu.github.io/tags/randomforests/</link>
     </image>
     
     <item>
       <title>A deep dive into &#39;Forests&#39;</title>
-      <link>/post/brca-random-forests/</link>
+      <link>https://itsvenu.github.io/post/brca-random-forests/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/post/brca-random-forests/</guid>
+      <guid>https://itsvenu.github.io/post/brca-random-forests/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>retrospection | The Data Diary</title>
-    <link>/tags/retrospection/</link>
-      <atom:link href="/tags/retrospection/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/retrospection/</link>
+      <atom:link href="https://itsvenu.github.io/tags/retrospection/index.xml" rel="self" type="application/rss+xml" />
     <description>retrospection</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>retrospection</title>
-      <link>/tags/retrospection/</link>
+      <link>https://itsvenu.github.io/tags/retrospection/</link>
     </image>
     
     <item>
       <title>COVID-19 - An exploratory data analysis</title>
-      <link>/post/covid-19/</link>
+      <link>https://itsvenu.github.io/post/covid-19/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-19/</guid>
+      <guid>https://itsvenu.github.io/post/covid-19/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -142,9 +142,9 @@ text-align: justify}
     
     <item>
       <title>10 lessons from the past 10 years!</title>
-      <link>/post/a-decade/</link>
+      <link>https://itsvenu.github.io/post/a-decade/</link>
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/post/a-decade/</guid>
+      <guid>https://itsvenu.github.io/post/a-decade/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}

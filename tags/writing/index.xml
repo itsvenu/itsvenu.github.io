@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>writing | The Data Diary</title>
-    <link>/tags/writing/</link>
-      <atom:link href="/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/writing/</link>
+      <atom:link href="https://itsvenu.github.io/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <description>writing</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>writing</title>
-      <link>/tags/writing/</link>
+      <link>https://itsvenu.github.io/tags/writing/</link>
     </image>
     
     <item>
       <title>How to start asking questions as a data scientist?</title>
-      <link>/post/ds-qa/</link>
+      <link>https://itsvenu.github.io/post/ds-qa/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/ds-qa/</guid>
+      <guid>https://itsvenu.github.io/post/ds-qa/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -210,9 +210,9 @@ text-align: justify}
     
     <item>
       <title>COVID-19 - An exploratory data analysis</title>
-      <link>/post/covid-19/</link>
+      <link>https://itsvenu.github.io/post/covid-19/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-19/</guid>
+      <guid>https://itsvenu.github.io/post/covid-19/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -338,9 +338,9 @@ text-align: justify}
     
     <item>
       <title>10 lessons from the past 10 years!</title>
-      <link>/post/a-decade/</link>
+      <link>https://itsvenu.github.io/post/a-decade/</link>
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/post/a-decade/</guid>
+      <guid>https://itsvenu.github.io/post/a-decade/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -418,9 +418,9 @@ a well-wisher!&lt;/p&gt;
     
     <item>
       <title>Divide and Conquer</title>
-      <link>/post/divide-conquer/</link>
+      <link>https://itsvenu.github.io/post/divide-conquer/</link>
       <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/post/divide-conquer/</guid>
+      <guid>https://itsvenu.github.io/post/divide-conquer/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Father: Son, How do you eat an elephant ?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Son: One bite at a time.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -513,9 +513,9 @@ Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&l
     
     <item>
       <title>When I hit by a quote on the internet and started writing ...</title>
-      <link>/post/when-i-hit/</link>
+      <link>https://itsvenu.github.io/post/when-i-hit/</link>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/post/when-i-hit/</guid>
+      <guid>https://itsvenu.github.io/post/when-i-hit/</guid>
       <description>&lt;p&gt;Every time I begin to work on writing for my blog, something stops me. I always try to fight back and lose. Obviously. I have been &lt;strong&gt;THINKING&lt;/strong&gt; to write on a topic for more than a month. Notice &lt;strong&gt;THINKING&lt;/strong&gt;. Just to stress that I am only thinking. Doing nothing about it.&lt;/p&gt;
 
 &lt;p&gt;While submitting a new post, I always tell myself &lt;strong&gt;&lt;em&gt;“I should write one post per week. Okay, at least one per 2 weeks, keeping in mind other scientific projects”&lt;/em&gt;&lt;/strong&gt;. Good excuse right! I know.&lt;/p&gt;
@@ -550,9 +550,9 @@ Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&l
     
     <item>
       <title>A note to my six months younger-self</title>
-      <link>/post/note-to-remember/</link>
+      <link>https://itsvenu.github.io/post/note-to-remember/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/note-to-remember/</guid>
+      <guid>https://itsvenu.github.io/post/note-to-remember/</guid>
       <description>&lt;p&gt;Hey, you!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Who me?&lt;/em&gt;&lt;/p&gt;

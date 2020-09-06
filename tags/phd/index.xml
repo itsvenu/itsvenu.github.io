@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PhD | The Data Diary</title>
-    <link>/tags/phd/</link>
-      <atom:link href="/tags/phd/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/phd/</link>
+      <atom:link href="https://itsvenu.github.io/tags/phd/index.xml" rel="self" type="application/rss+xml" />
     <description>PhD</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>PhD</title>
-      <link>/tags/phd/</link>
+      <link>https://itsvenu.github.io/tags/phd/</link>
     </image>
     
     <item>
       <title>The transparent guilt of a PhD student</title>
-      <link>/post/phd-guilt-trip/</link>
+      <link>https://itsvenu.github.io/post/phd-guilt-trip/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/post/phd-guilt-trip/</guid>
+      <guid>https://itsvenu.github.io/post/phd-guilt-trip/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;That’s funny. I don’t recall buying tickets for a guilt trip!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -37,9 +37,9 @@
     
     <item>
       <title>A note to my six months younger-self</title>
-      <link>/post/note-to-remember/</link>
+      <link>https://itsvenu.github.io/post/note-to-remember/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/note-to-remember/</guid>
+      <guid>https://itsvenu.github.io/post/note-to-remember/</guid>
       <description>&lt;p&gt;Hey, you!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Who me?&lt;/em&gt;&lt;/p&gt;

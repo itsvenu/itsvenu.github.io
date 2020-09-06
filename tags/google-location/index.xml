@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google location | The Data Diary</title>
-    <link>/tags/google-location/</link>
-      <atom:link href="/tags/google-location/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/google-location/</link>
+      <atom:link href="https://itsvenu.github.io/tags/google-location/index.xml" rel="self" type="application/rss+xml" />
     <description>Google location</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>Google location</title>
-      <link>/tags/google-location/</link>
+      <link>https://itsvenu.github.io/tags/google-location/</link>
     </image>
     
     <item>
       <title>Google and my travel history</title>
-      <link>/post/travel-history/</link>
+      <link>https://itsvenu.github.io/post/travel-history/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/post/travel-history/</guid>
+      <guid>https://itsvenu.github.io/post/travel-history/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}

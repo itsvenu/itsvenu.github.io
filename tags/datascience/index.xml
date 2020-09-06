@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>datascience | The Data Diary</title>
-    <link>/tags/datascience/</link>
-      <atom:link href="/tags/datascience/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/datascience/</link>
+      <atom:link href="https://itsvenu.github.io/tags/datascience/index.xml" rel="self" type="application/rss+xml" />
     <description>datascience</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>datascience</title>
-      <link>/tags/datascience/</link>
+      <link>https://itsvenu.github.io/tags/datascience/</link>
     </image>
     
     <item>
       <title>A Python script to auto join your zoom meetings</title>
-      <link>/post/auto-zoom/</link>
+      <link>https://itsvenu.github.io/post/auto-zoom/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/post/auto-zoom/</guid>
+      <guid>https://itsvenu.github.io/post/auto-zoom/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -106,9 +106,9 @@ def join_meeting(zoom_link, meeting_date, meeting_time):
     
     <item>
       <title>How to start asking questions as a data scientist?</title>
-      <link>/post/ds-qa/</link>
+      <link>https://itsvenu.github.io/post/ds-qa/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/ds-qa/</guid>
+      <guid>https://itsvenu.github.io/post/ds-qa/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}

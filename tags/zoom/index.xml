@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zoom | The Data Diary</title>
-    <link>/tags/zoom/</link>
-      <atom:link href="/tags/zoom/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/zoom/</link>
+      <atom:link href="https://itsvenu.github.io/tags/zoom/index.xml" rel="self" type="application/rss+xml" />
     <description>zoom</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>zoom</title>
-      <link>/tags/zoom/</link>
+      <link>https://itsvenu.github.io/tags/zoom/</link>
     </image>
     
     <item>
       <title>A Python script to auto join your zoom meetings</title>
-      <link>/post/auto-zoom/</link>
+      <link>https://itsvenu.github.io/post/auto-zoom/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/post/auto-zoom/</guid>
+      <guid>https://itsvenu.github.io/post/auto-zoom/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}

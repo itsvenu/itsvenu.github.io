@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data science | The Data Diary</title>
-    <link>/tags/data-science/</link>
-      <atom:link href="/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/data-science/</link>
+      <atom:link href="https://itsvenu.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <description>Data science</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>Data science</title>
-      <link>/tags/data-science/</link>
+      <link>https://itsvenu.github.io/tags/data-science/</link>
     </image>
     
     <item>
       <title>A deep dive into &#39;Forests&#39;</title>
-      <link>/post/brca-random-forests/</link>
+      <link>https://itsvenu.github.io/post/brca-random-forests/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/post/brca-random-forests/</guid>
+      <guid>https://itsvenu.github.io/post/brca-random-forests/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -1270,9 +1270,9 @@ Image(filename = &#39;tree.png&#39;)
     
     <item>
       <title>Shine and let shine!</title>
-      <link>/post/women-in-science/</link>
+      <link>https://itsvenu.github.io/post/women-in-science/</link>
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/women-in-science/</guid>
+      <guid>https://itsvenu.github.io/post/women-in-science/</guid>
       <description>&lt;p&gt;On Feb 11th, my twitter feed flooded with totally a new set of tweets which have &lt;strong&gt;&lt;em&gt;#WomenInScience&lt;/em&gt;&lt;/strong&gt;. A hashtag to celebrate women &amp;amp; girls in science. Celebrating women &amp;amp; girls in science started in 2015 (&lt;a href=&#34;https://womeninscienceday.org&#34;&gt;https://womeninscienceday.org&lt;/a&gt;), which should have started hundreds of years earlier. Yes, something was terribly wrong in history. Good thing is, it’s changing rapidly and many more women are raising to the top in STEM.&lt;/p&gt;
 
 &lt;p&gt;On Feb 11th, I was checking my twitter feed once in a while during the day. A lot of women from STEM tweeted personal experiences, struggles faced, showing gratitude to the people who helped them to stand their position.&lt;/p&gt;
@@ -1293,9 +1293,9 @@ Image(filename = &#39;tree.png&#39;)
     
     <item>
       <title>Google and my travel history</title>
-      <link>/post/travel-history/</link>
+      <link>https://itsvenu.github.io/post/travel-history/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/post/travel-history/</guid>
+      <guid>https://itsvenu.github.io/post/travel-history/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -1419,9 +1419,9 @@ text-align: justify}
     
     <item>
       <title>Bioinformatics &amp; Biostars QA forum</title>
-      <link>/post/bioinformatics-biostars/</link>
+      <link>https://itsvenu.github.io/post/bioinformatics-biostars/</link>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/post/bioinformatics-biostars/</guid>
+      <guid>https://itsvenu.github.io/post/bioinformatics-biostars/</guid>
       <description>&lt;p&gt;Biostars, (&lt;a href=&#34;https://www.biostars.org/&#34;&gt;https://www.biostars.org/&lt;/a&gt;) is a QA forum for bioinformatics related stuff, much like stack overflow. I have to admit and be grateful to this site and the community as it’s played (&amp;amp; still playing) an important role since I started Bioinformatics after Masters/MS to this day. Today, I’m a PhD student in Bioinformatics, and I frequently get help from this site whenever I’m stuck with problems. Thank you Biostars.&lt;/p&gt;
 
 &lt;p&gt;There are many questions on this site starting from how to get started with bioinformatics to latest techs in sequencing world. The &lt;em&gt;data scientist&lt;/em&gt; in me was curious to look at the data this site accumulated over the years (2009 - 2019). In this blog post, I will look at some of the questions I’ve been interested about Bioinformatics.&lt;/p&gt;
@@ -1476,17 +1476,17 @@ text-align: justify}
     
     <item>
       <title>ISMB2019</title>
-      <link>/project/ismb2019/</link>
+      <link>https://itsvenu.github.io/project/ismb2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/ismb2019/</guid>
+      <guid>https://itsvenu.github.io/project/ismb2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RandomForests</title>
-      <link>/project/brca-randomforests/</link>
+      <link>https://itsvenu.github.io/project/brca-randomforests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/brca-randomforests/</guid>
+      <guid>https://itsvenu.github.io/project/brca-randomforests/</guid>
       <description></description>
     </item>
     

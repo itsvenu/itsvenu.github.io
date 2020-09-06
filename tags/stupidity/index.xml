@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stupidity | The Data Diary</title>
-    <link>/tags/stupidity/</link>
-      <atom:link href="/tags/stupidity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/tags/stupidity/</link>
+      <atom:link href="https://itsvenu.github.io/tags/stupidity/index.xml" rel="self" type="application/rss+xml" />
     <description>stupidity</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 17 Sep 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>stupidity</title>
-      <link>/tags/stupidity/</link>
+      <link>https://itsvenu.github.io/tags/stupidity/</link>
     </image>
     
     <item>
       <title>Code, Pizza and my Stupidity</title>
-      <link>/post/stupidity/</link>
+      <link>https://itsvenu.github.io/post/stupidity/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/post/stupidity/</guid>
+      <guid>https://itsvenu.github.io/post/stupidity/</guid>
       <description>&lt;h3 id=&#34;morning-0900&#34;&gt;Morning 09:00&lt;/h3&gt;
 
 &lt;p&gt;Saturday morning. Quite a peaceful day. I am so excited to write the code for a web application that I have been working on. Little did I know that I am going to spend the entire day debugging an error that is hiding in my code.&lt;/p&gt;

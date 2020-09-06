@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Data Diary</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://itsvenu.github.io/</link>
+      <atom:link href="https://itsvenu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>The Data Diary</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>The Data Diary</title>
-      <link>/</link>
+      <link>https://itsvenu.github.io/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>/courses/example/example1/</link>
+      <link>https://itsvenu.github.io/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example1/</guid>
+      <guid>https://itsvenu.github.io/courses/example/example1/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -49,9 +49,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
+      <link>https://itsvenu.github.io/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example2/</guid>
+      <guid>https://itsvenu.github.io/courses/example/example2/</guid>
       <description>
 
 &lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
@@ -84,9 +84,9 @@
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <link>https://itsvenu.github.io/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://itsvenu.github.io/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -107,9 +107,9 @@
     
     <item>
       <title>A Python script to auto join your zoom meetings</title>
-      <link>/post/auto-zoom/</link>
+      <link>https://itsvenu.github.io/post/auto-zoom/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/post/auto-zoom/</guid>
+      <guid>https://itsvenu.github.io/post/auto-zoom/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -199,9 +199,9 @@ def join_meeting(zoom_link, meeting_date, meeting_time):
     
     <item>
       <title>How to start asking questions as a data scientist?</title>
-      <link>/post/ds-qa/</link>
+      <link>https://itsvenu.github.io/post/ds-qa/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/ds-qa/</guid>
+      <guid>https://itsvenu.github.io/post/ds-qa/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -395,9 +395,9 @@ text-align: justify}
     
     <item>
       <title>COVID-19 - An exploratory data analysis</title>
-      <link>/post/covid-19/</link>
+      <link>https://itsvenu.github.io/post/covid-19/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-19/</guid>
+      <guid>https://itsvenu.github.io/post/covid-19/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -523,9 +523,9 @@ text-align: justify}
     
     <item>
       <title>10 lessons from the past 10 years!</title>
-      <link>/post/a-decade/</link>
+      <link>https://itsvenu.github.io/post/a-decade/</link>
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/post/a-decade/</guid>
+      <guid>https://itsvenu.github.io/post/a-decade/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -603,9 +603,9 @@ a well-wisher!&lt;/p&gt;
     
     <item>
       <title>A deep dive into &#39;Forests&#39;</title>
-      <link>/post/brca-random-forests/</link>
+      <link>https://itsvenu.github.io/post/brca-random-forests/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/post/brca-random-forests/</guid>
+      <guid>https://itsvenu.github.io/post/brca-random-forests/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -1859,9 +1859,9 @@ Image(filename = &#39;tree.png&#39;)
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
+      <link>https://itsvenu.github.io/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/</guid>
+      <guid>https://itsvenu.github.io/publication/preprint/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -1874,9 +1874,9 @@ Image(filename = &#39;tree.png&#39;)
     
     <item>
       <title>The transparent guilt of a PhD student</title>
-      <link>/post/phd-guilt-trip/</link>
+      <link>https://itsvenu.github.io/post/phd-guilt-trip/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/post/phd-guilt-trip/</guid>
+      <guid>https://itsvenu.github.io/post/phd-guilt-trip/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;That’s funny. I don’t recall buying tickets for a guilt trip!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1897,9 +1897,9 @@ Image(filename = &#39;tree.png&#39;)
     
     <item>
       <title>Shine and let shine!</title>
-      <link>/post/women-in-science/</link>
+      <link>https://itsvenu.github.io/post/women-in-science/</link>
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/women-in-science/</guid>
+      <guid>https://itsvenu.github.io/post/women-in-science/</guid>
       <description>&lt;p&gt;On Feb 11th, my twitter feed flooded with totally a new set of tweets which have &lt;strong&gt;&lt;em&gt;#WomenInScience&lt;/em&gt;&lt;/strong&gt;. A hashtag to celebrate women &amp;amp; girls in science. Celebrating women &amp;amp; girls in science started in 2015 (&lt;a href=&#34;https://womeninscienceday.org&#34;&gt;https://womeninscienceday.org&lt;/a&gt;), which should have started hundreds of years earlier. Yes, something was terribly wrong in history. Good thing is, it’s changing rapidly and many more women are raising to the top in STEM.&lt;/p&gt;
 
 &lt;p&gt;On Feb 11th, I was checking my twitter feed once in a while during the day. A lot of women from STEM tweeted personal experiences, struggles faced, showing gratitude to the people who helped them to stand their position.&lt;/p&gt;
@@ -1920,9 +1920,9 @@ Image(filename = &#39;tree.png&#39;)
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://itsvenu.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://itsvenu.github.io/slides/example/</guid>
       <description>
 
 &lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
@@ -2101,9 +2101,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Google and my travel history</title>
-      <link>/post/travel-history/</link>
+      <link>https://itsvenu.github.io/post/travel-history/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/post/travel-history/</guid>
+      <guid>https://itsvenu.github.io/post/travel-history/</guid>
       <description>&lt;style&gt;
 body {
 text-align: justify}
@@ -2227,9 +2227,9 @@ text-align: justify}
     
     <item>
       <title>Code, Pizza and my Stupidity</title>
-      <link>/post/stupidity/</link>
+      <link>https://itsvenu.github.io/post/stupidity/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/post/stupidity/</guid>
+      <guid>https://itsvenu.github.io/post/stupidity/</guid>
       <description>&lt;h3 id=&#34;morning-0900&#34;&gt;Morning 09:00&lt;/h3&gt;
 
 &lt;p&gt;Saturday morning. Quite a peaceful day. I am so excited to write the code for a web application that I have been working on. Little did I know that I am going to spend the entire day debugging an error that is hiding in my code.&lt;/p&gt;
@@ -2343,9 +2343,9 @@ text-align: justify}
     
     <item>
       <title>Divide and Conquer</title>
-      <link>/post/divide-conquer/</link>
+      <link>https://itsvenu.github.io/post/divide-conquer/</link>
       <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/post/divide-conquer/</guid>
+      <guid>https://itsvenu.github.io/post/divide-conquer/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Father: Son, How do you eat an elephant ?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Son: One bite at a time.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -2438,9 +2438,9 @@ Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&l
     
     <item>
       <title>Bioinformatics &amp; Biostars QA forum</title>
-      <link>/post/bioinformatics-biostars/</link>
+      <link>https://itsvenu.github.io/post/bioinformatics-biostars/</link>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/post/bioinformatics-biostars/</guid>
+      <guid>https://itsvenu.github.io/post/bioinformatics-biostars/</guid>
       <description>&lt;p&gt;Biostars, (&lt;a href=&#34;https://www.biostars.org/&#34;&gt;https://www.biostars.org/&lt;/a&gt;) is a QA forum for bioinformatics related stuff, much like stack overflow. I have to admit and be grateful to this site and the community as it’s played (&amp;amp; still playing) an important role since I started Bioinformatics after Masters/MS to this day. Today, I’m a PhD student in Bioinformatics, and I frequently get help from this site whenever I’m stuck with problems. Thank you Biostars.&lt;/p&gt;
 
 &lt;p&gt;There are many questions on this site starting from how to get started with bioinformatics to latest techs in sequencing world. The &lt;em&gt;data scientist&lt;/em&gt; in me was curious to look at the data this site accumulated over the years (2009 - 2019). In this blog post, I will look at some of the questions I’ve been interested about Bioinformatics.&lt;/p&gt;
@@ -2495,9 +2495,9 @@ Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&l
     
     <item>
       <title>When I hit by a quote on the internet and started writing ...</title>
-      <link>/post/when-i-hit/</link>
+      <link>https://itsvenu.github.io/post/when-i-hit/</link>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/post/when-i-hit/</guid>
+      <guid>https://itsvenu.github.io/post/when-i-hit/</guid>
       <description>&lt;p&gt;Every time I begin to work on writing for my blog, something stops me. I always try to fight back and lose. Obviously. I have been &lt;strong&gt;THINKING&lt;/strong&gt; to write on a topic for more than a month. Notice &lt;strong&gt;THINKING&lt;/strong&gt;. Just to stress that I am only thinking. Doing nothing about it.&lt;/p&gt;
 
 &lt;p&gt;While submitting a new post, I always tell myself &lt;strong&gt;&lt;em&gt;“I should write one post per week. Okay, at least one per 2 weeks, keeping in mind other scientific projects”&lt;/em&gt;&lt;/strong&gt;. Good excuse right! I know.&lt;/p&gt;
@@ -2532,9 +2532,9 @@ Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&l
     
     <item>
       <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
+      <link>https://itsvenu.github.io/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
+      <guid>https://itsvenu.github.io/publication/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -2553,9 +2553,9 @@ Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&l
     
     <item>
       <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
+      <link>https://itsvenu.github.io/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
+      <guid>https://itsvenu.github.io/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -2574,9 +2574,9 @@ Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&l
     
     <item>
       <title>A note to my six months younger-self</title>
-      <link>/post/note-to-remember/</link>
+      <link>https://itsvenu.github.io/post/note-to-remember/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/note-to-remember/</guid>
+      <guid>https://itsvenu.github.io/post/note-to-remember/</guid>
       <description>&lt;p&gt;Hey, you!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Who me?&lt;/em&gt;&lt;/p&gt;
@@ -2646,25 +2646,25 @@ Do not forget to write down everything you are doing. Every single step. Do not 
     
     <item>
       <title>ALPS</title>
-      <link>/project/alps/</link>
+      <link>https://itsvenu.github.io/project/alps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/alps/</guid>
+      <guid>https://itsvenu.github.io/project/alps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ISMB2019</title>
-      <link>/project/ismb2019/</link>
+      <link>https://itsvenu.github.io/project/ismb2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/ismb2019/</guid>
+      <guid>https://itsvenu.github.io/project/ismb2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RandomForests</title>
-      <link>/project/brca-randomforests/</link>
+      <link>https://itsvenu.github.io/project/brca-randomforests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/brca-randomforests/</guid>
+      <guid>https://itsvenu.github.io/project/brca-randomforests/</guid>
       <description></description>
     </item>
     
