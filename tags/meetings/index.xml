@@ -100,6 +100,10 @@ def join_meeting(zoom_link, meeting_date, meeting_time):
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;python AutoZOOM_v0.03.py --zoom_link &amp;quot;zoom-meeting-link&amp;quot; --meeting_date &amp;quot;06-09-2020&amp;quot; --meeting_time &amp;quot;13-00-00&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;h3 id=&#34;technical-notes&#34;&gt;Technical notes&lt;/h3&gt;
+
+&lt;p&gt;I use 13-inch MacBook pro, so the coordinates hardcoded in the script are suitable for this screensize. If you want to use the script for your screen size, I wrote a small notebook to help you guide through it. &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/AutoZOOM/AutoZOOM_GetCoordinates.ipynb&#34;&gt;It is available here&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;Stay safe!&lt;/p&gt;
 </description>
     </item>
