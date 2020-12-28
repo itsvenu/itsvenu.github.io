@@ -5,7 +5,7 @@
     <link>https://itsvenu.github.io/tags/</link>
       <atom:link href="https://itsvenu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://itsvenu.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,9 +13,41 @@
     </image>
     
     <item>
+      <title>career</title>
+      <link>https://itsvenu.github.io/tags/career/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>industry</title>
+      <link>https://itsvenu.github.io/tags/industry/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/tags/industry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jobs</title>
+      <link>https://itsvenu.github.io/tags/jobs/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/tags/jobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transition</title>
+      <link>https://itsvenu.github.io/tags/transition/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/tags/transition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>datascience</title>
       <link>https://itsvenu.github.io/tags/datascience/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://itsvenu.github.io/tags/datascience/</guid>
       <description></description>
     </item>
@@ -23,7 +55,7 @@
     <item>
       <title>meetings</title>
       <link>https://itsvenu.github.io/tags/meetings/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://itsvenu.github.io/tags/meetings/</guid>
       <description></description>
     </item>
@@ -31,7 +63,7 @@
     <item>
       <title>zoom</title>
       <link>https://itsvenu.github.io/tags/zoom/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://itsvenu.github.io/tags/zoom/</guid>
       <description></description>
     </item>
