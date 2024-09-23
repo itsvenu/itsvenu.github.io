@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retrospection | The Data Diary</title>
+    <link>https://itsvenu.github.io/tags/retrospection/</link>
+      <atom:link href="https://itsvenu.github.io/tags/retrospection/index.xml" rel="self" type="application/rss+xml" />
+    <description>retrospection</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>retrospection</title>
+      <link>https://itsvenu.github.io/tags/retrospection/</link>
+    </image>
+    
+    <item>
+      <title>COVID-19 - An exploratory data analysis</title>
+      <link>https://itsvenu.github.io/post/covid-19/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/covid-19/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;The World Health Organization (WHO) stated the recent outbreak of corona virus (COVID-19) as &lt;strong&gt;&amp;rsquo;the worldwide spread of a new disease&amp;rsquo;&lt;/strong&gt;. WHO further suggests we must be prepared for the global pandemic. The COVID-19 virus belongs to a corona virus family which was not identified before. The closest match of human infected virus has been found in bats (Pangolins), however it might have been mutated within human body to diverge from what has been identified in bats. The first infected person(s) was suspected to work (or got infected from) in wet markets (where people sell meat from diverse animals and flowing water and animal blood is usual) in Wuhan, a city in China.&lt;/p&gt;
+&lt;p&gt;Scientists are working towards understanding more about the spread of the disease and potential measures to control its widespread. WHO is releasing daily updates on the COVID-19 spread among countries and number of affected people.&lt;/p&gt;
+&lt;p&gt;Here, I have collected data on COVID-19 spread from different sources and performed an explorative data analysis to observe possible trends.&lt;/p&gt;
+&lt;h3 id=&#34;1-number-of-affected-people-from-different-countries&#34;&gt;1. Number of affected people from different countries&lt;/h3&gt;
+&lt;p&gt;As of 27th, Feb, 2020, here are the number of affected people in differnet countries. As China is the origin of the virus, the number is significantly higher in China than any otehr countries (n=18,55,018), however, we should not disregard how fast the virus is spreading in other continents.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;01_COVID_numberOfCasesPerCountry.png&#34; alt=&#34;01&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-top-10-countries-with-most-number-of-infections&#34;&gt;2. Top 10 countries with most number of infections&lt;/h3&gt;
+&lt;p&gt;From 22nd Jan - 27th, Feb, 53 countries reported confirmed COVID-19 cases. In the following figure, each red dot represents a region/country with positive case(s). Countries with highlighted names have the highest number of cases so far.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;02_COVID_Top10AffectedCountry.png&#34; alt=&#34;02&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-fatality-rates-of-affected-countries&#34;&gt;3. Fatality rates of affected countries&lt;/h3&gt;
+&lt;p&gt;Fatality rate is the ratio of deaths to the total number of affected cases due to certain cause. However, here is Richard Müller, professor of physics at UC Berkely, &lt;a href=&#34;https://www.quora.com/How-dangerous-is-the-coronavirus-6/answer/Richard-Muller-3&#34;&gt;explaining on quora&lt;/a&gt; why this is not a proper measure in the case of widespread infections like COVID-19. The proper measure according to his suggestion for fatality rate is deaths/(deaths+recovered). Following figure is an estimate of top 10 countries with highest fatality rate.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;03_COVID_FatalityRateAffectedCountries.png&#34; alt=&#34;03&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Though, the number of infected cases in China is way higher than any other country, the death rate is slightly lesser, for example, compared to Philippines or Italy. However, if we calculate the conventional fatality rate, &lt;strong&gt;2.65% of deaths were reported in COVID-19 confirmed cases worldwide&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;There are a number of factors affecting this fatality rate, for example COVID-19 symptoms are very close to general flu, due to this reason many people who had the actual infection might not even visited the hospital before death.&lt;/p&gt;
+&lt;h3 id=&#34;4-fractions-of-confirmed-recovered-and-death-cases&#34;&gt;4. Fractions of confirmed, recovered and death cases&lt;/h3&gt;
+&lt;p&gt;Here is the overview of 53 countries with total infected cases divided into confirmed (being treated), recovered and death fractions.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;04_COVID_TotalCasesStats.png&#34; alt=&#34;04&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As we can see, the number of people died due to infections in higher in Philippines and Iran comprated to other countries.&lt;/p&gt;
+&lt;h3 id=&#34;5-china-increase-in-number-of-infected-cases-in-37-days&#34;&gt;5. China: Increase in number of infected cases in 37 days&lt;/h3&gt;
+&lt;p&gt;On 31st December, China reported several cases of unknown pneumonia in Wuhan. On 7th Jan, people identified it as new corona virus (2019-nCoV). However, later efforts led to naming this new virus as COVID-19. As of 22nd Jan, 2020, there were ~540 cases identified to be infected with COVID-19. In a span of 37 days (until 27th Feb, 2020), this number has increased to 78,498 cases. And it is constantly increasing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;05_COVID_ChinaPerDayCases.png&#34; alt=&#34;05&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This picture is particularly terrifying and warns the world how urgently we need efforts to create vaccines against this virus.&lt;/p&gt;
+&lt;h3 id=&#34;6-china-were-the-number-of-diagnoses-high-on-any-weekday&#34;&gt;6. China: Were the number of diagnoses high on any weekday?&lt;/h3&gt;
+&lt;p&gt;It would be interesting to see if there are any associations on the weekday and the number of diagnoses reported.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;06_WeekDayDiagnosisChina.png&#34; alt=&#34;06&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Friday, seems to be having very low number of reported cases. However, it is not significantly differnet than other days. Once the information about the virus has been spread from the officials, people started rushing to hospitals everyday, doesn&amp;rsquo;t matter weekday or the weekend.&lt;/p&gt;
+&lt;h3 id=&#34;7-china-any-association-between-gender-and-infection&#34;&gt;7. China: Any association between Gender and infection?&lt;/h3&gt;
+&lt;p&gt;For 482 infected cases, the gender information is available in one of my collected sources. If we look at the number of males and females affected by COVID-19, it is also not significantly different than weekday as we saw earlier. However, males were affected slightly more than females.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;07_COVID_numberOfMaleFemaleCases.png&#34; alt=&#34;07&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;8-china-age-group-that-is-most-affected&#34;&gt;8. China: Age group that is most affected&lt;/h3&gt;
+&lt;p&gt;Similar to gender associations, we can also look at the age distribution of affected people. I divided age ranges into 8 windows, each with 10 years of range. A total of 466 cases were plotted in below figure.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;08_COVID_MaleFemaleAgeGroupCases.png&#34; alt=&#34;08&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now, this shows most number of affected individuals are in the age range of 30-40 years. It might be due to these people are traveling between different places a lot than other age groups. And, the infection after age 65-70 years old might even be due to a compromised immune system. However, we do not know the exact reasons for the peak between 30-40 years age range.&lt;/p&gt;
+&lt;h3 id=&#34;9-china-first-symptoms-and-first-hospital-visit&#34;&gt;9. China: First symptoms and first hospital visit&lt;/h3&gt;
+&lt;p&gt;According to sources, the virus takes 14-15 days to incubate and show symptoms in the host. However, the number of days people took to visit hospital after the first onset of symptoms observed is very high in the beginning. Before 10th Jan, people waited 10-15 days after experiencing symptoms, potentially assuming that it might be general flu and lack of information on the virus spread. However, people started going to the hospitals very quickly.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;09_COVID_OnsetSymptomsFirstHospitalVisit.png&#34; alt=&#34;09&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The initial days where people had no clue about the infection and took longer to visit hospitals after first onset of symptoms might also be one of the reasons for widespread of the infection.&lt;/p&gt;
+&lt;h3 id=&#34;10-symtoms&#34;&gt;10. Symtoms&lt;/h3&gt;
+&lt;p&gt;Finally, here is a wordcloud of all symptoms repoprted by clinicians observed in patients with COVID-19 infection&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;10_COVID_SymptomsWordCloud.png&#34; alt=&#34;10&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s hope COVID-19 infection will not turn into a global pandemic. Our scientists are working hard towards gaining control over the spread.&lt;/p&gt;
+&lt;p&gt;Check &amp;lsquo;Further reading&amp;rsquo; below to get more information and measures of self-care to avoid potential infection.&lt;/p&gt;
+&lt;h3 id=&#34;source-code-for-analysis&#34;&gt;Source code for analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects&#34;&gt;https://github.com/itsvenu/DataScience-Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-sources&#34;&gt;Data sources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports&#34;&gt;WHO&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/imdevskp/corona-virus-report&#34;&gt;Kaggel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30026-1/fulltext&#34;&gt;The Lancet Digital Health&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;further-reading&#34;&gt;Further reading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/world/2020/mar/01/what-is-coronavirus-and-what-should-i-do-symptoms&#34;&gt;What is coronavirus and what should I do if I have symptoms?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/world/2020/mar/01/the-worst-case-scenario-for-coronavirus-dr-jonathan-quick-q-and-a-laura-spinney&#34;&gt;Epidemics expert Jonathan Quick: ‘The worst-case scenario for coronavirus is likely’&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-020-00548-w&#34;&gt;Mystery deepens over animal source of coronavirus&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&#34;&gt;Coronavirus disease (COVID-19) outbreak&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/global-development/2020/feb/18/senior-wuhan-doctor-dies-from-coronavirus-as-authorities-start-to-round-up-patients&#34;&gt;Senior Wuhan doctor dies from coronavirus as authorities start to &amp;lsquo;round up&amp;rsquo; patients&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.niaid.nih.gov/news-events/nih-clinical-trial-remdesivir-treat-covid-19-begins&#34;&gt;NIH Clinical Trial of Remdesivir to Treat COVID-19 Begins&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 lessons from the past 10 years!</title>
+      <link>https://itsvenu.github.io/post/a-decade/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/a-decade/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;It’s 2020. It’s hard to believe 90s were 20 years ago. I left school at the beginning of this decade and I’m still at a school now, except the high-school has changed to graduate-school and learning has changed to learning &amp;amp; applying to the problems. The past 10 years were gone in the blink of an eye, yet many events happened in life and changed me as a person and my perspective. As we mark the beginning of a new decade, here are the 10 most important lessons I learned in the past decade from what happened in my life.&lt;/p&gt;
+&lt;h3 id=&#34;1-read-learn-and-read-more&#34;&gt;1. Read. Learn. And read more.&lt;/h3&gt;
+&lt;p&gt;You are not the first human to live this life and you are not the first one to experience the problems you are facing today. Many great humans who faced and solved the problems documented their experiences, imaginations in scripts called books. All you need to do is read those scriptures and learn to deal with your life.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A reader lives a thousand lives before he dies. The man who never reads lives only one. &lt;em&gt;&lt;strong&gt;George R.R Martin&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I wouldn&amp;rsquo;t say I did read a whole lotta books, but I started at the beginning of this decade and I would say it changed my life for the better.&lt;/p&gt;
+&lt;h3 id=&#34;2-take-care-of-your-health&#34;&gt;2. Take care of your health&lt;/h3&gt;
+&lt;p&gt;You have got one body to live in. If you can take care of your iPhone as one of the precious things you own, why not your body?
+Sometimes there are certain things you can not control regarding your health. I had two major surgeries in the last 10 years and I would say it’s not a pleasant situation to be in. There was no way I could’ve avoided those two medical procedures for the good. For those few days I was totally dependent and felt like how lucky people who didn’t endure those surgeries. Since then, I started to care about my health. I did cut off a lot of what people say are bad for health habits.&lt;/p&gt;
+&lt;p&gt;When you are 24 years young, your heart feels like 24 but what I understood from talking to people elder to me is when you are 60 years old, your heart still feels like you are 24 years but the rest of your body will not cooperate with that energy. If you manage to spend sometime in gym in your 20s and 30s, your body can do at least 20% (or more) of what your heart wants when you are in the 60s and 70s.&lt;/p&gt;
+&lt;h3 id=&#34;3-kill-that-ego-already&#34;&gt;3. Kill that ego already&lt;/h3&gt;
+&lt;p&gt;Cersei Lannister was absolutely right to own the iron throne in her perspective, so does Daenerys Targaryen. Although the end goal of these two characters is the same, the thought process behind is completely different. We are humans. It’s inevitable that once in  a while we have different opinions and disagreements with colleagues, friends or family. Do not let your ego end the relationship. If there is an apology pending or credit is due, have the spine to look into the person’s eye and say it. Moving on with a clean slate is the best feeling ever. The time we spend here is insignificant and it&amp;rsquo;s not worth your time to hold anything back.&lt;/p&gt;
+&lt;h3 id=&#34;4-look-beyond-what-happened&#34;&gt;4. Look beyond what happened&lt;/h3&gt;
+&lt;p&gt;In the past decade, I had my fare share of bittersweet experiences with heartbreaks. Everytime I felt, the butterflies in my stomach that came with &amp;lsquo;her&amp;rsquo; would stay forever, they took off leaving a painfully sweet ache. Amidst life&amp;rsquo;s insecurities and unmet expectations, the feeling of happiness when we saw each other faded off and we parted our ways, hopefully for the greater good of both.&lt;/p&gt;
+&lt;p&gt;Once this conscientious girl told me, ‘&lt;strong&gt;after you had a fight with your significant other and explain the situation to yourself or to anyone, you bias your explanation to your-only point of view. Though you say you know how your partner is feeling, you never know exactly what’s going on in their mind and it’s totally unreasonable to put her/him in the wrong frame&lt;/strong&gt;’. This statement has the meaning of a whole universe. Among all the memories, arguments and pre- or post-fight discussions I had in every relationship, what this beautiful girl said stuck with me till now and I will remember it for the rest of my life.&lt;/p&gt;
+&lt;h3 id=&#34;5-no-to-hesitation-and-hesitation-is-no&#34;&gt;5. No to hesitation and hesitation is no&lt;/h3&gt;
+&lt;p&gt;There were hundreds of circumstances in the past years where I really wanted to say NO to something but said YES, entirely out of hesitation. I’m sure you are not an exception either. It is absolutely vexatious to be in a situation where you don’t like or don’t want to be. All you could say to avoid this is a simple ‘NO’ but somehow evolution didn’t inculcate enough bravery to overcome the hesitation to say  NO. Whatever the situation, at work, with family or with friends, if you want to say NO but you are forcing yourself to say YES, please don’t. Just say NO and make yourself a favour. Be clear in your response.&lt;/p&gt;
+&lt;p&gt;On the contrary, there are often people who want to say no but falter. Just take their hesitation for NO. Let me give you an example from my own life. I asked this pretty girl out for dinner once, she said ‘but not this week’. I gently asked her the next week if she would like to go out, however, she was hesitant to give a response. I understood her answer and made her life easier. The hesitation is always to say NO but not to say YES. If someone is hesitant to give you a response, it’s always a NO, understand and move on with your life. It’s as simple as that.&lt;/p&gt;
+&lt;h3 id=&#34;6-build-a-career-so-you-enjoy-your-work-life&#34;&gt;6. Build a career so you enjoy your work-life&lt;/h3&gt;
+&lt;p&gt;At his Stanford commencement address, Steve Jobs said ‘your work is going to fill a large part of your life’ and it is 100% true. You spend most of your day with your work and it has the highest impact on the quality of life you are living. If you are in your 20s, try different things and figure out what you will enjoy the most in the long term. It’s far better and safer than working 9-5 in the office and whining about it all day long in your 40s.&lt;/p&gt;
+&lt;p&gt;What I thought I would enjoy most in 2009 is not something I want now. I learned different things in this decade and I am happy with what I am doing now and not what I considered 10 years back. If it wasn’t for the subjects I chose to study after my bachelors, I could be living a mediocre life now.&lt;/p&gt;
+&lt;h3 id=&#34;7-keep-those-friends&#34;&gt;7. Keep those friends&lt;/h3&gt;
+&lt;p&gt;There is a very good saying by Jim Rohn, an entrepreneur, about human behaviour which says ‘you are the average of the 5 people you spend the most time with’. If you think about it, you tend to absorb the qualities of the people you are most frequent with without realizing. It is absolutely important to surround yourself with good friends and mentors. In the past years, I have made a lot of friendships, some of which went down south quickly and some took a while and others became besties, probably for life. Sometimes there are certain things we can not share with family (or is it only me?) but everything can be shared with friends without a scintilla of hesitation.&lt;/p&gt;
+&lt;p&gt;I am fortunate enough to have met some amazing people who taught me a lot in all these years and made me a better person than I was. Though we stay miles apart, technology made it possible to keep the friendships alive. The beautiful thing about friendships is, whenever we meet after a long time, we start exactly where we left off last time and that makes us feel years younger in a few minutes. Keep those friends and you can bitch about life together when you are in your 70s.&lt;/p&gt;
+&lt;h3 id=&#34;8-appreciate-people-and-be-kind&#34;&gt;8. Appreciate people and be kind&lt;/h3&gt;
+&lt;p&gt;A long time back I attended a workshop in which the instructor said, ‘every human being has something written on their forehead’. Everyone was waiting curiously for the answer and instructor revealed it’s ‘APPRECIATE ME!’.&lt;/p&gt;
+&lt;p&gt;This is by far the most effective way to make people happy, make friends and don’t tell this to anyone, to get your work done by people, if used properly. People feel happy when you acknowledge their presence and you become more likeable and approachable. Appreciate people and help the needy. You don’t need to donate thousands of dollars to help people (though it’s not a bad idea if you have enough), just small things like giving up your seat on the bus for the elderly is equally helpful.&lt;/p&gt;
+&lt;h3 id=&#34;9-the-party-will-be-over-one-day&#34;&gt;9. The party will be over one day&lt;/h3&gt;
+&lt;p&gt;We are here for a short time. The people you know, your parents, friends, relatives and you grow old and disappear one day. It’s inevitable, how much you think and try, you can’t change it. Whether you agree or not, everyone’s love for you is conditional except that of your parents and a few good friends, at least it is a little less conditional.&lt;/p&gt;
+&lt;p&gt;Your parents are the ones who genuinely celebrate your success and stand behind you when you are failed. Be grateful that you have people who support you in your ups and downs and have a good time before it’s too late. Once in a while, let them know how much you care about them and do the little things that make them happy.&lt;/p&gt;
+&lt;h3 id=&#34;10-life-is-simple-be-happy&#34;&gt;10. Life is simple, be happy!&lt;/h3&gt;
+&lt;p&gt;Don’t think you will be happy if you buy an iPhone. Don’t think you will be happy if you buy an expensive car. Don’t think you will be happy if you buy a mansion house. No you will not.&lt;/p&gt;
+&lt;p&gt;Of course you will be euphoric, but just for a while. You quickly move onto the next possession to be happy. I am certainly not against having any kind of possession but having a thought you will be happy with ‘buying something’ is totally a wrong idea. Do not get deceived by your friends photos on facebook or instagram. It’s not reality. I have seen people feeling absolutely worst but still updating their social media status ‘having the best time of their life’. It’s easier said than done but what I learned is being happy can be a choice. It&amp;rsquo;s a bit difficult but laugh at your mistakes, not the others; laugh at your failures, not the others; laugh at your innocence, not the others. Things are not as complicated as they appear when you think about them, so be calm and put a smile on that face &amp;amp; keep it throughout this journey!&lt;/p&gt;
+&lt;p&gt;sayonara, &lt;!-- raw HTML omitted --&gt;
+a well-wisher!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioinformatics | The Data Diary</title>
+    <link>https://itsvenu.github.io/tags/bioinformatics/</link>
+      <atom:link href="https://itsvenu.github.io/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bioinformatics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 13 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>Bioinformatics</title>
+      <link>https://itsvenu.github.io/tags/bioinformatics/</link>
+    </image>
+    
+    <item>
+      <title>Bioinformatics &amp; Biostars QA forum</title>
+      <link>https://itsvenu.github.io/post/bioinformatics-biostars/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/bioinformatics-biostars/</guid>
+      <description>&lt;p&gt;Biostars, (&lt;a href=&#34;https://www.biostars.org/&#34;&gt;https://www.biostars.org/&lt;/a&gt;) is a QA forum for bioinformatics related stuff, much like stack overflow. I have to admit and be grateful to this site and the community as it’s played (&amp;amp; still playing) an important role since I started Bioinformatics after Masters/MS to this day. Today, I’m a PhD student in Bioinformatics, and I frequently get help from this site whenever I’m stuck with problems. Thank you Biostars.&lt;/p&gt;
+&lt;p&gt;There are many questions on this site starting from how to get started with bioinformatics to latest techs in sequencing world. The &lt;em&gt;data scientist&lt;/em&gt; in me was curious to look at the data this site accumulated over the years (2009 - 2019). In this blog post, I will look at some of the questions I’ve been interested about Bioinformatics.&lt;/p&gt;
+&lt;p&gt;Here are the few question I will answer in this blog post&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Which programming language is most used in Bioinformatics in last ~10 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Growing importance of Bioinformatics reflected by total number of questions per year in last ~10 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Frequency of topics discussed on this site&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used web-scraping approach to scrape questions and associated tags and engineered some of the features per each question. Code to reproduce the analysis is available &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;here&lt;/a&gt; (NOTE: Data is scraped on 23/02/2019 there might be slight changes when it is reproduced as new threads are opened after 23rd Feb, 2019).&lt;/p&gt;
+&lt;h4 id=&#34;bioinformatics--programming-languages&#34;&gt;Bioinformatics &amp;amp; programming languages&lt;/h4&gt;
+&lt;p&gt;Here, I took all tags for each question and summarised the number of questions per-year with following tags, &lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt; &amp;amp; &lt;code&gt;Perl&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_perYear_languageQuestions.png&#34; alt=&#34;lan&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The rapid increase in use of &lt;code&gt;R&lt;/code&gt; in Bioinformatics is not surprising given the large community of users, visualization libraries and most importantly &lt;code&gt;Bioconductor&lt;/code&gt; project. Use of &lt;code&gt;Python&lt;/code&gt; is increasing but relatively slow compared to &lt;code&gt;R&lt;/code&gt;, I guess the major reason for this might be lack of a resource such as &lt;code&gt;Bioconductor&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;importance-of-bioinformatics-in-research&#34;&gt;Importance of Bioinformatics in research&lt;/h4&gt;
+&lt;p&gt;Following graph shows the number of questions appeared on Biostars per year. This reflects the number of researchers getting into Bioinformatics and the growing importance of high throughput analysis in basic sciences and disease research.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_perYear_numberOfQuestions.png&#34; alt=&#34;numQ&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;frequency-of-topics-discussed&#34;&gt;Frequency of topics discussed&lt;/h4&gt;
+&lt;p&gt;What’s the most discussed topic on Biostars? Or what’s the topic on which most bioinformaticians get stuck? Following word cloud shows the frequency of each tag associated with all questions from last ~ 10 years.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_allTagsWordcloud.png&#34; alt=&#34;tags&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RNA-seq&lt;/strong&gt; it is. This is one of the revolutionary sequencing technology to get informations on transcriptomic changes depending the contexts but it does seem like it is also one of the most difficult topic in terms of computational analysis. Don’t even get me started on &lt;em&gt;single-cell technology&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There are more interesting questions I would like to answer with this resource whose code requires a more expensive computational resource than my laptop. I will update this blog post as I do additional analysis.&lt;/p&gt;
+&lt;h4 id=&#34;further-discussions&#34;&gt;Further discussions&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.biostars.org/p/365738/&#34;&gt;Blog: Evolution of Biostars&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/nerd_yie/status/1099696141577392128&#34;&gt;Twitter thread&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Source code: &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;https://github.com/itsvenu/Biostars-datascience&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R | The Data Diary</title>
+    <link>https://itsvenu.github.io/tags/r/</link>
+      <atom:link href="https://itsvenu.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>R</title>
+      <link>https://itsvenu.github.io/tags/r/</link>
+    </image>
+    
+    <item>
+      <title>Shine and let shine!</title>
+      <link>https://itsvenu.github.io/post/women-in-science/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/women-in-science/</guid>
+      <description>&lt;p&gt;On Feb 11th, my twitter feed flooded with totally a new set of tweets which have &lt;em&gt;&lt;strong&gt;#WomenInScience&lt;/strong&gt;&lt;/em&gt;. A hashtag to celebrate women &amp;amp; girls in science. Celebrating women &amp;amp; girls in science started in 2015 (&lt;a href=&#34;https://womeninscienceday.org&#34;&gt;https://womeninscienceday.org&lt;/a&gt;), which should have started hundreds of years earlier. Yes, something was terribly wrong in history. Good thing is, it’s changing rapidly and many more women are raising to the top in STEM.&lt;/p&gt;
+&lt;p&gt;On Feb 11th, I was checking my twitter feed once in a while during the day. A lot of women from STEM tweeted personal experiences, struggles faced, showing gratitude to the people who helped them to stand their position.&lt;/p&gt;
+&lt;p&gt;As a data scientist (&lt;em&gt;yeah, I call myself that&lt;/em&gt;), I was really inspired and at the same time fascinated to visualize all locations around the world where these tweets are coming from.&lt;/p&gt;
+&lt;h4 id=&#34;womeninscienceday-around-the-world&#34;&gt;#WomenInScienceDay around the world&lt;/h4&gt;
+&lt;p&gt;Without much explanation, here is the plot with unique locations around the world (indicated by red dot) from where people talked about &lt;em&gt;&lt;strong&gt;#WomenInScienceDay&lt;/strong&gt;&lt;/em&gt; on Feb 11th.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./wis.png&#34; alt=&#34;wis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, one can do a lot of analysis on social interactions &amp;amp; visualize connections among different countries, e.g. a tweet originated from a country (node) and retweeted by people from other countries (edges).&lt;/p&gt;
+&lt;p&gt;If anyone is interested to continue the analysis, data, code and techinical details are available here: &lt;a href=&#34;https://github.com/itsvenu/womenInScienceDay&#34;&gt;https://github.com/itsvenu/womenInScienceDay&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google and my travel history</title>
+      <link>https://itsvenu.github.io/post/travel-history/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/travel-history/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I never thought of looking back on my travel history until I saw &lt;a href=&#34;https://towardsdatascience.com/create-a-heat-map-from-your-google-location-history-in-3-easy-steps-e66c93925914&#34;&gt;this article&lt;/a&gt;. Immediately, I decided to download my data and explore it from different angles. Here, I performed a bit of exploratory analysis on my google location history data of past one year, December, 2017 - December, 2018.&lt;/p&gt;
+&lt;p&gt;Why one year? Well, I never had an android phone until April, 2017. Even after that I haven&amp;rsquo;t used mobile internet for a long time. My google location history data itself started in December 2017. In other words, I had no choice but to use data from December, 2017.&lt;/p&gt;
+&lt;h3 id=&#34;some-points-before-jumping-into-the-data&#34;&gt;Some points before jumping into the data&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;At the moment, I am residing in Heidelberg, Germany and travel to different European countries once in a while.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In December, 2017, I went back to India in the beginning of the month and returned to Germany by the end of the month. For the most part, I travelled in India and used the mobile internet frequently.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I downloaded google location history data on 22nd December, 2018, so I restricted data from December, 2017 to before 22nd.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There are different types of attributes in downloaded json file. I do not need all attributes for my analysis. If you would like to know the meaning of different attributes check &lt;a href=&#34;https://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/&#34;&gt;this post&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Briefly, I kept the following attributes,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;timestampMs&lt;/code&gt;, time at the point google tracked my location. This format is converted to regular human readable format.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;latitudeE7&lt;/code&gt;, lattitude of the location.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;longitudeE7&lt;/code&gt;, longitude of the location. Later in the analysis, these lattitude &amp;amp; longitude combinations are used to predict the city name and country. Also to calculate the distance travelled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;accuracy&lt;/code&gt;, accuracy of the tracking (lower the number, higher the accuracy). I filtered for data with &amp;lt; 1000 accuracy value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;activity&lt;/code&gt;, means of travelling while tracking. There are multiple types within &lt;code&gt;activity&lt;/code&gt;, e.g. &lt;code&gt;BY_FOOT&lt;/code&gt;, &lt;code&gt;WALKING&lt;/code&gt;..etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;activity_confidence&lt;/code&gt;, confidence with which &lt;code&gt;activity&lt;/code&gt; is predicted. Higher the value, higher the confidence. I filtered for &amp;gt;10 confidence value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Okay, let&amp;rsquo;s not wait to eat the delicious cookie,&lt;/p&gt;
+&lt;h3 id=&#34;how-much-distance-did-i-travel-per-month&#34;&gt;How much distance did I travel per-month?&lt;/h3&gt;
+&lt;p&gt;Here, I calculated the distance travelled (in kilometers) per-month for the past one year&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./TotalDistance_per_month.png&#34; alt=&#34;total-distance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Huh, interesting. I was feeling my 2018 was pretty boring. I totally forgot the big peaks in Feb &amp;amp; May, 2018. That made me feel better. I wanted to look at where did I travel to in these times along with December, 2017.&lt;/p&gt;
+&lt;p&gt;So, I took out the data for these 4 months and calculated the number of cities I crossed while travelling to &amp;amp; back from the major destination point. I am really curious to know how many cities contributed to these 1000s of kilometers.&lt;/p&gt;
+&lt;p&gt;Here it is&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./high_distance_city_plot.png&#34; alt=&#34;high-distance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One interesting obsevration here is that, I travelled to 3 to 4 big cities in December, 2017 in India. But only one place, Barcelona; Spain, in December, 2018. The number of cities contributing to these two months are very closer (December-2017, 35; December-2018, 29). This might be due to, in europe, the city boundaries are very small and zip codes are very different within a small region. Where as in India, cities are spread across a very wide region. (Note: This is just a hypothesis)&lt;/p&gt;
+&lt;p&gt;So far so good. Now I would like to see by which means of transportation did I travel in these 4 months. As I explained in the beginning, &lt;code&gt;activity&lt;/code&gt; type represents the means of transporation. Unfortunately, there are some attributes for which I did not find proper meaning, e.g. &lt;code&gt;TILTING&lt;/code&gt;, &lt;code&gt;STILL&lt;/code&gt;. However, I included them in the analysis to know how many kilometers this transportation contributed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./high_distance_activity_distance_plot.png&#34; alt=&#34;hdad&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I felt little ambiguous interpreting this results. As I mentioned, there are some ambiguous terms for which I was not able to figure out the meaning. However, I would hazard a guess for some of these depending on the transportation I took (and remember). In December, 2018, I definitely travelled more by train than bus, so I believe, &lt;code&gt;IN_VEHICLE&lt;/code&gt; means to a high degree, train. This makes sense for the same attribute in December, 2017. I travelled by bus more than train in India. Again this is consistent with big peaks in February, 2018, in which I&amp;rsquo;ve been on a long road trip by car. All in all, bus/car and train journeys are not much different in the data I analyzed here. One more observation here is in Feb &amp;amp; May, 2018, &lt;code&gt;ON_FOOT&lt;/code&gt; distances are closer (and higher), which suggests that europe, to a high degree is a place to experience by walk looking at historical architectures and beautiful streets.&lt;/p&gt;
+&lt;h3 id=&#34;how-did-google-perform-in-2018-in-germany&#34;&gt;How did google perform in 2018 in Germany?&lt;/h3&gt;
+&lt;p&gt;Now, I only looked at 2018, Germany data. I took top 10 cities within Germany which has the highest distances recorded according to google.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./de_distance_percity_plot.png&#34; alt=&#34;depercity&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These results are pretty obvious except the &lt;code&gt;Niederrad&lt;/code&gt;. I consciously never been to this place and it doesn&amp;rsquo;t even seem to be closer to Heidelberg. I suspect, this place is closer/overlapping a place where I frequently travel to but because of zip code change, google must assigned a different city name. Otherwise, I&amp;rsquo;m completely not sure how this came out to be one of the top 10 cities (Or this might be a mistake from google).&lt;/p&gt;
+&lt;h3 id=&#34;how-about-my-favourite-city-heidelberg&#34;&gt;How about my favourite city Heidelberg?&lt;/h3&gt;
+&lt;p&gt;Finally, I looked into the data concerning only Heidelberg in 2018. I calculated the distance travelled by different means of and how the distances are distributed over a week, meaning on which day I travlled most or least.&lt;/p&gt;
+&lt;p&gt;As I have shown the total distance assigned to &lt;code&gt;Heidelberg&lt;/code&gt; in above plot, I will not show it again.&lt;/p&gt;
+&lt;h5 id=&#34;different-transportation-means-within-heidelberg-2018&#34;&gt;Different transportation means within Heidelberg, 2018&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;./hd_distance_plot.png&#34; alt=&#34;hddistance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, I use bike most of the times within Heidelberg. There are some outliers within &lt;code&gt;TILTING&lt;/code&gt; and &lt;code&gt;IN_VEHICLE&lt;/code&gt; attributes, these might be coming from long distances I travelled by train or bus.&lt;/p&gt;
+&lt;h5 id=&#34;on-which-day-did-i-roam-around-more&#34;&gt;On which day did I roam around more?&lt;/h5&gt;
+&lt;p&gt;To calculate this, I summed up distances of same day in a month. I.e., sum of all Mondays or Tuesdays..etc in a month.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./hd_weekday_2018_distance_plot.png&#34; alt=&#34;hd2018&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you are an Indian living in Germany, you can easily relate to why the distances increased slightly on Saturdays and droppped on Sundays. Sundays are kind of boring in Germany which gives us an opportunity to be lazy and just stick to your bed whole day.&lt;/p&gt;
+&lt;h3 id=&#34;so-in-conclusion&#34;&gt;So, in conclusion,&lt;/h3&gt;
+&lt;p&gt;I explored, mostly distance parameter, from my google location history of one year. I learned that,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There are some interesting facts, supported by data, you can realize abour yourself. Example, in which travel destination you saw many tourist places based on distance convered. This can depend on who did you go with or the purpose of the visit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google is something you have to be careful about. If anyone in this world knows more about you, that is Google.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Most importantly, I learned that my 2018 is not that boring after all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;suggested-resources&#34;&gt;Suggested resources:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ALL CODE WRITTEN FOR THIS ANALYSIS IS AVAILABLE &lt;a href=&#34;https://github.com/itsvenu/google-location-history&#34;&gt;HERE AS JUPYTER-NOTEBOOK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://shiring.github.io/maps/2016/12/30/Standortverlauf_post&#34;&gt;How to map your Google location history with R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/analyzing-my-google-location-history-d3a5c56c7b70&#34;&gt;Analyzing my Google Location History&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/&#34;&gt;Analyze Your Google Location History: Exploring Data&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://demo.datathings.com/lumo/&#34;&gt;Heatmap visualizer&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to many people on the internet who already faced the propblems I faced during the analysis and those who answered them. And thanks to &lt;a href=&#34;https://unsplash.com/&#34;&gt;https://unsplash.com/&lt;/a&gt; for providing cover image for this post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics &amp; Biostars QA forum</title>
+      <link>https://itsvenu.github.io/post/bioinformatics-biostars/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/bioinformatics-biostars/</guid>
+      <description>&lt;p&gt;Biostars, (&lt;a href=&#34;https://www.biostars.org/&#34;&gt;https://www.biostars.org/&lt;/a&gt;) is a QA forum for bioinformatics related stuff, much like stack overflow. I have to admit and be grateful to this site and the community as it’s played (&amp;amp; still playing) an important role since I started Bioinformatics after Masters/MS to this day. Today, I’m a PhD student in Bioinformatics, and I frequently get help from this site whenever I’m stuck with problems. Thank you Biostars.&lt;/p&gt;
+&lt;p&gt;There are many questions on this site starting from how to get started with bioinformatics to latest techs in sequencing world. The &lt;em&gt;data scientist&lt;/em&gt; in me was curious to look at the data this site accumulated over the years (2009 - 2019). In this blog post, I will look at some of the questions I’ve been interested about Bioinformatics.&lt;/p&gt;
+&lt;p&gt;Here are the few question I will answer in this blog post&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Which programming language is most used in Bioinformatics in last ~10 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Growing importance of Bioinformatics reflected by total number of questions per year in last ~10 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Frequency of topics discussed on this site&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used web-scraping approach to scrape questions and associated tags and engineered some of the features per each question. Code to reproduce the analysis is available &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;here&lt;/a&gt; (NOTE: Data is scraped on 23/02/2019 there might be slight changes when it is reproduced as new threads are opened after 23rd Feb, 2019).&lt;/p&gt;
+&lt;h4 id=&#34;bioinformatics--programming-languages&#34;&gt;Bioinformatics &amp;amp; programming languages&lt;/h4&gt;
+&lt;p&gt;Here, I took all tags for each question and summarised the number of questions per-year with following tags, &lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt; &amp;amp; &lt;code&gt;Perl&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_perYear_languageQuestions.png&#34; alt=&#34;lan&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The rapid increase in use of &lt;code&gt;R&lt;/code&gt; in Bioinformatics is not surprising given the large community of users, visualization libraries and most importantly &lt;code&gt;Bioconductor&lt;/code&gt; project. Use of &lt;code&gt;Python&lt;/code&gt; is increasing but relatively slow compared to &lt;code&gt;R&lt;/code&gt;, I guess the major reason for this might be lack of a resource such as &lt;code&gt;Bioconductor&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;importance-of-bioinformatics-in-research&#34;&gt;Importance of Bioinformatics in research&lt;/h4&gt;
+&lt;p&gt;Following graph shows the number of questions appeared on Biostars per year. This reflects the number of researchers getting into Bioinformatics and the growing importance of high throughput analysis in basic sciences and disease research.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_perYear_numberOfQuestions.png&#34; alt=&#34;numQ&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;frequency-of-topics-discussed&#34;&gt;Frequency of topics discussed&lt;/h4&gt;
+&lt;p&gt;What’s the most discussed topic on Biostars? Or what’s the topic on which most bioinformaticians get stuck? Following word cloud shows the frequency of each tag associated with all questions from last ~ 10 years.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_allTagsWordcloud.png&#34; alt=&#34;tags&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RNA-seq&lt;/strong&gt; it is. This is one of the revolutionary sequencing technology to get informations on transcriptomic changes depending the contexts but it does seem like it is also one of the most difficult topic in terms of computational analysis. Don’t even get me started on &lt;em&gt;single-cell technology&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There are more interesting questions I would like to answer with this resource whose code requires a more expensive computational resource than my laptop. I will update this blog post as I do additional analysis.&lt;/p&gt;
+&lt;h4 id=&#34;further-discussions&#34;&gt;Further discussions&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.biostars.org/p/365738/&#34;&gt;Blog: Evolution of Biostars&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/nerd_yie/status/1099696141577392128&#34;&gt;Twitter thread&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Source code: &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;https://github.com/itsvenu/Biostars-datascience&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ALPS</title>
+      <link>https://itsvenu.github.io/project/alps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/project/alps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISMB2019</title>
+      <link>https://itsvenu.github.io/project/ismb2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/project/ismb2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

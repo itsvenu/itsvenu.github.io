@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | The Data Diary</title>
+    <link>https://itsvenu.github.io/authors/</link>
+      <atom:link href="https://itsvenu.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://itsvenu.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://itsvenu.github.io/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/authors/admin/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;hi,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;started this website during my PhD to improve my writing skills and get a deeper understanding various topics&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;currently working in TechBio applying AI in drug, biomarker/target discovery in oncology&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: i am not writing on this site anymore. Please follow my substack - &lt;a href=&#34;https://venue.substack.com/&#34;&gt;https://venue.substack.com/&lt;/a&gt; and subscribe if you would like to read my latest work and support.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If I ever make any money writing on substack, all of it will go to charities and research purposes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robert Ford</title>
+      <link>https://itsvenu.github.io/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

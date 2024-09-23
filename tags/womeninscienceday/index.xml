@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WomenInScienceDay | The Data Diary</title>
+    <link>https://itsvenu.github.io/tags/womeninscienceday/</link>
+      <atom:link href="https://itsvenu.github.io/tags/womeninscienceday/index.xml" rel="self" type="application/rss+xml" />
+    <description>WomenInScienceDay</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>WomenInScienceDay</title>
+      <link>https://itsvenu.github.io/tags/womeninscienceday/</link>
+    </image>
+    
+    <item>
+      <title>Shine and let shine!</title>
+      <link>https://itsvenu.github.io/post/women-in-science/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/women-in-science/</guid>
+      <description>&lt;p&gt;On Feb 11th, my twitter feed flooded with totally a new set of tweets which have &lt;em&gt;&lt;strong&gt;#WomenInScience&lt;/strong&gt;&lt;/em&gt;. A hashtag to celebrate women &amp;amp; girls in science. Celebrating women &amp;amp; girls in science started in 2015 (&lt;a href=&#34;https://womeninscienceday.org&#34;&gt;https://womeninscienceday.org&lt;/a&gt;), which should have started hundreds of years earlier. Yes, something was terribly wrong in history. Good thing is, it’s changing rapidly and many more women are raising to the top in STEM.&lt;/p&gt;
+&lt;p&gt;On Feb 11th, I was checking my twitter feed once in a while during the day. A lot of women from STEM tweeted personal experiences, struggles faced, showing gratitude to the people who helped them to stand their position.&lt;/p&gt;
+&lt;p&gt;As a data scientist (&lt;em&gt;yeah, I call myself that&lt;/em&gt;), I was really inspired and at the same time fascinated to visualize all locations around the world where these tweets are coming from.&lt;/p&gt;
+&lt;h4 id=&#34;womeninscienceday-around-the-world&#34;&gt;#WomenInScienceDay around the world&lt;/h4&gt;
+&lt;p&gt;Without much explanation, here is the plot with unique locations around the world (indicated by red dot) from where people talked about &lt;em&gt;&lt;strong&gt;#WomenInScienceDay&lt;/strong&gt;&lt;/em&gt; on Feb 11th.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./wis.png&#34; alt=&#34;wis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, one can do a lot of analysis on social interactions &amp;amp; visualize connections among different countries, e.g. a tweet originated from a country (node) and retweeted by people from other countries (edges).&lt;/p&gt;
+&lt;p&gt;If anyone is interested to continue the analysis, data, code and techinical details are available here: &lt;a href=&#34;https://github.com/itsvenu/womenInScienceDay&#34;&gt;https://github.com/itsvenu/womenInScienceDay&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

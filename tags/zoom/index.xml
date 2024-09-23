@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zoom | The Data Diary</title>
+    <link>https://itsvenu.github.io/tags/zoom/</link>
+      <atom:link href="https://itsvenu.github.io/tags/zoom/index.xml" rel="self" type="application/rss+xml" />
+    <description>zoom</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>zoom</title>
+      <link>https://itsvenu.github.io/tags/zoom/</link>
+    </image>
+    
+    <item>
+      <title>A Python script to auto join your zoom meetings</title>
+      <link>https://itsvenu.github.io/post/auto-zoom/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/auto-zoom/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Meetings! Aww, the good old days. I remember the days when I was working in the lab and a colleague asking me &amp;lsquo;are you joining the meeting?&amp;rsquo;. Oh yeah, I totally forgot, let&amp;rsquo;s go.&lt;/p&gt;
+&lt;p&gt;But since we have moved online and working from home, your colleague/friend is not around you to remind you &lt;strong&gt;IF YOU FORGET TO JOIN A MEETING&lt;/strong&gt;. For this reason, I wrote the following python script to auto join your zoom meeting. Of course, you can add reminders to your phone, but if you would like to work keeping your phone away, this script will be of great help. (Also, what&amp;rsquo;s the point of being a nerd if you won&amp;rsquo;t exploit tech!)&lt;/p&gt;
+&lt;p&gt;Here is the idea of the python script&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take zoom link, meeting date, meeting time as arguments&lt;/li&gt;
+&lt;li&gt;Sleep until the meeting time since the execution&lt;/li&gt;
+&lt;li&gt;Open the zoom link on time in chrome and open zoom app&lt;/li&gt;
+&lt;li&gt;Maximize zoom app window and mute yourself&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;First import requied modules. In the following only &lt;code&gt;pyautogui&lt;/code&gt; and &lt;code&gt;click&lt;/code&gt; (for command line version) needs to be installed separately, rest come by default with python. &lt;code&gt;pyautogui&lt;/code&gt; helps controlling mouse, keyboard from within python.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pyautogui as pyg
+import webbrowser as wb
+import datetime
+import time
+import click
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Following are the helper functions to convert human readable date, time formats to python interpretable format.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# functions to format date, time
+def format_date(x):
+    date_list = x.split(sep=&amp;quot;-&amp;quot;)
+    return list(map(int, date_list))
+
+def format_time(x):
+    time_list = x.split(sep=&amp;quot;-&amp;quot;)
+    return list(map(int, time_list))
+
+def given_datetime(given_date, given_time):
+
+    # YY, MM, DD, HH, MM
+    return datetime.datetime(given_date[2], given_date[1], given_date[0], given_time[0], given_time[1], given_time[2])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Following is the core of the script to join the meeting. All steps from 1-4 from above are performed here.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# join the meeting
+def join_meeting(zoom_link, meeting_date, meeting_time):
+
+    meeting_date_x = format_date(meeting_date)
+    meeting_time_x = format_time(meeting_time)
+    required_datetime = given_datetime(meeting_date_x, meeting_time_x)
+
+    # time difference between current and meeting time
+    wait_time_sec = (required_datetime - datetime.datetime.now().replace(microsecond=0)).total_seconds()
+    print(&amp;quot;Your ZOOM meeting starts in &amp;quot; + str(wait_time_sec/60) + &amp;quot; min&amp;quot;)
+    time.sleep(wait_time_sec)
+
+    # zoom app related
+    wb.get(using=&#39;chrome&#39;).open(zoom_link, new=2) #open zoom link in a new window
+    time.sleep(5) # given time for the link to show app top-up window
+    pyg.click(x=805, y=254, clicks=1, interval=0, button=&#39;left&#39;) # click on open zoom.app option
+    time.sleep(10) # wait for 10 sec
+    pyg.click(x=195, y=31, clicks=1, interval=0, button=&#39;left&#39;) # maximize zoom app
+    time.sleep(3) # wait for 3 sec
+    pyg.click(x=50, y=776, clicks=1, interval=0, button=&#39;left&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;what-else-we-can-do&#34;&gt;What else we can do?&lt;/h3&gt;
+&lt;p&gt;So far, this script takes one date and time to auto join the meeting. One can also go further and repeat the process over a given days and time periods.&lt;/p&gt;
+&lt;p&gt;The dark side of such automations is even when the actual person is away from the computer, it can still join. The evil benefit of this is attendending a class room lecture and getting credits without actually attending it.&lt;/p&gt;
+&lt;p&gt;Imroved tech comes with both good and bad benefits!&lt;/p&gt;
+&lt;h3 id=&#34;finally&#34;&gt;FINALLY,&lt;/h3&gt;
+&lt;p&gt;the command line version of the tool is available on &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/AutoZOOM/AutoZOOM_v0.03.py&#34;&gt;GitHub here&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;python AutoZOOM_v0.03.py --zoom_link &amp;quot;zoom-meeting-link&amp;quot; --meeting_date &amp;quot;06-09-2020&amp;quot; --meeting_time &amp;quot;13-00-00&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;technical-notes&#34;&gt;Technical notes&lt;/h3&gt;
+&lt;p&gt;I use 13-inch MacBook pro, so the coordinates hardcoded in the script are suitable for this screensize. If you want to use the script for your screen size, I wrote a small notebook to help you guide through it. &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/AutoZOOM/AutoZOOM_GetCoordinates.ipynb&#34;&gt;It is available here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Stay safe!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming | The Data Diary</title>
+    <link>https://itsvenu.github.io/tags/programming/</link>
+      <atom:link href="https://itsvenu.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Programming</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>Programming</title>
+      <link>https://itsvenu.github.io/tags/programming/</link>
+    </image>
+    
+    <item>
+      <title>Google and my travel history</title>
+      <link>https://itsvenu.github.io/post/travel-history/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/travel-history/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I never thought of looking back on my travel history until I saw &lt;a href=&#34;https://towardsdatascience.com/create-a-heat-map-from-your-google-location-history-in-3-easy-steps-e66c93925914&#34;&gt;this article&lt;/a&gt;. Immediately, I decided to download my data and explore it from different angles. Here, I performed a bit of exploratory analysis on my google location history data of past one year, December, 2017 - December, 2018.&lt;/p&gt;
+&lt;p&gt;Why one year? Well, I never had an android phone until April, 2017. Even after that I haven&amp;rsquo;t used mobile internet for a long time. My google location history data itself started in December 2017. In other words, I had no choice but to use data from December, 2017.&lt;/p&gt;
+&lt;h3 id=&#34;some-points-before-jumping-into-the-data&#34;&gt;Some points before jumping into the data&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;At the moment, I am residing in Heidelberg, Germany and travel to different European countries once in a while.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In December, 2017, I went back to India in the beginning of the month and returned to Germany by the end of the month. For the most part, I travelled in India and used the mobile internet frequently.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I downloaded google location history data on 22nd December, 2018, so I restricted data from December, 2017 to before 22nd.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There are different types of attributes in downloaded json file. I do not need all attributes for my analysis. If you would like to know the meaning of different attributes check &lt;a href=&#34;https://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/&#34;&gt;this post&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Briefly, I kept the following attributes,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;timestampMs&lt;/code&gt;, time at the point google tracked my location. This format is converted to regular human readable format.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;latitudeE7&lt;/code&gt;, lattitude of the location.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;longitudeE7&lt;/code&gt;, longitude of the location. Later in the analysis, these lattitude &amp;amp; longitude combinations are used to predict the city name and country. Also to calculate the distance travelled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;accuracy&lt;/code&gt;, accuracy of the tracking (lower the number, higher the accuracy). I filtered for data with &amp;lt; 1000 accuracy value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;activity&lt;/code&gt;, means of travelling while tracking. There are multiple types within &lt;code&gt;activity&lt;/code&gt;, e.g. &lt;code&gt;BY_FOOT&lt;/code&gt;, &lt;code&gt;WALKING&lt;/code&gt;..etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;activity_confidence&lt;/code&gt;, confidence with which &lt;code&gt;activity&lt;/code&gt; is predicted. Higher the value, higher the confidence. I filtered for &amp;gt;10 confidence value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Okay, let&amp;rsquo;s not wait to eat the delicious cookie,&lt;/p&gt;
+&lt;h3 id=&#34;how-much-distance-did-i-travel-per-month&#34;&gt;How much distance did I travel per-month?&lt;/h3&gt;
+&lt;p&gt;Here, I calculated the distance travelled (in kilometers) per-month for the past one year&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./TotalDistance_per_month.png&#34; alt=&#34;total-distance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Huh, interesting. I was feeling my 2018 was pretty boring. I totally forgot the big peaks in Feb &amp;amp; May, 2018. That made me feel better. I wanted to look at where did I travel to in these times along with December, 2017.&lt;/p&gt;
+&lt;p&gt;So, I took out the data for these 4 months and calculated the number of cities I crossed while travelling to &amp;amp; back from the major destination point. I am really curious to know how many cities contributed to these 1000s of kilometers.&lt;/p&gt;
+&lt;p&gt;Here it is&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./high_distance_city_plot.png&#34; alt=&#34;high-distance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One interesting obsevration here is that, I travelled to 3 to 4 big cities in December, 2017 in India. But only one place, Barcelona; Spain, in December, 2018. The number of cities contributing to these two months are very closer (December-2017, 35; December-2018, 29). This might be due to, in europe, the city boundaries are very small and zip codes are very different within a small region. Where as in India, cities are spread across a very wide region. (Note: This is just a hypothesis)&lt;/p&gt;
+&lt;p&gt;So far so good. Now I would like to see by which means of transportation did I travel in these 4 months. As I explained in the beginning, &lt;code&gt;activity&lt;/code&gt; type represents the means of transporation. Unfortunately, there are some attributes for which I did not find proper meaning, e.g. &lt;code&gt;TILTING&lt;/code&gt;, &lt;code&gt;STILL&lt;/code&gt;. However, I included them in the analysis to know how many kilometers this transportation contributed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./high_distance_activity_distance_plot.png&#34; alt=&#34;hdad&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I felt little ambiguous interpreting this results. As I mentioned, there are some ambiguous terms for which I was not able to figure out the meaning. However, I would hazard a guess for some of these depending on the transportation I took (and remember). In December, 2018, I definitely travelled more by train than bus, so I believe, &lt;code&gt;IN_VEHICLE&lt;/code&gt; means to a high degree, train. This makes sense for the same attribute in December, 2017. I travelled by bus more than train in India. Again this is consistent with big peaks in February, 2018, in which I&amp;rsquo;ve been on a long road trip by car. All in all, bus/car and train journeys are not much different in the data I analyzed here. One more observation here is in Feb &amp;amp; May, 2018, &lt;code&gt;ON_FOOT&lt;/code&gt; distances are closer (and higher), which suggests that europe, to a high degree is a place to experience by walk looking at historical architectures and beautiful streets.&lt;/p&gt;
+&lt;h3 id=&#34;how-did-google-perform-in-2018-in-germany&#34;&gt;How did google perform in 2018 in Germany?&lt;/h3&gt;
+&lt;p&gt;Now, I only looked at 2018, Germany data. I took top 10 cities within Germany which has the highest distances recorded according to google.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./de_distance_percity_plot.png&#34; alt=&#34;depercity&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These results are pretty obvious except the &lt;code&gt;Niederrad&lt;/code&gt;. I consciously never been to this place and it doesn&amp;rsquo;t even seem to be closer to Heidelberg. I suspect, this place is closer/overlapping a place where I frequently travel to but because of zip code change, google must assigned a different city name. Otherwise, I&amp;rsquo;m completely not sure how this came out to be one of the top 10 cities (Or this might be a mistake from google).&lt;/p&gt;
+&lt;h3 id=&#34;how-about-my-favourite-city-heidelberg&#34;&gt;How about my favourite city Heidelberg?&lt;/h3&gt;
+&lt;p&gt;Finally, I looked into the data concerning only Heidelberg in 2018. I calculated the distance travelled by different means of and how the distances are distributed over a week, meaning on which day I travlled most or least.&lt;/p&gt;
+&lt;p&gt;As I have shown the total distance assigned to &lt;code&gt;Heidelberg&lt;/code&gt; in above plot, I will not show it again.&lt;/p&gt;
+&lt;h5 id=&#34;different-transportation-means-within-heidelberg-2018&#34;&gt;Different transportation means within Heidelberg, 2018&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;./hd_distance_plot.png&#34; alt=&#34;hddistance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, I use bike most of the times within Heidelberg. There are some outliers within &lt;code&gt;TILTING&lt;/code&gt; and &lt;code&gt;IN_VEHICLE&lt;/code&gt; attributes, these might be coming from long distances I travelled by train or bus.&lt;/p&gt;
+&lt;h5 id=&#34;on-which-day-did-i-roam-around-more&#34;&gt;On which day did I roam around more?&lt;/h5&gt;
+&lt;p&gt;To calculate this, I summed up distances of same day in a month. I.e., sum of all Mondays or Tuesdays..etc in a month.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./hd_weekday_2018_distance_plot.png&#34; alt=&#34;hd2018&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you are an Indian living in Germany, you can easily relate to why the distances increased slightly on Saturdays and droppped on Sundays. Sundays are kind of boring in Germany which gives us an opportunity to be lazy and just stick to your bed whole day.&lt;/p&gt;
+&lt;h3 id=&#34;so-in-conclusion&#34;&gt;So, in conclusion,&lt;/h3&gt;
+&lt;p&gt;I explored, mostly distance parameter, from my google location history of one year. I learned that,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There are some interesting facts, supported by data, you can realize abour yourself. Example, in which travel destination you saw many tourist places based on distance convered. This can depend on who did you go with or the purpose of the visit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google is something you have to be careful about. If anyone in this world knows more about you, that is Google.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Most importantly, I learned that my 2018 is not that boring after all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;suggested-resources&#34;&gt;Suggested resources:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ALL CODE WRITTEN FOR THIS ANALYSIS IS AVAILABLE &lt;a href=&#34;https://github.com/itsvenu/google-location-history&#34;&gt;HERE AS JUPYTER-NOTEBOOK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://shiring.github.io/maps/2016/12/30/Standortverlauf_post&#34;&gt;How to map your Google location history with R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/analyzing-my-google-location-history-d3a5c56c7b70&#34;&gt;Analyzing my Google Location History&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/&#34;&gt;Analyze Your Google Location History: Exploring Data&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://demo.datathings.com/lumo/&#34;&gt;Heatmap visualizer&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to many people on the internet who already faced the propblems I faced during the analysis and those who answered them. And thanks to &lt;a href=&#34;https://unsplash.com/&#34;&gt;https://unsplash.com/&lt;/a&gt; for providing cover image for this post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code, Pizza and my Stupidity</title>
+      <link>https://itsvenu.github.io/post/stupidity/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/stupidity/</guid>
+      <description>&lt;h3 id=&#34;morning-0900&#34;&gt;Morning 09:00&lt;/h3&gt;
+&lt;p&gt;Saturday morning. Quite a peaceful day. I am so excited to write the code for a web application that I have been working on. Little did I know that I am going to spend the entire day debugging an error that is hiding in my code.&lt;/p&gt;
+&lt;p&gt;I had a strong espresso before sitting in front of my laptop and divided the task into three components.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Take input data files from user&lt;/li&gt;
+&lt;li&gt;Perform calculations on received data&lt;/li&gt;
+&lt;li&gt;Show the results to user&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I started writing code for the first part. At each stage I was testing how the application is going to look in the browser. I was careful enough not to miss any &lt;em&gt;&lt;strong&gt;semicolons (;)&lt;/strong&gt;&lt;/em&gt;. Because, I remember&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://media02.hongkiat.com/programming-jokes/joke-semi-colon.jpg&#34; alt=&#34;semi&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;afternoon-1300&#34;&gt;Afternoon 13:00&lt;/h3&gt;
+&lt;p&gt;By this time I successfully wrote the code to take-in the user provided data into server to perform some calculations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Me&lt;/strong&gt;: I feel Good.
+&lt;strong&gt;Brain&lt;/strong&gt;: Enough, Go grab a coffee.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I had one more espresso, this time &lt;a href=&#34;https://www.google.de/search?q=indian+sundara+espresso&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=0ahUKEwjyn82qg63WAhXIvxQKHR-vBcEQ_AUICigB&amp;amp;biw=1115&amp;amp;bih=483&#34;&gt;&lt;em&gt;&lt;strong&gt;Indian Sundara&lt;/strong&gt;&lt;/em&gt; (&lt;em&gt;Highly recommended&lt;/em&gt;)&lt;/a&gt;. While having coffee, I mentally drew a framework how I am going to write the code to perform calculations. Task started again. Sublime page is being filled with the code to perform calculations. This time it took three hours to complete the code including the code for final task, “showing results to user”. It’s time for testing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Input some test data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Start calculations&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  	  PROGRAM RUNNING . . .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It showed something. It was not the results but an error.&lt;/p&gt;
+&lt;p&gt;Nooo. I don’t want this to be happening. I closed the application and tested it again. Of course the error didn&amp;rsquo;t correct by itself.&lt;/p&gt;
+&lt;p&gt;I carefully gone through the entire code scanning for any obvious bugs. I didn’t find any. I tried to print exactly the input data as result on the screen without performing any calculations. It showed perfectly. I concluded that the error is in the code to perform calculations. I started probing the internet for this kind of error. I found some similar ones but not the exact one. I tried different debugging methods, some of which I already knew and some are completely new. I got to know different debugging methods which I didn&amp;rsquo;t know before. Different methods work for different bugs. But none worked for mine. It seems the error is not the usual one, if it is, it should&amp;rsquo;ve been caught by one of these debugging methods.&lt;/p&gt;
+&lt;h3 id=&#34;evening-1800&#34;&gt;Evening, 18:00&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Me&lt;/strong&gt;: Heck, this err..
+&lt;strong&gt;Brain&lt;/strong&gt;: Stop complaining, go get a coffee and write the entire code again.
+&lt;strong&gt;Me&lt;/strong&gt;: Okay, as you say!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I started writing entire code again. This time with utmost care, hoping to avoid the error. After 90-100 minutes of coding, I tested the application again.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh God! Do you even know that I exist in this world. I know you are busy but at least help me once in a decade&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What is wrong with this code, I yelled. Again, I started probing the internet. Every time, I found the same solutions which didn’t work. I checked the code again. Tested the application with different test data. Printed again the input without calculations. Came to the same conclusion that the error is in code to do calculations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Brain&lt;/strong&gt;: I don’t think you are a good fit for this job. Quit and look for a simple and easy job.
+&lt;strong&gt;Me&lt;/strong&gt;: 😏&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;night-2300&#34;&gt;Night: 23:00&lt;/h3&gt;
+&lt;p&gt;Aargh! I am feeling hungry. Let’s work on this tomorrow, I thought. I went to buy pizza, &lt;em&gt;yes I love pizza at midnight&lt;/em&gt;, at a shop across the street. I was walking down the empty streets filled with darkness and dim lights, with my pizza.&lt;/p&gt;
+&lt;p&gt;All of a sudden something striked in my mind. In simplest explanation, what I was writing in the code is the following&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;II x 2&amp;rdquo; and expecting it to give 4&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Obviously, program is unable to understand two different formats (roman number and numeric), that was what causing the error. I have to convert one format type to the other in order to get the results. That is&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;2 x 2&amp;rdquo; which should give 4&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yes, that was the error. I rushed back home, modified the code and tested the application.&lt;/p&gt;
+&lt;p&gt;Guess what ?&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Yes, my code is working perfect.&lt;/p&gt;
+&lt;p&gt;Aww! I am such a stupid. This is a simple bug. I spent almost 6-7 hours to find this.&lt;/p&gt;
+&lt;h4 id=&#34;did-i-simply-waste-6-7-hours-&#34;&gt;Did I simply waste 6-7 hours ?&lt;/h4&gt;
+&lt;p&gt;No, all those hours were not waste. In the process&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I got more command on the programming language&lt;/li&gt;
+&lt;li&gt;I learnt more debugging methods which are definitely useful in the long run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and most importantly,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I learnt &lt;strong&gt;patience being a millennial&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;to overcome self-doubt inner voice&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;that when things don&amp;rsquo;t work, I should leave everything and go out for a walk (and buy pizza)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;that I&amp;rsquo;m a STUPID&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics &amp; Biostars QA forum</title>
+      <link>https://itsvenu.github.io/post/bioinformatics-biostars/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/bioinformatics-biostars/</guid>
+      <description>&lt;p&gt;Biostars, (&lt;a href=&#34;https://www.biostars.org/&#34;&gt;https://www.biostars.org/&lt;/a&gt;) is a QA forum for bioinformatics related stuff, much like stack overflow. I have to admit and be grateful to this site and the community as it’s played (&amp;amp; still playing) an important role since I started Bioinformatics after Masters/MS to this day. Today, I’m a PhD student in Bioinformatics, and I frequently get help from this site whenever I’m stuck with problems. Thank you Biostars.&lt;/p&gt;
+&lt;p&gt;There are many questions on this site starting from how to get started with bioinformatics to latest techs in sequencing world. The &lt;em&gt;data scientist&lt;/em&gt; in me was curious to look at the data this site accumulated over the years (2009 - 2019). In this blog post, I will look at some of the questions I’ve been interested about Bioinformatics.&lt;/p&gt;
+&lt;p&gt;Here are the few question I will answer in this blog post&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Which programming language is most used in Bioinformatics in last ~10 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Growing importance of Bioinformatics reflected by total number of questions per year in last ~10 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Frequency of topics discussed on this site&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used web-scraping approach to scrape questions and associated tags and engineered some of the features per each question. Code to reproduce the analysis is available &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;here&lt;/a&gt; (NOTE: Data is scraped on 23/02/2019 there might be slight changes when it is reproduced as new threads are opened after 23rd Feb, 2019).&lt;/p&gt;
+&lt;h4 id=&#34;bioinformatics--programming-languages&#34;&gt;Bioinformatics &amp;amp; programming languages&lt;/h4&gt;
+&lt;p&gt;Here, I took all tags for each question and summarised the number of questions per-year with following tags, &lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt; &amp;amp; &lt;code&gt;Perl&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_perYear_languageQuestions.png&#34; alt=&#34;lan&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The rapid increase in use of &lt;code&gt;R&lt;/code&gt; in Bioinformatics is not surprising given the large community of users, visualization libraries and most importantly &lt;code&gt;Bioconductor&lt;/code&gt; project. Use of &lt;code&gt;Python&lt;/code&gt; is increasing but relatively slow compared to &lt;code&gt;R&lt;/code&gt;, I guess the major reason for this might be lack of a resource such as &lt;code&gt;Bioconductor&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;importance-of-bioinformatics-in-research&#34;&gt;Importance of Bioinformatics in research&lt;/h4&gt;
+&lt;p&gt;Following graph shows the number of questions appeared on Biostars per year. This reflects the number of researchers getting into Bioinformatics and the growing importance of high throughput analysis in basic sciences and disease research.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_perYear_numberOfQuestions.png&#34; alt=&#34;numQ&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;frequency-of-topics-discussed&#34;&gt;Frequency of topics discussed&lt;/h4&gt;
+&lt;p&gt;What’s the most discussed topic on Biostars? Or what’s the topic on which most bioinformaticians get stuck? Following word cloud shows the frequency of each tag associated with all questions from last ~ 10 years.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_allTagsWordcloud.png&#34; alt=&#34;tags&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RNA-seq&lt;/strong&gt; it is. This is one of the revolutionary sequencing technology to get informations on transcriptomic changes depending the contexts but it does seem like it is also one of the most difficult topic in terms of computational analysis. Don’t even get me started on &lt;em&gt;single-cell technology&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There are more interesting questions I would like to answer with this resource whose code requires a more expensive computational resource than my laptop. I will update this blog post as I do additional analysis.&lt;/p&gt;
+&lt;h4 id=&#34;further-discussions&#34;&gt;Further discussions&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.biostars.org/p/365738/&#34;&gt;Blog: Evolution of Biostars&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/nerd_yie/status/1099696141577392128&#34;&gt;Twitter thread&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Source code: &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;https://github.com/itsvenu/Biostars-datascience&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

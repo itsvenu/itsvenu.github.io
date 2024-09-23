@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | The Data Diary</title>
+    <link>https://itsvenu.github.io/post/</link>
+      <atom:link href="https://itsvenu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://itsvenu.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>JobHunting - Part 2 - Interviews</title>
+      <link>https://itsvenu.github.io/post/job-hunt-interviews/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/job-hunt-interviews/</guid>
+      <description>&lt;p&gt;Link to Part-1: &lt;a href=&#34;https://itsvenu.github.io/post/job-hunt-applications/&#34;&gt;JobHunting - Part 1 - Applications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In Part-1 of this two part article, I explained about my strategies for finding and applying to jobs as PhD student. In this article, I will explain about my interview experiences. Starting from January 2020, I have been through 20+ interviews, of which only one was in-person interview (In January 2020, Germany didn&amp;rsquo;t have any COVID-19 cases).&lt;/p&gt;
+&lt;p&gt;Writing code to solve a problem to explaining my approach to address a scientific question, there were different flavors of interviews. However, many things are common across most of the interviews. Here, I will try to pen down how to increase your chances of making a good impression during interviews.&lt;/p&gt;
+&lt;h3 id=&#34;1-get-to-know-calls&#34;&gt;1. Get to know calls&lt;/h3&gt;
+&lt;p&gt;These are usually the first interactions between you and the company/interviewer, for around 40min to 1hr. In my case, most of the times, the respective department head contacted me for short discussions to let me know what they are seeking and what I have got to offer.&lt;/p&gt;
+&lt;p&gt;This is your first chance to make a good impression on how your experiences and interests fit to the advertised position. Usually, they will direct the conversation by explaining who they are, overview of the work they are doing and a few additional details about the position. Then, it&amp;rsquo;s your turn to pitch.&lt;/p&gt;
+&lt;p&gt;Make a simple story of your education, work experiences, skills you gained through your work and how these skills are useful for the position you are interviewing and briefly about your long term interests. You may repeat this part in several interviews, so spending some time on making it interesting is worth it.&lt;/p&gt;
+&lt;h3 id=&#34;2-questions-to-you-from-them&#34;&gt;2. Questions to you from them&lt;/h3&gt;
+&lt;p&gt;Interviewers usually ask you some technical (not very deep) questions to understand your knowledge that is required for the position. These are basically from the work you explained before and relevant areas. You can give them a high-level overview of your technical expertise and add some additional information on what&amp;rsquo;s your critical opinions on current state-of-the-art methodologies. This way you are conveying that you are being careful about the methods you use to address a scientific problem.&lt;/p&gt;
+&lt;h3 id=&#34;3-questions-to-them-from-you&#34;&gt;3. Questions to them from you&lt;/h3&gt;
+&lt;p&gt;Every (good) interviewer will give you a chance to ask some questions. This part of the interview has a great impact on what interviewer thinks of your candidacy.&lt;/p&gt;
+&lt;p&gt;I always prepared some (read many) questions before the interview that I want them to clarify and discuss. Alongside, I took notes while they were explaining about the work, team and techniques they use regularly in their labs. Do not hesitate to ask as many questions as possible related to the position. Some applicants think asking too many questions is annoying. NO IT&amp;rsquo;S NOT. In fact, every (good) interviewer expects you ask many questions. The more questions you ask, the better impression you leave.&lt;/p&gt;
+&lt;h3 id=&#34;4-talks-and-discussions&#34;&gt;4. Talks and discussions&lt;/h3&gt;
+&lt;p&gt;If you made a good first impression and company thinks you &lt;em&gt;might&lt;/em&gt; for the role, they usually invite you to the company for a full day interview which involves giving a talk on your work, discussion with team members and HR. To my understanding this is what happens in the absence of the pandemic. Due to 2020, some companies did split this part into multiple days and others organized 5-6hr straight zoom interviews. Yes, 5-6hr straight.&lt;/p&gt;
+&lt;p&gt;Usually, you will receive an agenda with information on who will sit for your talks and with who you will have separate discussions. Research about these members and prepare your talk accordingly. There might be people from very different background and you might want to simplify a few things to reach your content to all members.&lt;/p&gt;
+&lt;p&gt;HR round of interviews are something completely new for people coming from academics. It&amp;rsquo;s not a thing in academic job interview process, at least until the point of PhD, postdoc positions. In one of my initial interviews, I didn&amp;rsquo;t really think of HR round and during the interview I struggled a lot to answer some questions. It&amp;rsquo;s not that they are difficult to answer but you need to storify them beforehand instead of on the spot because these questions involve a bit of hyping yourself. Spend time researching about HR round questions.&lt;/p&gt;
+&lt;h3 id=&#34;5-rejections&#34;&gt;5. Rejections&lt;/h3&gt;
+&lt;p&gt;You got the interview call. You did a pretty good job with all rounds and very positive. You receive an email that starts with &amp;lsquo;we are sorry to inform you. . .&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;Yes, it&amp;rsquo;s a NO from the company. Though you did your best at every stage of the process, at the end, you only have 50% chance of receiving the offer. Recruiters from companies always prefer experienced individuals (there can be exception where positions are only meant for freshers). If you are competing with someone who has more experience than you (even by marginal amount), your chances might go down, with some exceptions.&lt;/p&gt;
+&lt;p&gt;If you are someone who achieves everything in the first attempt (do they exist?), great. But if you belong to rest of the cohort, better get comfortable with these kind of rejections to save yourself from emotional toil they cause. At the end of every interview, reflect on your discussion and where you felt difficult to take the conversation forward. Focus on those areas for the next interview.&lt;/p&gt;
+&lt;p&gt;Please feel free to comment/DM (&lt;a href=&#34;https://twitter.com/itsvenu_&#34;&gt;@itsvenu_&lt;/a&gt;) if you have any questions. Good luck with your transition!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JobHunting - Part 1 - Applications</title>
+      <link>https://itsvenu.github.io/post/job-hunt-applications/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/job-hunt-applications/</guid>
+      <description>&lt;p&gt;Link to Part-2: &lt;a href=&#34;https://itsvenu.github.io/post/job-hunt-interviews/&#34;&gt;JobHunting - Part 2 - Interviews&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2020 huh!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Despite the unfortunate things going on in the world, most of us had to continue with our careers, work and education. Amongst the few, I have been fortunate enough to defended my PhD in July, 2020.&lt;/p&gt;
+&lt;p&gt;I was aiming to move to industry for my next position. I started applying for potential positions of interest way before I completed my thesis. But because of the pandemic, the response rates, interview processes were extremely slow. I have been through almost 20+ interviews (this is not 20+ companies but interviews). Some said NO to me and I said NO to some offers at the end.&lt;/p&gt;
+&lt;p&gt;I documented my experience of job applications and interviews. Though all this happened in 2020, some of the things we adapted this year might be applicable to following years and my experience might help you in your job hunting process.&lt;/p&gt;
+&lt;p&gt;Please keep the following points in mind if something I did is too specific&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I was sure to move to industry, so I did not apply for any academic positions&lt;/li&gt;
+&lt;li&gt;I was looking for industry positions where I can do cancer research and publish papers&lt;/li&gt;
+&lt;li&gt;I am a Bioinformatician/Computational Biologist&lt;/li&gt;
+&lt;li&gt;Some points might be personal opinions based on my experience [take it with a grain of salt]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;1-talk-to-your-supervisor&#34;&gt;1. Talk to your supervisor&lt;/h3&gt;
+&lt;p&gt;Helping a student with their next career move is part of a supervisor’s job.&lt;/p&gt;
+&lt;p&gt;Towards the end of your PhD, at least 6 months before your planned thesis submission, discuss your next career move with your supervisor. Ask them if they can connect you with someone who is working in an industry setting. This is the best starting point. If you are lucky and someone has an open position, you can land an interview as soon as possible in this way. However, your supervisor can only influence until that point. Once you are in an interview, it is your job to prove that you are suitable for the position.&lt;/p&gt;
+&lt;h3 id=&#34;2-exploit-linkedin&#34;&gt;2. Exploit LinkedIn&lt;/h3&gt;
+&lt;p&gt;I have a LinkedIn profile but I was never active. It has many useful features and surprisingly a lot more useful for job searching.&lt;/p&gt;
+&lt;p&gt;Here is what I did, other than making my profile to represent what my experience and skills are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added &amp;lsquo;Open to work&amp;rsquo; tag&lt;/li&gt;
+&lt;li&gt;Created &amp;lsquo;job alerts&amp;rsquo; with key words (e.g. computational biologist), specific locations and companies&lt;/li&gt;
+&lt;li&gt;Connected to relevant people working in different companies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I received a few (3-4) personal messages from recruiters of different companies that they are looking for someone with similar skills of mine. Though I never proceeded with any of these as my preferences are different than the job requirements.&lt;/p&gt;
+&lt;h3 id=&#34;3-regular-checks-on-career-pages-of-companies&#34;&gt;3. Regular checks on career pages of companies&lt;/h3&gt;
+&lt;p&gt;I prepared a list of companies doing research in the field I am interested in and regularly checked their career pages. Though, LinkedIn alerts (created as above) &lt;em&gt;might&lt;/em&gt; send you notifications if there is a relevant job, it might not alert you if the job is advertised only on the company&amp;rsquo;s website. A safe side.&lt;/p&gt;
+&lt;h3 id=&#34;4-cold-calling&#34;&gt;4. Cold calling&lt;/h3&gt;
+&lt;p&gt;Cold calling is writing to recruiters/PIs about your interest to work with them despite there is no ad for open position from them. Now, this strategy might not work for industry jobs as effectively as in academics for obvious reasons.&lt;/p&gt;
+&lt;p&gt;I wrote to many people working in the similar roles as I&amp;rsquo;m interested in on LinkedIn. I received very few responses if not none. However, some responses directed me to similar roles in different companies. This will be really useful as you might not cover many companies ad postings.&lt;/p&gt;
+&lt;p&gt;Here is a screenshot of the message I sent on LinkedIn and the response I got&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;P1.jpeg&#34; alt=&#34;P1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;P2.jpeg&#34; alt=&#34;P2&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;5-do-not-procrastinate-until-the-deadline-to-apply&#34;&gt;5. Do not procrastinate until the deadline to apply&lt;/h3&gt;
+&lt;p&gt;Procrastination. We know it&amp;rsquo;s not good. Yet, we all do it.&lt;/p&gt;
+&lt;p&gt;Whenever, you come across a job ad you are interested in, do not wait until the last date mentioned in the ad. Apply as quickly as possible to the position. From my personal experience, most (if not all) recruiters do not wait until the application deadline and start responding to applicants. As soon as they receive applications, they start evaluating the candidates and if someone is suitable for the position, they recruit the candidate. You might miss an opportunity by just waiting till the deadline to apply.&lt;/p&gt;
+&lt;h3 id=&#34;6-do-not-wait-for-the-response-from-submitted-application&#34;&gt;6. Do not wait for the response from submitted application&lt;/h3&gt;
+&lt;p&gt;Of course, many people do not do this but it is worth mentioning. Once the application is submitted, you don&amp;rsquo;t know what happens and there is only 50% chance you will hear from them. Better move on to the next one after finishing an application.&lt;/p&gt;
+&lt;h3 id=&#34;7-keep-a-record-of-all-applications-with-ad-positings&#34;&gt;7. Keep a record of all applications with ad positings&lt;/h3&gt;
+&lt;p&gt;Imagine you applied for a position and you heard from the recruiter after a month. You only remembered applying for the position but not any details about the ad. This might lead to not preparing well for your first round of discussions. As you apply for many positions, it&amp;rsquo;s not possible to remember all the details of each application.&lt;/p&gt;
+&lt;p&gt;For every application, I took the screenshot of the ad and saved it together with CV and cover letter I used for that specific position. This made my life much easier if I was invited for the interview.&lt;/p&gt;
+&lt;p&gt;Here is an example organization of one application for which I did several rounds of interviews&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;P3.png&#34; alt=&#34;P3&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;8-some-general-advice-for-phd-students&#34;&gt;8. Some general advice for PhD students&lt;/h3&gt;
+&lt;p&gt;On several occasions, I have seen PhD students asking questions likes, &amp;lsquo;I am still in my final year of PhD, should I start applying or wait until I finish?&amp;rsquo; or &amp;lsquo;I haven&amp;rsquo;t completed writing my thesis, should I finish it first and then apply&amp;rsquo;?&lt;/p&gt;
+&lt;p&gt;If you goal is to move to industry, start rolling your applications once you start writing your thesis. You can do both in parallel instead of one after the other. If you land an interview early on, you can gain experience on how the whole process works, even if you fail. If you get an offer, you can request a few months to start your new job. Recruiters will definitely wait if they think you are the right candidate. My first interview was in January 2020, by that time I didn&amp;rsquo;t even finish 20% of my thesis. I always gave an estimate of when will I finish my PhD and everyone was okay with that.&lt;/p&gt;
+&lt;p&gt;You don&amp;rsquo;t loose anything by starting early.&lt;/p&gt;
+&lt;p&gt;If you have any questions, please feel free to comment or shoot me a DM on twitter &lt;a href=&#34;https://twitter.com/itsvenu_&#34;&gt;@itsvenu_&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Good luck with you applications!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Python script to auto join your zoom meetings</title>
+      <link>https://itsvenu.github.io/post/auto-zoom/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/auto-zoom/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Meetings! Aww, the good old days. I remember the days when I was working in the lab and a colleague asking me &amp;lsquo;are you joining the meeting?&amp;rsquo;. Oh yeah, I totally forgot, let&amp;rsquo;s go.&lt;/p&gt;
+&lt;p&gt;But since we have moved online and working from home, your colleague/friend is not around you to remind you &lt;strong&gt;IF YOU FORGET TO JOIN A MEETING&lt;/strong&gt;. For this reason, I wrote the following python script to auto join your zoom meeting. Of course, you can add reminders to your phone, but if you would like to work keeping your phone away, this script will be of great help. (Also, what&amp;rsquo;s the point of being a nerd if you won&amp;rsquo;t exploit tech!)&lt;/p&gt;
+&lt;p&gt;Here is the idea of the python script&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take zoom link, meeting date, meeting time as arguments&lt;/li&gt;
+&lt;li&gt;Sleep until the meeting time since the execution&lt;/li&gt;
+&lt;li&gt;Open the zoom link on time in chrome and open zoom app&lt;/li&gt;
+&lt;li&gt;Maximize zoom app window and mute yourself&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;First import requied modules. In the following only &lt;code&gt;pyautogui&lt;/code&gt; and &lt;code&gt;click&lt;/code&gt; (for command line version) needs to be installed separately, rest come by default with python. &lt;code&gt;pyautogui&lt;/code&gt; helps controlling mouse, keyboard from within python.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pyautogui as pyg
+import webbrowser as wb
+import datetime
+import time
+import click
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Following are the helper functions to convert human readable date, time formats to python interpretable format.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# functions to format date, time
+def format_date(x):
+    date_list = x.split(sep=&amp;quot;-&amp;quot;)
+    return list(map(int, date_list))
+
+def format_time(x):
+    time_list = x.split(sep=&amp;quot;-&amp;quot;)
+    return list(map(int, time_list))
+
+def given_datetime(given_date, given_time):
+
+    # YY, MM, DD, HH, MM
+    return datetime.datetime(given_date[2], given_date[1], given_date[0], given_time[0], given_time[1], given_time[2])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Following is the core of the script to join the meeting. All steps from 1-4 from above are performed here.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# join the meeting
+def join_meeting(zoom_link, meeting_date, meeting_time):
+
+    meeting_date_x = format_date(meeting_date)
+    meeting_time_x = format_time(meeting_time)
+    required_datetime = given_datetime(meeting_date_x, meeting_time_x)
+
+    # time difference between current and meeting time
+    wait_time_sec = (required_datetime - datetime.datetime.now().replace(microsecond=0)).total_seconds()
+    print(&amp;quot;Your ZOOM meeting starts in &amp;quot; + str(wait_time_sec/60) + &amp;quot; min&amp;quot;)
+    time.sleep(wait_time_sec)
+
+    # zoom app related
+    wb.get(using=&#39;chrome&#39;).open(zoom_link, new=2) #open zoom link in a new window
+    time.sleep(5) # given time for the link to show app top-up window
+    pyg.click(x=805, y=254, clicks=1, interval=0, button=&#39;left&#39;) # click on open zoom.app option
+    time.sleep(10) # wait for 10 sec
+    pyg.click(x=195, y=31, clicks=1, interval=0, button=&#39;left&#39;) # maximize zoom app
+    time.sleep(3) # wait for 3 sec
+    pyg.click(x=50, y=776, clicks=1, interval=0, button=&#39;left&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;what-else-we-can-do&#34;&gt;What else we can do?&lt;/h3&gt;
+&lt;p&gt;So far, this script takes one date and time to auto join the meeting. One can also go further and repeat the process over a given days and time periods.&lt;/p&gt;
+&lt;p&gt;The dark side of such automations is even when the actual person is away from the computer, it can still join. The evil benefit of this is attendending a class room lecture and getting credits without actually attending it.&lt;/p&gt;
+&lt;p&gt;Imroved tech comes with both good and bad benefits!&lt;/p&gt;
+&lt;h3 id=&#34;finally&#34;&gt;FINALLY,&lt;/h3&gt;
+&lt;p&gt;the command line version of the tool is available on &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/AutoZOOM/AutoZOOM_v0.03.py&#34;&gt;GitHub here&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;python AutoZOOM_v0.03.py --zoom_link &amp;quot;zoom-meeting-link&amp;quot; --meeting_date &amp;quot;06-09-2020&amp;quot; --meeting_time &amp;quot;13-00-00&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;technical-notes&#34;&gt;Technical notes&lt;/h3&gt;
+&lt;p&gt;I use 13-inch MacBook pro, so the coordinates hardcoded in the script are suitable for this screensize. If you want to use the script for your screen size, I wrote a small notebook to help you guide through it. &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/AutoZOOM/AutoZOOM_GetCoordinates.ipynb&#34;&gt;It is available here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Stay safe!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to start asking questions as a data scientist?</title>
+      <link>https://itsvenu.github.io/post/ds-qa/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/ds-qa/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Asking good questions is the key to success of any data science project. The ‘good’ part includes a long list of conditions to satisfy, for example how much benefit a project will get after we answer a question spending a significant amount of time. However, listing out all the possible questions and prioritizing will be a good beginning for the project.&lt;/p&gt;
+&lt;p&gt;Data science projects involve asking questions in two ways&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A) asking questions when the data already exists without a specific goal (an exploratory analysis)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;B) asking questions for a specific goal and generating/acquiring data to reach that goal&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In most projects, at least in quantitative biology, both of these aspects go together and in some projects the only possible scenario is (A). For example, given a spreadsheet of information, how do you go on asking questions whose results are somehow useful to the company or taking publicly available biological data, how do you produce new insights other than already reported.&lt;/p&gt;
+&lt;p&gt;In this blog post, I will demonstrate, with a spreadsheet of information, how to start asking questions that bring out some relationship among the features (columns) and potentially answer some basic questions and provide simple visualizations for each question. For this purpose, I use single-cell database &lt;a href=&#34;https://twitter.com/vallens/status/1263477436513206273&#34;&gt;I came across on twitter&lt;/a&gt; a few days back shared by &lt;a href=&#34;https://twitter.com/vallens&#34;&gt;Valentine Svensson&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the sample data from this file&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Now, let&amp;rsquo;s start answering some questions. But before, a small sisclaimer&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This analysis is only for demonstration of how one can start asking questions simply from a given spreadsheet. Hopefully to help beginners to give a starting point&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;How many single-cell RNA-seq papers published per-year?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the above database, the first paper reported was from 2002. One can visualize total number of published papers from 2002-2020 as below using features &lt;code&gt;Date&lt;/code&gt; and &lt;code&gt;Title&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;01.png&#34; alt=&#34;01&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As you see, the number of published studies constantly increased from 2002. Especially in the last 5 years, single-cell techs gained enormous popularity and importance.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Journals in which single-cell studies were published&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If there is such an increase in single-cell publications with each year, which journals published these studies. In the following figure, I showed top 50 journals with most published single-cell papers using feature &lt;code&gt;Journal&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;02.png&#34; alt=&#34;02&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Note that some (most) of the papers uploaded to biorxv might have been published in other peer-reviewed journals.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Does paper title contain &amp;lsquo;single-cell&amp;rsquo; in it?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Next, I looked into published paper titles and asked if the title contains &amp;lsquo;single-cell&amp;rsquo; in it. Using features &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Title&lt;/code&gt;, in the following figure, I show what fraction of papers show &amp;lsquo;single-cell&amp;rsquo; in their titles from top 15 journals with most published papers&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;03.png&#34; alt=&#34;03&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Looks like most papers carry &amp;lsquo;single-cell&amp;rsquo; in their title.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Number of cells in each study&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here, I show the distribution of the number of cells published in each study in above 15 journals using features &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Reported cells total&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;04.png&#34; alt=&#34;04&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So far with the available data, it seems like higher the number of cells, a study has the higher chances to get published in journals like nature and cell.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Most used single-cell technologies&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is one of the interesting questions. Here, I took the top 5 single-cell technologies with most publications in 2019 and calculated their status in last eight years. &lt;code&gt;Journal&lt;/code&gt;, &lt;code&gt;Date&lt;/code&gt; and &lt;code&gt;Technique&lt;/code&gt; are the features used for this analysis&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;05.png&#34; alt=&#34;05&#34;&gt;&lt;/p&gt;
+&lt;p&gt;From this figure, &amp;lsquo;SMARTer (C1)&amp;rsquo; tech was on top in the beginning of this decade and its usage was dropped towards the end, while &amp;lsquo;Chromium&amp;rsquo; tech was started in 2017 and quickly became one of the most used technology.&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Which journals published above top technologies?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now that we have top 5 single-cell techs, let&amp;rsquo;s look at the top 5 journals which published papers with these technologies. Features used here are &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Technology&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;06.png&#34; alt=&#34;06&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There are other features such as tissue, organism studied and analysis strategy used (PCA or TSNE). Using the data available within this spreadsheet, one can do further analysis to get associations such as journal and tissue studied. In addition to analysis shown here, it is also possible to do a sophisticated machine learning analysis using different features (e.g. tissue, number of cells, technology used, organism studied) to build a model to predict the most likely journal in which a study gets published.&lt;/p&gt;
+&lt;h4 id=&#34;data-source&#34;&gt;Data source&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1En7-UV0k0laDiIfjFkdn7dggyR7jIk3WH8QgXaMOZF0/edit#gid=0&#34;&gt;Single-cell database&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.biorxiv.org/content/10.1101/742304v2&#34;&gt;A curated database reveals trends in single-cell transcriptomics&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>COVID-19 - An exploratory data analysis</title>
+      <link>https://itsvenu.github.io/post/covid-19/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/covid-19/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;The World Health Organization (WHO) stated the recent outbreak of corona virus (COVID-19) as &lt;strong&gt;&amp;rsquo;the worldwide spread of a new disease&amp;rsquo;&lt;/strong&gt;. WHO further suggests we must be prepared for the global pandemic. The COVID-19 virus belongs to a corona virus family which was not identified before. The closest match of human infected virus has been found in bats (Pangolins), however it might have been mutated within human body to diverge from what has been identified in bats. The first infected person(s) was suspected to work (or got infected from) in wet markets (where people sell meat from diverse animals and flowing water and animal blood is usual) in Wuhan, a city in China.&lt;/p&gt;
+&lt;p&gt;Scientists are working towards understanding more about the spread of the disease and potential measures to control its widespread. WHO is releasing daily updates on the COVID-19 spread among countries and number of affected people.&lt;/p&gt;
+&lt;p&gt;Here, I have collected data on COVID-19 spread from different sources and performed an explorative data analysis to observe possible trends.&lt;/p&gt;
+&lt;h3 id=&#34;1-number-of-affected-people-from-different-countries&#34;&gt;1. Number of affected people from different countries&lt;/h3&gt;
+&lt;p&gt;As of 27th, Feb, 2020, here are the number of affected people in differnet countries. As China is the origin of the virus, the number is significantly higher in China than any otehr countries (n=18,55,018), however, we should not disregard how fast the virus is spreading in other continents.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;01_COVID_numberOfCasesPerCountry.png&#34; alt=&#34;01&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-top-10-countries-with-most-number-of-infections&#34;&gt;2. Top 10 countries with most number of infections&lt;/h3&gt;
+&lt;p&gt;From 22nd Jan - 27th, Feb, 53 countries reported confirmed COVID-19 cases. In the following figure, each red dot represents a region/country with positive case(s). Countries with highlighted names have the highest number of cases so far.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;02_COVID_Top10AffectedCountry.png&#34; alt=&#34;02&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-fatality-rates-of-affected-countries&#34;&gt;3. Fatality rates of affected countries&lt;/h3&gt;
+&lt;p&gt;Fatality rate is the ratio of deaths to the total number of affected cases due to certain cause. However, here is Richard Müller, professor of physics at UC Berkely, &lt;a href=&#34;https://www.quora.com/How-dangerous-is-the-coronavirus-6/answer/Richard-Muller-3&#34;&gt;explaining on quora&lt;/a&gt; why this is not a proper measure in the case of widespread infections like COVID-19. The proper measure according to his suggestion for fatality rate is deaths/(deaths+recovered). Following figure is an estimate of top 10 countries with highest fatality rate.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;03_COVID_FatalityRateAffectedCountries.png&#34; alt=&#34;03&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Though, the number of infected cases in China is way higher than any other country, the death rate is slightly lesser, for example, compared to Philippines or Italy. However, if we calculate the conventional fatality rate, &lt;strong&gt;2.65% of deaths were reported in COVID-19 confirmed cases worldwide&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;There are a number of factors affecting this fatality rate, for example COVID-19 symptoms are very close to general flu, due to this reason many people who had the actual infection might not even visited the hospital before death.&lt;/p&gt;
+&lt;h3 id=&#34;4-fractions-of-confirmed-recovered-and-death-cases&#34;&gt;4. Fractions of confirmed, recovered and death cases&lt;/h3&gt;
+&lt;p&gt;Here is the overview of 53 countries with total infected cases divided into confirmed (being treated), recovered and death fractions.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;04_COVID_TotalCasesStats.png&#34; alt=&#34;04&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As we can see, the number of people died due to infections in higher in Philippines and Iran comprated to other countries.&lt;/p&gt;
+&lt;h3 id=&#34;5-china-increase-in-number-of-infected-cases-in-37-days&#34;&gt;5. China: Increase in number of infected cases in 37 days&lt;/h3&gt;
+&lt;p&gt;On 31st December, China reported several cases of unknown pneumonia in Wuhan. On 7th Jan, people identified it as new corona virus (2019-nCoV). However, later efforts led to naming this new virus as COVID-19. As of 22nd Jan, 2020, there were ~540 cases identified to be infected with COVID-19. In a span of 37 days (until 27th Feb, 2020), this number has increased to 78,498 cases. And it is constantly increasing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;05_COVID_ChinaPerDayCases.png&#34; alt=&#34;05&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This picture is particularly terrifying and warns the world how urgently we need efforts to create vaccines against this virus.&lt;/p&gt;
+&lt;h3 id=&#34;6-china-were-the-number-of-diagnoses-high-on-any-weekday&#34;&gt;6. China: Were the number of diagnoses high on any weekday?&lt;/h3&gt;
+&lt;p&gt;It would be interesting to see if there are any associations on the weekday and the number of diagnoses reported.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;06_WeekDayDiagnosisChina.png&#34; alt=&#34;06&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Friday, seems to be having very low number of reported cases. However, it is not significantly differnet than other days. Once the information about the virus has been spread from the officials, people started rushing to hospitals everyday, doesn&amp;rsquo;t matter weekday or the weekend.&lt;/p&gt;
+&lt;h3 id=&#34;7-china-any-association-between-gender-and-infection&#34;&gt;7. China: Any association between Gender and infection?&lt;/h3&gt;
+&lt;p&gt;For 482 infected cases, the gender information is available in one of my collected sources. If we look at the number of males and females affected by COVID-19, it is also not significantly different than weekday as we saw earlier. However, males were affected slightly more than females.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;07_COVID_numberOfMaleFemaleCases.png&#34; alt=&#34;07&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;8-china-age-group-that-is-most-affected&#34;&gt;8. China: Age group that is most affected&lt;/h3&gt;
+&lt;p&gt;Similar to gender associations, we can also look at the age distribution of affected people. I divided age ranges into 8 windows, each with 10 years of range. A total of 466 cases were plotted in below figure.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;08_COVID_MaleFemaleAgeGroupCases.png&#34; alt=&#34;08&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now, this shows most number of affected individuals are in the age range of 30-40 years. It might be due to these people are traveling between different places a lot than other age groups. And, the infection after age 65-70 years old might even be due to a compromised immune system. However, we do not know the exact reasons for the peak between 30-40 years age range.&lt;/p&gt;
+&lt;h3 id=&#34;9-china-first-symptoms-and-first-hospital-visit&#34;&gt;9. China: First symptoms and first hospital visit&lt;/h3&gt;
+&lt;p&gt;According to sources, the virus takes 14-15 days to incubate and show symptoms in the host. However, the number of days people took to visit hospital after the first onset of symptoms observed is very high in the beginning. Before 10th Jan, people waited 10-15 days after experiencing symptoms, potentially assuming that it might be general flu and lack of information on the virus spread. However, people started going to the hospitals very quickly.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;09_COVID_OnsetSymptomsFirstHospitalVisit.png&#34; alt=&#34;09&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The initial days where people had no clue about the infection and took longer to visit hospitals after first onset of symptoms might also be one of the reasons for widespread of the infection.&lt;/p&gt;
+&lt;h3 id=&#34;10-symtoms&#34;&gt;10. Symtoms&lt;/h3&gt;
+&lt;p&gt;Finally, here is a wordcloud of all symptoms repoprted by clinicians observed in patients with COVID-19 infection&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;10_COVID_SymptomsWordCloud.png&#34; alt=&#34;10&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s hope COVID-19 infection will not turn into a global pandemic. Our scientists are working hard towards gaining control over the spread.&lt;/p&gt;
+&lt;p&gt;Check &amp;lsquo;Further reading&amp;rsquo; below to get more information and measures of self-care to avoid potential infection.&lt;/p&gt;
+&lt;h3 id=&#34;source-code-for-analysis&#34;&gt;Source code for analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects&#34;&gt;https://github.com/itsvenu/DataScience-Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-sources&#34;&gt;Data sources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports&#34;&gt;WHO&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/imdevskp/corona-virus-report&#34;&gt;Kaggel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30026-1/fulltext&#34;&gt;The Lancet Digital Health&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;further-reading&#34;&gt;Further reading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/world/2020/mar/01/what-is-coronavirus-and-what-should-i-do-symptoms&#34;&gt;What is coronavirus and what should I do if I have symptoms?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/world/2020/mar/01/the-worst-case-scenario-for-coronavirus-dr-jonathan-quick-q-and-a-laura-spinney&#34;&gt;Epidemics expert Jonathan Quick: ‘The worst-case scenario for coronavirus is likely’&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-020-00548-w&#34;&gt;Mystery deepens over animal source of coronavirus&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&#34;&gt;Coronavirus disease (COVID-19) outbreak&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/global-development/2020/feb/18/senior-wuhan-doctor-dies-from-coronavirus-as-authorities-start-to-round-up-patients&#34;&gt;Senior Wuhan doctor dies from coronavirus as authorities start to &amp;lsquo;round up&amp;rsquo; patients&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.niaid.nih.gov/news-events/nih-clinical-trial-remdesivir-treat-covid-19-begins&#34;&gt;NIH Clinical Trial of Remdesivir to Treat COVID-19 Begins&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 lessons from the past 10 years!</title>
+      <link>https://itsvenu.github.io/post/a-decade/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/a-decade/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;It’s 2020. It’s hard to believe 90s were 20 years ago. I left school at the beginning of this decade and I’m still at a school now, except the high-school has changed to graduate-school and learning has changed to learning &amp;amp; applying to the problems. The past 10 years were gone in the blink of an eye, yet many events happened in life and changed me as a person and my perspective. As we mark the beginning of a new decade, here are the 10 most important lessons I learned in the past decade from what happened in my life.&lt;/p&gt;
+&lt;h3 id=&#34;1-read-learn-and-read-more&#34;&gt;1. Read. Learn. And read more.&lt;/h3&gt;
+&lt;p&gt;You are not the first human to live this life and you are not the first one to experience the problems you are facing today. Many great humans who faced and solved the problems documented their experiences, imaginations in scripts called books. All you need to do is read those scriptures and learn to deal with your life.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A reader lives a thousand lives before he dies. The man who never reads lives only one. &lt;em&gt;&lt;strong&gt;George R.R Martin&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I wouldn&amp;rsquo;t say I did read a whole lotta books, but I started at the beginning of this decade and I would say it changed my life for the better.&lt;/p&gt;
+&lt;h3 id=&#34;2-take-care-of-your-health&#34;&gt;2. Take care of your health&lt;/h3&gt;
+&lt;p&gt;You have got one body to live in. If you can take care of your iPhone as one of the precious things you own, why not your body?
+Sometimes there are certain things you can not control regarding your health. I had two major surgeries in the last 10 years and I would say it’s not a pleasant situation to be in. There was no way I could’ve avoided those two medical procedures for the good. For those few days I was totally dependent and felt like how lucky people who didn’t endure those surgeries. Since then, I started to care about my health. I did cut off a lot of what people say are bad for health habits.&lt;/p&gt;
+&lt;p&gt;When you are 24 years young, your heart feels like 24 but what I understood from talking to people elder to me is when you are 60 years old, your heart still feels like you are 24 years but the rest of your body will not cooperate with that energy. If you manage to spend sometime in gym in your 20s and 30s, your body can do at least 20% (or more) of what your heart wants when you are in the 60s and 70s.&lt;/p&gt;
+&lt;h3 id=&#34;3-kill-that-ego-already&#34;&gt;3. Kill that ego already&lt;/h3&gt;
+&lt;p&gt;Cersei Lannister was absolutely right to own the iron throne in her perspective, so does Daenerys Targaryen. Although the end goal of these two characters is the same, the thought process behind is completely different. We are humans. It’s inevitable that once in  a while we have different opinions and disagreements with colleagues, friends or family. Do not let your ego end the relationship. If there is an apology pending or credit is due, have the spine to look into the person’s eye and say it. Moving on with a clean slate is the best feeling ever. The time we spend here is insignificant and it&amp;rsquo;s not worth your time to hold anything back.&lt;/p&gt;
+&lt;h3 id=&#34;4-look-beyond-what-happened&#34;&gt;4. Look beyond what happened&lt;/h3&gt;
+&lt;p&gt;In the past decade, I had my fare share of bittersweet experiences with heartbreaks. Everytime I felt, the butterflies in my stomach that came with &amp;lsquo;her&amp;rsquo; would stay forever, they took off leaving a painfully sweet ache. Amidst life&amp;rsquo;s insecurities and unmet expectations, the feeling of happiness when we saw each other faded off and we parted our ways, hopefully for the greater good of both.&lt;/p&gt;
+&lt;p&gt;Once this conscientious girl told me, ‘&lt;strong&gt;after you had a fight with your significant other and explain the situation to yourself or to anyone, you bias your explanation to your-only point of view. Though you say you know how your partner is feeling, you never know exactly what’s going on in their mind and it’s totally unreasonable to put her/him in the wrong frame&lt;/strong&gt;’. This statement has the meaning of a whole universe. Among all the memories, arguments and pre- or post-fight discussions I had in every relationship, what this beautiful girl said stuck with me till now and I will remember it for the rest of my life.&lt;/p&gt;
+&lt;h3 id=&#34;5-no-to-hesitation-and-hesitation-is-no&#34;&gt;5. No to hesitation and hesitation is no&lt;/h3&gt;
+&lt;p&gt;There were hundreds of circumstances in the past years where I really wanted to say NO to something but said YES, entirely out of hesitation. I’m sure you are not an exception either. It is absolutely vexatious to be in a situation where you don’t like or don’t want to be. All you could say to avoid this is a simple ‘NO’ but somehow evolution didn’t inculcate enough bravery to overcome the hesitation to say  NO. Whatever the situation, at work, with family or with friends, if you want to say NO but you are forcing yourself to say YES, please don’t. Just say NO and make yourself a favour. Be clear in your response.&lt;/p&gt;
+&lt;p&gt;On the contrary, there are often people who want to say no but falter. Just take their hesitation for NO. Let me give you an example from my own life. I asked this pretty girl out for dinner once, she said ‘but not this week’. I gently asked her the next week if she would like to go out, however, she was hesitant to give a response. I understood her answer and made her life easier. The hesitation is always to say NO but not to say YES. If someone is hesitant to give you a response, it’s always a NO, understand and move on with your life. It’s as simple as that.&lt;/p&gt;
+&lt;h3 id=&#34;6-build-a-career-so-you-enjoy-your-work-life&#34;&gt;6. Build a career so you enjoy your work-life&lt;/h3&gt;
+&lt;p&gt;At his Stanford commencement address, Steve Jobs said ‘your work is going to fill a large part of your life’ and it is 100% true. You spend most of your day with your work and it has the highest impact on the quality of life you are living. If you are in your 20s, try different things and figure out what you will enjoy the most in the long term. It’s far better and safer than working 9-5 in the office and whining about it all day long in your 40s.&lt;/p&gt;
+&lt;p&gt;What I thought I would enjoy most in 2009 is not something I want now. I learned different things in this decade and I am happy with what I am doing now and not what I considered 10 years back. If it wasn’t for the subjects I chose to study after my bachelors, I could be living a mediocre life now.&lt;/p&gt;
+&lt;h3 id=&#34;7-keep-those-friends&#34;&gt;7. Keep those friends&lt;/h3&gt;
+&lt;p&gt;There is a very good saying by Jim Rohn, an entrepreneur, about human behaviour which says ‘you are the average of the 5 people you spend the most time with’. If you think about it, you tend to absorb the qualities of the people you are most frequent with without realizing. It is absolutely important to surround yourself with good friends and mentors. In the past years, I have made a lot of friendships, some of which went down south quickly and some took a while and others became besties, probably for life. Sometimes there are certain things we can not share with family (or is it only me?) but everything can be shared with friends without a scintilla of hesitation.&lt;/p&gt;
+&lt;p&gt;I am fortunate enough to have met some amazing people who taught me a lot in all these years and made me a better person than I was. Though we stay miles apart, technology made it possible to keep the friendships alive. The beautiful thing about friendships is, whenever we meet after a long time, we start exactly where we left off last time and that makes us feel years younger in a few minutes. Keep those friends and you can bitch about life together when you are in your 70s.&lt;/p&gt;
+&lt;h3 id=&#34;8-appreciate-people-and-be-kind&#34;&gt;8. Appreciate people and be kind&lt;/h3&gt;
+&lt;p&gt;A long time back I attended a workshop in which the instructor said, ‘every human being has something written on their forehead’. Everyone was waiting curiously for the answer and instructor revealed it’s ‘APPRECIATE ME!’.&lt;/p&gt;
+&lt;p&gt;This is by far the most effective way to make people happy, make friends and don’t tell this to anyone, to get your work done by people, if used properly. People feel happy when you acknowledge their presence and you become more likeable and approachable. Appreciate people and help the needy. You don’t need to donate thousands of dollars to help people (though it’s not a bad idea if you have enough), just small things like giving up your seat on the bus for the elderly is equally helpful.&lt;/p&gt;
+&lt;h3 id=&#34;9-the-party-will-be-over-one-day&#34;&gt;9. The party will be over one day&lt;/h3&gt;
+&lt;p&gt;We are here for a short time. The people you know, your parents, friends, relatives and you grow old and disappear one day. It’s inevitable, how much you think and try, you can’t change it. Whether you agree or not, everyone’s love for you is conditional except that of your parents and a few good friends, at least it is a little less conditional.&lt;/p&gt;
+&lt;p&gt;Your parents are the ones who genuinely celebrate your success and stand behind you when you are failed. Be grateful that you have people who support you in your ups and downs and have a good time before it’s too late. Once in a while, let them know how much you care about them and do the little things that make them happy.&lt;/p&gt;
+&lt;h3 id=&#34;10-life-is-simple-be-happy&#34;&gt;10. Life is simple, be happy!&lt;/h3&gt;
+&lt;p&gt;Don’t think you will be happy if you buy an iPhone. Don’t think you will be happy if you buy an expensive car. Don’t think you will be happy if you buy a mansion house. No you will not.&lt;/p&gt;
+&lt;p&gt;Of course you will be euphoric, but just for a while. You quickly move onto the next possession to be happy. I am certainly not against having any kind of possession but having a thought you will be happy with ‘buying something’ is totally a wrong idea. Do not get deceived by your friends photos on facebook or instagram. It’s not reality. I have seen people feeling absolutely worst but still updating their social media status ‘having the best time of their life’. It’s easier said than done but what I learned is being happy can be a choice. It&amp;rsquo;s a bit difficult but laugh at your mistakes, not the others; laugh at your failures, not the others; laugh at your innocence, not the others. Things are not as complicated as they appear when you think about them, so be calm and put a smile on that face &amp;amp; keep it throughout this journey!&lt;/p&gt;
+&lt;p&gt;sayonara, &lt;!-- raw HTML omitted --&gt;
+a well-wisher!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A deep dive into &#39;Forests&#39;</title>
+      <link>https://itsvenu.github.io/post/brca-random-forests/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/brca-random-forests/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;[&lt;em&gt;Jupyter notebook for this project is available &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/BreastCancer_RandomForest/BRCA_RandomForests.ipynb&#34;&gt;here&lt;/a&gt;&lt;/em&gt;]&lt;/p&gt;
+&lt;p&gt;I have been spending a lot of time understanding different concepts behind Machine learning techniques (ML), one concept at a time! In this post, I will discuss and try to simplify some of the concepts behind an ML technique, &lt;code&gt;RandomForests&lt;/code&gt;. While there are many resources explaining in which areas this method is useful, I am not going to touch that. So, without much jibber-jabber, let&amp;rsquo;s get into &amp;lsquo;Forests&amp;rsquo;!&lt;/p&gt;
+&lt;h3 id=&#34;randomforests&#34;&gt;RandomForests?&lt;/h3&gt;
+&lt;p&gt;RandomForests are a frequently used ML technique to predict either a continous outcome, e.g. house prices or a discrete outcome e.g. whether a disease is present in a tissue or not.&lt;/p&gt;
+&lt;h3 id=&#34;how-does-randomforests-work&#34;&gt;How does RandomForests work?&lt;/h3&gt;
+&lt;p&gt;Before going into the details of how the method works, we need to familiarise with a couple of terms. Just imagine (or look below) a table with rows and columns&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sample_table.png&#34; alt=&#34;sample&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Features&lt;/code&gt; - a feature is a a type of measurement. It could be continuous e.g. in an examination of a tissue, it can be size, diameter etc or could be discrete e.g. the tissue is narrower or wider. &lt;code&gt;Features&lt;/code&gt; are the most important details in building any ML model&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Instance&lt;/code&gt; - let&amp;rsquo;s say each row in above table is a patient. In a more technical way, these are called &lt;code&gt;Instaces&lt;/code&gt; or &lt;code&gt;Observations&lt;/code&gt; in ML language&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Each value in each cell is a measurement for a particular observation and feature&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Entropy&lt;/code&gt; - from our school physics, we know this as &amp;lsquo;randomness&amp;rsquo;. So here it is randomness in the data. How can one quantify randomness in a given dataset?&lt;/p&gt;
+&lt;p&gt;For the above table, entropy is calculated with the following formula&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;p&lt;/code&gt; - probability of being &amp;lsquo;Present&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;n&lt;/code&gt; - probability of being &amp;lsquo;Absent&amp;rsquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Entropy = I(p,n) = -(p/(p+n)) * log2(p/(p+n)) - (n/(p+n)) * log2(n/(p+n))
+        = I(3,1) = -(3/(3+1)) * log2(3/(3+1)) - (1/(3+1)) * log2(1/(3+1))
+        = 0.811
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So the &lt;code&gt;entropy&lt;/code&gt; or the randomness in our dataset is &lt;code&gt;0.811&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And a few terms that are specific to &lt;code&gt;RandomForests&lt;/code&gt;. The following figure is called a decision tree&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sample_decision.png&#34; alt=&#34;decision&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Root node&lt;/code&gt; - Root node is a feature from which data splitting starts based on a binary decision and two branches emerge&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Decision node&lt;/code&gt; - Decision nodes are branches from &lt;code&gt;root node&lt;/code&gt; at which binary decisions are made to split further&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Leaf node&lt;/code&gt; - Leaf node holds a final predicted outcome label. After a leaf node is generated, there will be no splitting of the data is possible. Leaf nodes are also called as &lt;code&gt;Terminal nodes&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Splitting&lt;/code&gt; - Process of splitting the data into two sets depending on a binary decision&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now that we know a bit of alien terms, let&amp;rsquo;s talk about how RandomForests work. In the above example data, given four &lt;code&gt;features&lt;/code&gt;, we would like to predict the &lt;code&gt;outcome&lt;/code&gt; label.&lt;/p&gt;
+&lt;p&gt;Behind the scenes, RandomForests work by randomly choosing a &lt;code&gt;feature&lt;/code&gt; and a value within that feature (making it a &lt;code&gt;Root node&lt;/code&gt;) and splitting the data into two branches. One branch contains the feature values above the chosen value (&lt;code&gt;TRUE&lt;/code&gt;) and the other branch contains feature values below the chosen value (&lt;code&gt;FALSE&lt;/code&gt;), &lt;strong&gt;a binary decision&lt;/strong&gt;. The random feature and random value are chosen in a way that the resulting two branches contains the &lt;code&gt;entropy&lt;/code&gt; lower than the entropy of the &lt;code&gt;Root node&lt;/code&gt; or the raw data. The process continues on each node generated from the root node until the final &lt;code&gt;leaf node&lt;/code&gt;s are generated or the final &lt;code&gt;entropy&lt;/code&gt; becomes zero, meaning each observation is classified according to the given label.&lt;/p&gt;
+&lt;p&gt;For example, in the above table, we calculated that our initial entropy is 0.811. If we choose the feature &lt;code&gt;Feature-1&lt;/code&gt; and the value &lt;code&gt;5.4&lt;/code&gt; and split the data into two branches, one that contains &lt;code&gt;Feature-1&lt;/code&gt; values &lt;code&gt;&amp;lt;=5.4&lt;/code&gt; [&lt;code&gt;TRUE&lt;/code&gt;] other that contains &lt;code&gt;Feature-1&lt;/code&gt; values &lt;code&gt;&amp;gt;5.4&lt;/code&gt; [&lt;code&gt;FALSE&lt;/code&gt;]. With this split, although one branch contains pure &lt;code&gt;Present&lt;/code&gt; label, the other branch&amp;rsquo;s &lt;code&gt;entropy&lt;/code&gt; is higher than the initial entropy, suggests the split is not ideal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;example_decisions.png&#34; alt=&#34;ex&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Instead, if we choose &lt;code&gt;Feature-1&lt;/code&gt; and value &lt;code&gt;0.5&lt;/code&gt; as the splitting point, we will end up with 2 branches whose &lt;code&gt;entropy&lt;/code&gt; is lower than the root node and contains a homogenous set of samples.&lt;/p&gt;
+&lt;p&gt;That is the basic idea behind a &lt;code&gt;RandomForest&lt;/code&gt;. But the question is, is that all we need to get the results we want? or close to the results we want? Of course not. To get better results, we build many many trees as the one above and at the end, average of all trees is taken as the final results. Higher the number of trees, higher the accuracy of the final results. Of these many trees, each tree is ran with a random subsample of the original data or the random data of same size drawn from original data with replacement, which we call &lt;code&gt;bootstraping&lt;/code&gt; in ML terminology. The final results are calculated in two different ways.&lt;/p&gt;
+&lt;p&gt;For example, we have two outcome labels &lt;code&gt;YES&lt;/code&gt; and &lt;code&gt;NO&lt;/code&gt;. If we ran 100 trees and an &lt;code&gt;observation&lt;/code&gt; is classified as &lt;code&gt;YES&lt;/code&gt; more frequently than &lt;code&gt;NO&lt;/code&gt;, the final outcome for this observation will be &lt;code&gt;YES&lt;/code&gt;, basically, the label with majority of votes wins. Instead, each tree can produce the probability for being &lt;code&gt;YES&lt;/code&gt; and proability for being &lt;code&gt;NO&lt;/code&gt; for each observation. At the end, all probabilities for being &lt;code&gt;YES&lt;/code&gt; and &lt;code&gt;NO&lt;/code&gt; are averaged for each observation and the final outcome will be the one with higest probability.&lt;/p&gt;
+&lt;p&gt;Now let&amp;rsquo;s look at a real world, complex cancer data and implement &lt;code&gt;RandomForests&lt;/code&gt; to classify if a patient has &lt;code&gt;Malignant&lt;/code&gt; (cancer tumor) or a &lt;code&gt;Benign&lt;/code&gt; (non-cancer tumor).&lt;/p&gt;
+&lt;h3 id=&#34;classification-of-breast-cancers-with-randomforests&#34;&gt;Classification of Breast cancers with RandomForests&lt;/h3&gt;
+&lt;p&gt;In order to implement RandomForests on Breast cancer data, I downloaded the data from &lt;a href=&#34;https://www.kaggle.com/uciml/breast-cancer-wisconsin-data&#34;&gt;kaggle&lt;/a&gt;. The data contains 569 patients/observations and 30 features and one more column with &lt;code&gt;diagnosis&lt;/code&gt; either as label &lt;code&gt;M&lt;/code&gt; for manlignant or &lt;code&gt;B&lt;/code&gt; for benign, a classification problem. All features are various continuous measurements of breast tissue to classify the tumor type.&lt;/p&gt;
+&lt;p&gt;I will be using &lt;code&gt;python&lt;/code&gt; and a famous machine learning library &lt;code&gt;sklearn&lt;/code&gt; to implement RandomForest classifications.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;load-required-libraries&#34;&gt;Load required libraries&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import seaborn as sns; sns.set(font_scale = 2)
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;read-data-and-clean&#34;&gt;Read data and clean&lt;/h4&gt;
+&lt;p&gt;I downloaded data from above mentioned &lt;code&gt;kaggle&lt;/code&gt; link. Here, we read the data into &lt;code&gt;df_raw&lt;/code&gt; and remove unnecessary columns/features.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## read data
+df_raw = pd.read_csv(&#39;data.csv&#39;, index_col = &#39;id&#39;)
+df_raw.head().transpose()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Remove &lt;code&gt;Unnamed: 32&lt;/code&gt; as it has only &lt;code&gt;NaN&lt;/code&gt; values in it.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## id is patient ID
+## remove &#39;Unnamed: 32&#39;
+
+df_raw = df_raw.drop(&#39;Unnamed: 32&#39;, axis=1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;split-the-data-into-train-and-test-sets&#34;&gt;Split the data into train and test sets&lt;/h4&gt;
+&lt;p&gt;In order to build a model and validate it&amp;rsquo;s performance, we need to split the data into training and test set. After training the RandomForest model on training data, we&amp;rsquo;ll test it&amp;rsquo;s performance on test set. Here we split the 569 patients into 75% as training data and 25% as test data.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## split into training and test sets
+train_df, test_df = train_test_split(df_raw, test_size=0.25)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(train_df)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;426
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(test_df)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;143
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;B    95
+M    48
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;train_df.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;B    262
+M    164
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df_raw.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;B    357
+M    212
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;binarize-the-outcome-labels&#34;&gt;Binarize the outcome labels&lt;/h4&gt;
+&lt;p&gt;As the computers do not understand Malignant or Benign, we need to convert them to &lt;code&gt;1&lt;/code&gt; and &lt;code&gt;0&lt;/code&gt; for &lt;code&gt;M&lt;/code&gt; and &lt;code&gt;B&lt;/code&gt; respectively.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## binarize &#39;diagnosis&#39;
+outcome_label = np.where(train_df[&#39;diagnosis&#39;] == &#39;M&#39;, 1, 0)
+outcome_label
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;array([1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+       0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+       0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1,
+       0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0,
+       0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0,
+       1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1,
+       0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1,
+       1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1,
+       0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1,
+       1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0,
+       1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0,
+       0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+       0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0,
+       0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0,
+       0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1,
+       0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0,
+       0, 1, 0, 0, 0, 0, 0, 1])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;train_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;selecting-features&#34;&gt;Selecting &lt;code&gt;Features&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;Here, I selected all the 30 features that were present in the data to train the model. While testing the performance of the model, we need to provide data for all the &lt;code&gt;feature&lt;/code&gt;s used during training&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## get features to be used = remove &#39;diagnosis&#39; column
+features = train_df.columns[1:]
+features
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Index([&#39;radius_mean&#39;, &#39;texture_mean&#39;, &#39;perimeter_mean&#39;, &#39;area_mean&#39;,
+       &#39;smoothness_mean&#39;, &#39;compactness_mean&#39;, &#39;concavity_mean&#39;,
+       &#39;concave points_mean&#39;, &#39;symmetry_mean&#39;, &#39;fractal_dimension_mean&#39;,
+       &#39;radius_se&#39;, &#39;texture_se&#39;, &#39;perimeter_se&#39;, &#39;area_se&#39;, &#39;smoothness_se&#39;,
+       &#39;compactness_se&#39;, &#39;concavity_se&#39;, &#39;concave points_se&#39;, &#39;symmetry_se&#39;,
+       &#39;fractal_dimension_se&#39;, &#39;radius_worst&#39;, &#39;texture_worst&#39;,
+       &#39;perimeter_worst&#39;, &#39;area_worst&#39;, &#39;smoothness_worst&#39;,
+       &#39;compactness_worst&#39;, &#39;concavity_worst&#39;, &#39;concave points_worst&#39;,
+       &#39;symmetry_worst&#39;, &#39;fractal_dimension_worst&#39;],
+      dtype=&#39;object&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;randomforestclassifier&#34;&gt;RandomForestClassifier&lt;/h4&gt;
+&lt;p&gt;Here, we implement &lt;code&gt;RandomForestClassifier&lt;/code&gt; function imported from the &lt;code&gt;sklearn.ensemble&lt;/code&gt; library above.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;n_estimators&lt;/code&gt; - sklearn library calls trees as estimators. Here, I asked the function to run &lt;code&gt;100&lt;/code&gt; trees and provide me the average of these 100 trees.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## implement RF
+brca_clf = RandomForestClassifier(n_jobs=2, random_state=0, n_estimators=100)
+brca_clf.fit(train_df[features], outcome_label)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;RandomForestClassifier(bootstrap=True, class_weight=None, criterion=&#39;gini&#39;,
+            max_depth=None, max_features=&#39;auto&#39;, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=2,
+            oob_score=False, random_state=0, verbose=0, warm_start=False)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;implement-the-model-on-test-data&#34;&gt;Implement the model on test data&lt;/h4&gt;
+&lt;p&gt;Following command implements the &lt;code&gt;RandomForestClassifier&lt;/code&gt; model we built above on test data set we saved for performance evaluation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;brca_clf.predict(test_df[features])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;array([0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1,
+       0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1,
+       0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0,
+       1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1,
+       0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;map-the-m-or-b-labels-to-binary-outcomes&#34;&gt;Map the &lt;code&gt;M&lt;/code&gt; or &lt;code&gt;B&lt;/code&gt; labels to binary outcomes&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_labels = test_df[&amp;quot;diagnosis&amp;quot;].unique()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## map labels to ooutcomes from the model
+test_predictions = test_labels[brca_clf.predict(test_df[features])]
+test_predictions[0:10]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;array([&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;M&#39;, &#39;B&#39;, &#39;B&#39;, &#39;M&#39;, &#39;B&#39;, &#39;M&#39;, &#39;M&#39;], dtype=object)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;build-a-confusion-matrix-with-groud-truth-and-model-predictions&#34;&gt;Build a confusion matrix with &lt;code&gt;Groud Truth&lt;/code&gt; and &lt;code&gt;Model predictions&lt;/code&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## ground truth from the test_df and predictions
+
+conf_matrix = pd.crosstab(test_df[&amp;quot;diagnosis&amp;quot;], test_predictions, rownames=[&amp;quot;Ground Truth&amp;quot;], colnames=[&amp;quot;Model Predictions&amp;quot;])
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;plt.figure(figsize = (5,4))
+sns.heatmap(conf_matrix, annot=True, linecolor=&#39;white&#39;, linewidths=1.5, annot_kws={&amp;quot;size&amp;quot;: 30})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2b8ef6d8&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_19_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;accuracy&#34;&gt;Accuracy&lt;/h4&gt;
+&lt;p&gt;In our test data, there are 95 Benign and 48 Malignant labels out of 143 obsevrations. However, we misclassified 1 Benign case as Malignant and misclassified 2 Malignant cases as Benign cases. In total, there are 3 misclassifications and 140 correct predictions. Let&amp;rsquo;s look at the accuracy percentage&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  (140/143) * 100 = 97.90%
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A whooping accuracy of &lt;code&gt;~98%&lt;/code&gt;. Looks like we built a reasonably very good model. Well done!&lt;/p&gt;
+&lt;h4 id=&#34;feature-importance&#34;&gt;Feature importance&lt;/h4&gt;
+&lt;p&gt;It is often of high interest to look at the features that were most important in predicting the labels. Meaning, shuffling the values of this feature will reduce the accuracy we are supposed to achieve. Feature importance can be calculated and visualized by following functions&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot feature importance scores
+feat_importances = pd.Series(brca_clf.feature_importances_, index=train_df.columns[1:])
+feat_importances.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;radius_mean        0.023095
+texture_mean       0.019641
+perimeter_mean     0.059293
+area_mean          0.032830
+smoothness_mean    0.007325
+dtype: float64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;plt.figure(figsize = (9,5))
+feat_importances.nlargest(10).plot(kind=&#39;barh&#39;, color=&#39;black&#39;)
+plt.title(&amp;quot;Feature importance&amp;quot;)
+plt.ylabel(&amp;quot;Measured feature&amp;quot;)
+plt.xlabel(&amp;quot;importance score&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Text(0.5, 0, &#39;importance score&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_21_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s briefly look at the important feature values in test data and how their values are distributed in &lt;code&gt;Malignant&lt;/code&gt; and &lt;code&gt;Benign&lt;/code&gt; tumors. Important feature value distribution must be high in one or the other class&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot box plots for M and B for first 5 features
+## see how much they differ
+test_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df[[&amp;quot;diagnosis&amp;quot;, &amp;quot;perimeter_worst&amp;quot;]].boxplot(by = &amp;quot;diagnosis&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2a282b38&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_23_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df[[&amp;quot;diagnosis&amp;quot;, &amp;quot;concave points_worst&amp;quot;]].boxplot(by = &amp;quot;diagnosis&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2a2c48d0&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_24_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;visualize-decision-trees&#34;&gt;Visualize decision trees&lt;/h4&gt;
+&lt;p&gt;In this section, I visualize a decision tree and what&amp;rsquo;s happening at each binary decision point. As we ran 100 trees, I randomly chose tree number &lt;code&gt;25&lt;/code&gt; to show splittings. The code to visualize the decision trees is from &lt;a href=&#34;https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot decision trees
+
+from sklearn.tree import export_graphviz
+
+train_labels = train_df[&amp;quot;diagnosis&amp;quot;].unique()
+
+## randomly chose tree-9 to plot
+estimator = brca_clf.estimators_[25]
+
+# Export as dot file
+export_graphviz(estimator, out_file=&#39;tree.dot&#39;, 
+                feature_names = features,
+                class_names = train_labels,
+                rounded = True, proportion = False, 
+                precision = 2, filled = True)
+
+# Convert to png using system command (requires Graphviz)
+from subprocess import call
+call([&#39;dot&#39;, &#39;-Tpng&#39;, &#39;tree.dot&#39;, &#39;-o&#39;, &#39;tree.png&#39;, &#39;-Gdpi=600&#39;])
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.display import Image
+Image(filename = &#39;tree.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_26_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As one can see from the above decision tree, the first &lt;code&gt;feature&lt;/code&gt; in tree number 25 is &lt;code&gt;concave points_worst&lt;/code&gt; making it the root node and the splitting value &lt;code&gt;&amp;lt;=0.14&lt;/code&gt; producing two branches with lower &lt;code&gt;entropy&lt;/code&gt; than the root node. Further, the two branch nodes are splitting again by selecting two different &lt;code&gt;feature&lt;/code&gt;s for each branch. This process will be continued until &lt;code&gt;entropy&lt;/code&gt; value is 0. After all 100 trees are built, the probabilities for being class &lt;code&gt;M&lt;/code&gt; and &lt;code&gt;B&lt;/code&gt; are averaged to give us the final class of each observation.&lt;/p&gt;
+&lt;p&gt;Here, with a basic model, we achieved an accuracy of &lt;code&gt;98%&lt;/code&gt; on a test data that the model has not seen before. By feature scaling, hyper-parameter tuning and further complex feature engineering, just imagine how well &lt;code&gt;RandomForests&lt;/code&gt; can perform!&lt;/p&gt;
+&lt;h3 id=&#34;notes-highly-recommended-if-you-want-to-learn-more&#34;&gt;NOTES (Highly recommended if you want to learn more)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://course18.fast.ai/lessonsml1/lesson1.html&#34;&gt;Jeremy Howard, Fastai - RandomForests&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=DWsJc1xnOZo&amp;amp;t=2016s&#34;&gt;Simplilearn - Machine learning&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@srnghn/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3&#34;&gt;The Mathematics of Decision Trees, Random Forest and Feature Importance in Scikit-learn and Spark&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://victorzhou.com/blog/gini-impurity/&#34;&gt;A Simple Explanation of Gini Impurity&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The transparent guilt of a PhD student</title>
+      <link>https://itsvenu.github.io/post/phd-guilt-trip/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/phd-guilt-trip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;That’s funny. I don’t recall buying tickets for a guilt trip!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Two weeks back, I spent a whole weekend with some of my friends, cooked lots of food, played basketball and did roam around the city. All this while, there is a voice in my head constantly telling me, &amp;ldquo;&lt;em&gt;&lt;strong&gt;what are you even doing? You could be working and complete that little thing in your PhD&lt;/strong&gt;&lt;/em&gt;&amp;rdquo;. Yeah, yeah, I know. I’m feeling bad already :(&lt;/p&gt;
+&lt;p&gt;On the weekend after that, I was fully occupied by work. I have been working from saturday morning to sunday late afternoon. All this while, there is a voice in my head constantly telling me, &amp;ldquo;&lt;em&gt;&lt;strong&gt;what are you even doing with your life? You could be having fun with your friends and living a life.&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; Yeah, yeah, I know. I’m feeling bad already :(&lt;/p&gt;
+&lt;p&gt;As you see, in both cases, I’m feeling bad about myself not doing the other thing. Poor me. It seems like I can still deal with the voice in my head and do whatever I was doing.&lt;/p&gt;
+&lt;p&gt;The problem is, I can clearly see myself reaping the benefits of working &lt;em&gt;while having fun with friends&lt;/em&gt;. On the other hand, I can see the benefits of spending quality time with friends &lt;em&gt;while working my *** off&lt;/em&gt;. And that’s not a good feeling. Even worst, you have to deal with it for a long time.&lt;/p&gt;
+&lt;p&gt;Don’t tell me you are a PhD student who doesn’t go through this cycle.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./friends_phd.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shine and let shine!</title>
+      <link>https://itsvenu.github.io/post/women-in-science/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/women-in-science/</guid>
+      <description>&lt;p&gt;On Feb 11th, my twitter feed flooded with totally a new set of tweets which have &lt;em&gt;&lt;strong&gt;#WomenInScience&lt;/strong&gt;&lt;/em&gt;. A hashtag to celebrate women &amp;amp; girls in science. Celebrating women &amp;amp; girls in science started in 2015 (&lt;a href=&#34;https://womeninscienceday.org&#34;&gt;https://womeninscienceday.org&lt;/a&gt;), which should have started hundreds of years earlier. Yes, something was terribly wrong in history. Good thing is, it’s changing rapidly and many more women are raising to the top in STEM.&lt;/p&gt;
+&lt;p&gt;On Feb 11th, I was checking my twitter feed once in a while during the day. A lot of women from STEM tweeted personal experiences, struggles faced, showing gratitude to the people who helped them to stand their position.&lt;/p&gt;
+&lt;p&gt;As a data scientist (&lt;em&gt;yeah, I call myself that&lt;/em&gt;), I was really inspired and at the same time fascinated to visualize all locations around the world where these tweets are coming from.&lt;/p&gt;
+&lt;h4 id=&#34;womeninscienceday-around-the-world&#34;&gt;#WomenInScienceDay around the world&lt;/h4&gt;
+&lt;p&gt;Without much explanation, here is the plot with unique locations around the world (indicated by red dot) from where people talked about &lt;em&gt;&lt;strong&gt;#WomenInScienceDay&lt;/strong&gt;&lt;/em&gt; on Feb 11th.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./wis.png&#34; alt=&#34;wis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, one can do a lot of analysis on social interactions &amp;amp; visualize connections among different countries, e.g. a tweet originated from a country (node) and retweeted by people from other countries (edges).&lt;/p&gt;
+&lt;p&gt;If anyone is interested to continue the analysis, data, code and techinical details are available here: &lt;a href=&#34;https://github.com/itsvenu/womenInScienceDay&#34;&gt;https://github.com/itsvenu/womenInScienceDay&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google and my travel history</title>
+      <link>https://itsvenu.github.io/post/travel-history/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/travel-history/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I never thought of looking back on my travel history until I saw &lt;a href=&#34;https://towardsdatascience.com/create-a-heat-map-from-your-google-location-history-in-3-easy-steps-e66c93925914&#34;&gt;this article&lt;/a&gt;. Immediately, I decided to download my data and explore it from different angles. Here, I performed a bit of exploratory analysis on my google location history data of past one year, December, 2017 - December, 2018.&lt;/p&gt;
+&lt;p&gt;Why one year? Well, I never had an android phone until April, 2017. Even after that I haven&amp;rsquo;t used mobile internet for a long time. My google location history data itself started in December 2017. In other words, I had no choice but to use data from December, 2017.&lt;/p&gt;
+&lt;h3 id=&#34;some-points-before-jumping-into-the-data&#34;&gt;Some points before jumping into the data&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;At the moment, I am residing in Heidelberg, Germany and travel to different European countries once in a while.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In December, 2017, I went back to India in the beginning of the month and returned to Germany by the end of the month. For the most part, I travelled in India and used the mobile internet frequently.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I downloaded google location history data on 22nd December, 2018, so I restricted data from December, 2017 to before 22nd.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There are different types of attributes in downloaded json file. I do not need all attributes for my analysis. If you would like to know the meaning of different attributes check &lt;a href=&#34;https://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/&#34;&gt;this post&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Briefly, I kept the following attributes,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;timestampMs&lt;/code&gt;, time at the point google tracked my location. This format is converted to regular human readable format.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;latitudeE7&lt;/code&gt;, lattitude of the location.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;longitudeE7&lt;/code&gt;, longitude of the location. Later in the analysis, these lattitude &amp;amp; longitude combinations are used to predict the city name and country. Also to calculate the distance travelled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;accuracy&lt;/code&gt;, accuracy of the tracking (lower the number, higher the accuracy). I filtered for data with &amp;lt; 1000 accuracy value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;activity&lt;/code&gt;, means of travelling while tracking. There are multiple types within &lt;code&gt;activity&lt;/code&gt;, e.g. &lt;code&gt;BY_FOOT&lt;/code&gt;, &lt;code&gt;WALKING&lt;/code&gt;..etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;activity_confidence&lt;/code&gt;, confidence with which &lt;code&gt;activity&lt;/code&gt; is predicted. Higher the value, higher the confidence. I filtered for &amp;gt;10 confidence value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Okay, let&amp;rsquo;s not wait to eat the delicious cookie,&lt;/p&gt;
+&lt;h3 id=&#34;how-much-distance-did-i-travel-per-month&#34;&gt;How much distance did I travel per-month?&lt;/h3&gt;
+&lt;p&gt;Here, I calculated the distance travelled (in kilometers) per-month for the past one year&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./TotalDistance_per_month.png&#34; alt=&#34;total-distance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Huh, interesting. I was feeling my 2018 was pretty boring. I totally forgot the big peaks in Feb &amp;amp; May, 2018. That made me feel better. I wanted to look at where did I travel to in these times along with December, 2017.&lt;/p&gt;
+&lt;p&gt;So, I took out the data for these 4 months and calculated the number of cities I crossed while travelling to &amp;amp; back from the major destination point. I am really curious to know how many cities contributed to these 1000s of kilometers.&lt;/p&gt;
+&lt;p&gt;Here it is&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./high_distance_city_plot.png&#34; alt=&#34;high-distance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One interesting obsevration here is that, I travelled to 3 to 4 big cities in December, 2017 in India. But only one place, Barcelona; Spain, in December, 2018. The number of cities contributing to these two months are very closer (December-2017, 35; December-2018, 29). This might be due to, in europe, the city boundaries are very small and zip codes are very different within a small region. Where as in India, cities are spread across a very wide region. (Note: This is just a hypothesis)&lt;/p&gt;
+&lt;p&gt;So far so good. Now I would like to see by which means of transportation did I travel in these 4 months. As I explained in the beginning, &lt;code&gt;activity&lt;/code&gt; type represents the means of transporation. Unfortunately, there are some attributes for which I did not find proper meaning, e.g. &lt;code&gt;TILTING&lt;/code&gt;, &lt;code&gt;STILL&lt;/code&gt;. However, I included them in the analysis to know how many kilometers this transportation contributed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./high_distance_activity_distance_plot.png&#34; alt=&#34;hdad&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I felt little ambiguous interpreting this results. As I mentioned, there are some ambiguous terms for which I was not able to figure out the meaning. However, I would hazard a guess for some of these depending on the transportation I took (and remember). In December, 2018, I definitely travelled more by train than bus, so I believe, &lt;code&gt;IN_VEHICLE&lt;/code&gt; means to a high degree, train. This makes sense for the same attribute in December, 2017. I travelled by bus more than train in India. Again this is consistent with big peaks in February, 2018, in which I&amp;rsquo;ve been on a long road trip by car. All in all, bus/car and train journeys are not much different in the data I analyzed here. One more observation here is in Feb &amp;amp; May, 2018, &lt;code&gt;ON_FOOT&lt;/code&gt; distances are closer (and higher), which suggests that europe, to a high degree is a place to experience by walk looking at historical architectures and beautiful streets.&lt;/p&gt;
+&lt;h3 id=&#34;how-did-google-perform-in-2018-in-germany&#34;&gt;How did google perform in 2018 in Germany?&lt;/h3&gt;
+&lt;p&gt;Now, I only looked at 2018, Germany data. I took top 10 cities within Germany which has the highest distances recorded according to google.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./de_distance_percity_plot.png&#34; alt=&#34;depercity&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These results are pretty obvious except the &lt;code&gt;Niederrad&lt;/code&gt;. I consciously never been to this place and it doesn&amp;rsquo;t even seem to be closer to Heidelberg. I suspect, this place is closer/overlapping a place where I frequently travel to but because of zip code change, google must assigned a different city name. Otherwise, I&amp;rsquo;m completely not sure how this came out to be one of the top 10 cities (Or this might be a mistake from google).&lt;/p&gt;
+&lt;h3 id=&#34;how-about-my-favourite-city-heidelberg&#34;&gt;How about my favourite city Heidelberg?&lt;/h3&gt;
+&lt;p&gt;Finally, I looked into the data concerning only Heidelberg in 2018. I calculated the distance travelled by different means of and how the distances are distributed over a week, meaning on which day I travlled most or least.&lt;/p&gt;
+&lt;p&gt;As I have shown the total distance assigned to &lt;code&gt;Heidelberg&lt;/code&gt; in above plot, I will not show it again.&lt;/p&gt;
+&lt;h5 id=&#34;different-transportation-means-within-heidelberg-2018&#34;&gt;Different transportation means within Heidelberg, 2018&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;./hd_distance_plot.png&#34; alt=&#34;hddistance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, I use bike most of the times within Heidelberg. There are some outliers within &lt;code&gt;TILTING&lt;/code&gt; and &lt;code&gt;IN_VEHICLE&lt;/code&gt; attributes, these might be coming from long distances I travelled by train or bus.&lt;/p&gt;
+&lt;h5 id=&#34;on-which-day-did-i-roam-around-more&#34;&gt;On which day did I roam around more?&lt;/h5&gt;
+&lt;p&gt;To calculate this, I summed up distances of same day in a month. I.e., sum of all Mondays or Tuesdays..etc in a month.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./hd_weekday_2018_distance_plot.png&#34; alt=&#34;hd2018&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you are an Indian living in Germany, you can easily relate to why the distances increased slightly on Saturdays and droppped on Sundays. Sundays are kind of boring in Germany which gives us an opportunity to be lazy and just stick to your bed whole day.&lt;/p&gt;
+&lt;h3 id=&#34;so-in-conclusion&#34;&gt;So, in conclusion,&lt;/h3&gt;
+&lt;p&gt;I explored, mostly distance parameter, from my google location history of one year. I learned that,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There are some interesting facts, supported by data, you can realize abour yourself. Example, in which travel destination you saw many tourist places based on distance convered. This can depend on who did you go with or the purpose of the visit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google is something you have to be careful about. If anyone in this world knows more about you, that is Google.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Most importantly, I learned that my 2018 is not that boring after all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;suggested-resources&#34;&gt;Suggested resources:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ALL CODE WRITTEN FOR THIS ANALYSIS IS AVAILABLE &lt;a href=&#34;https://github.com/itsvenu/google-location-history&#34;&gt;HERE AS JUPYTER-NOTEBOOK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://shiring.github.io/maps/2016/12/30/Standortverlauf_post&#34;&gt;How to map your Google location history with R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/analyzing-my-google-location-history-d3a5c56c7b70&#34;&gt;Analyzing my Google Location History&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/&#34;&gt;Analyze Your Google Location History: Exploring Data&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://demo.datathings.com/lumo/&#34;&gt;Heatmap visualizer&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to many people on the internet who already faced the propblems I faced during the analysis and those who answered them. And thanks to &lt;a href=&#34;https://unsplash.com/&#34;&gt;https://unsplash.com/&lt;/a&gt; for providing cover image for this post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code, Pizza and my Stupidity</title>
+      <link>https://itsvenu.github.io/post/stupidity/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/stupidity/</guid>
+      <description>&lt;h3 id=&#34;morning-0900&#34;&gt;Morning 09:00&lt;/h3&gt;
+&lt;p&gt;Saturday morning. Quite a peaceful day. I am so excited to write the code for a web application that I have been working on. Little did I know that I am going to spend the entire day debugging an error that is hiding in my code.&lt;/p&gt;
+&lt;p&gt;I had a strong espresso before sitting in front of my laptop and divided the task into three components.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Take input data files from user&lt;/li&gt;
+&lt;li&gt;Perform calculations on received data&lt;/li&gt;
+&lt;li&gt;Show the results to user&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I started writing code for the first part. At each stage I was testing how the application is going to look in the browser. I was careful enough not to miss any &lt;em&gt;&lt;strong&gt;semicolons (;)&lt;/strong&gt;&lt;/em&gt;. Because, I remember&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://media02.hongkiat.com/programming-jokes/joke-semi-colon.jpg&#34; alt=&#34;semi&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;afternoon-1300&#34;&gt;Afternoon 13:00&lt;/h3&gt;
+&lt;p&gt;By this time I successfully wrote the code to take-in the user provided data into server to perform some calculations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Me&lt;/strong&gt;: I feel Good.
+&lt;strong&gt;Brain&lt;/strong&gt;: Enough, Go grab a coffee.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I had one more espresso, this time &lt;a href=&#34;https://www.google.de/search?q=indian+sundara+espresso&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=0ahUKEwjyn82qg63WAhXIvxQKHR-vBcEQ_AUICigB&amp;amp;biw=1115&amp;amp;bih=483&#34;&gt;&lt;em&gt;&lt;strong&gt;Indian Sundara&lt;/strong&gt;&lt;/em&gt; (&lt;em&gt;Highly recommended&lt;/em&gt;)&lt;/a&gt;. While having coffee, I mentally drew a framework how I am going to write the code to perform calculations. Task started again. Sublime page is being filled with the code to perform calculations. This time it took three hours to complete the code including the code for final task, “showing results to user”. It’s time for testing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Input some test data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Start calculations&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  	  PROGRAM RUNNING . . .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It showed something. It was not the results but an error.&lt;/p&gt;
+&lt;p&gt;Nooo. I don’t want this to be happening. I closed the application and tested it again. Of course the error didn&amp;rsquo;t correct by itself.&lt;/p&gt;
+&lt;p&gt;I carefully gone through the entire code scanning for any obvious bugs. I didn’t find any. I tried to print exactly the input data as result on the screen without performing any calculations. It showed perfectly. I concluded that the error is in the code to perform calculations. I started probing the internet for this kind of error. I found some similar ones but not the exact one. I tried different debugging methods, some of which I already knew and some are completely new. I got to know different debugging methods which I didn&amp;rsquo;t know before. Different methods work for different bugs. But none worked for mine. It seems the error is not the usual one, if it is, it should&amp;rsquo;ve been caught by one of these debugging methods.&lt;/p&gt;
+&lt;h3 id=&#34;evening-1800&#34;&gt;Evening, 18:00&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Me&lt;/strong&gt;: Heck, this err..
+&lt;strong&gt;Brain&lt;/strong&gt;: Stop complaining, go get a coffee and write the entire code again.
+&lt;strong&gt;Me&lt;/strong&gt;: Okay, as you say!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I started writing entire code again. This time with utmost care, hoping to avoid the error. After 90-100 minutes of coding, I tested the application again.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh God! Do you even know that I exist in this world. I know you are busy but at least help me once in a decade&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What is wrong with this code, I yelled. Again, I started probing the internet. Every time, I found the same solutions which didn’t work. I checked the code again. Tested the application with different test data. Printed again the input without calculations. Came to the same conclusion that the error is in code to do calculations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Brain&lt;/strong&gt;: I don’t think you are a good fit for this job. Quit and look for a simple and easy job.
+&lt;strong&gt;Me&lt;/strong&gt;: 😏&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;night-2300&#34;&gt;Night: 23:00&lt;/h3&gt;
+&lt;p&gt;Aargh! I am feeling hungry. Let’s work on this tomorrow, I thought. I went to buy pizza, &lt;em&gt;yes I love pizza at midnight&lt;/em&gt;, at a shop across the street. I was walking down the empty streets filled with darkness and dim lights, with my pizza.&lt;/p&gt;
+&lt;p&gt;All of a sudden something striked in my mind. In simplest explanation, what I was writing in the code is the following&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;II x 2&amp;rdquo; and expecting it to give 4&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Obviously, program is unable to understand two different formats (roman number and numeric), that was what causing the error. I have to convert one format type to the other in order to get the results. That is&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;2 x 2&amp;rdquo; which should give 4&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yes, that was the error. I rushed back home, modified the code and tested the application.&lt;/p&gt;
+&lt;p&gt;Guess what ?&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Yes, my code is working perfect.&lt;/p&gt;
+&lt;p&gt;Aww! I am such a stupid. This is a simple bug. I spent almost 6-7 hours to find this.&lt;/p&gt;
+&lt;h4 id=&#34;did-i-simply-waste-6-7-hours-&#34;&gt;Did I simply waste 6-7 hours ?&lt;/h4&gt;
+&lt;p&gt;No, all those hours were not waste. In the process&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I got more command on the programming language&lt;/li&gt;
+&lt;li&gt;I learnt more debugging methods which are definitely useful in the long run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and most importantly,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I learnt &lt;strong&gt;patience being a millennial&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;to overcome self-doubt inner voice&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;that when things don&amp;rsquo;t work, I should leave everything and go out for a walk (and buy pizza)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I learnt &lt;strong&gt;that I&amp;rsquo;m a STUPID&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Divide and Conquer</title>
+      <link>https://itsvenu.github.io/post/divide-conquer/</link>
+      <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/divide-conquer/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Father: Son, How do you eat an elephant ?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Son: One bite at a time.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Exactly. Divide a task into as many micro tasks as possible. So far, this is the best way to trick your brain to achieve massive goals. But why am I saying this? Because, I followed this and it seems working like charm.&lt;/p&gt;
+&lt;p&gt;Recently, I had to write my 6-8 months PhD progress report which should include my thesis’s main goals, what has been done in past six months including methods I applied and results I got and finally what will be done in near future. If you are a student like me, let’s admit it. &lt;em&gt;WE SUCK AT WRITING&lt;/em&gt;. It’s not that I do not like writing,&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;it’s about the high effort mental process I need to go through&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;It’s about controlling myself from distractions&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;It’s about concentrating on one goal for a long time&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Sounds familiar ? Welcome to &lt;em&gt;&lt;strong&gt;ADHD community&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Evenmore, as a natural human tendency we avoid tasks that burden our &lt;em&gt;unused brains (pun intended)&lt;/em&gt;. I have friends who say, given a chance they will complete their PhD without writing (don’t say it loud, I also feel same). But we can make writing process more fun, less intense with the &lt;em&gt;&lt;strong&gt;“Semantic Tree”&lt;/strong&gt;&lt;/em&gt; approach I described in &lt;a href=&#34;https://venuthatikonda.github.io/blog/note-to-remember/&#34;&gt;one of my previous posts&lt;/a&gt;. Here is how you can implement.&lt;/p&gt;
+&lt;h3 id=&#34;draw&#34;&gt;Draw&lt;/h3&gt;
+&lt;p&gt;Come up with a statement that is most obvious goal of your PhD thesis. For example, finding epigenetic targets of Lung Cancer or designing small molecule to target  enzyme X.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You know what my statement was?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Completing Thesis” (yeah, laugh at me)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Then draw branches from that statement for every major project. For each project-branch draw sub-branches with the following names
+(&lt;em&gt;below you can find a template&lt;/em&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing research area&lt;/li&gt;
+&lt;li&gt;Broad aim / Goals of the project&lt;/li&gt;
+&lt;li&gt;Why filling this gap is important and what previous research says&lt;/li&gt;
+&lt;li&gt;Data availability and methods to implement&lt;/li&gt;
+&lt;li&gt;What results I have and how far it is from main goals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will be having more than one project-branch depending on the type of work and projects you are handling.&lt;/p&gt;
+&lt;h3 id=&#34;fill&#34;&gt;Fill&lt;/h3&gt;
+&lt;p&gt;Now you are on the track. Under each sub-branch write in bullet points with minimum words what that sub-branch is about. As many points as you can. Remember quality doesn’t matter at this stage but QUANTITY. This also helps in reflecting on your own knowledge of the field. Here is my template&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./semantic-tree-writing.jpg&#34; alt=&#34;semantic-tree&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After writing points under each sub-branch, you are few steps away from your first draft. Now connect points under each sub-branch to write paragraphs. Yeah, that’s how it works for most cases.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Idea -&amp;gt; words -&amp;gt; sentences -&amp;gt; paragraphs -&amp;gt; whatever ..&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Write paragraphs for each of the sub-branch. As much information as you can.
+Keep in mind, a &lt;em&gt;completed&lt;/em&gt; first draft is a &lt;em&gt;good&lt;/em&gt; first draft. This first draft serves many purposes.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Did you understand completed does not necessarily mean final?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Congrats! You have your first draft. Now have a coffee.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Drawing.jpg&#34; alt=&#34;coffee&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;edit&#34;&gt;Edit&lt;/h3&gt;
+&lt;p&gt;Now start reading from the beginning. Take your audience into account. If this report will be read by professionals in the field you don’t need to be too descriptive about every context you described. Consider following two scenarios&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scenario - 1&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I bought colors, painting brush and canvas. Then I drew an outline of what I want to paint. Following the outline I made this beautiful painting.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Scenario - 2&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I drew an outline and followed it to make this beautiful painting.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Scenario - 1 should be for general audience and Scenario - 2 should be for professionals in the field.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Got the difference ?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;After this editing, read your report one more time, check how the flow is, make sure you are not jumping from &lt;strong&gt;A&lt;/strong&gt; to &lt;strong&gt;C&lt;/strong&gt; without talking about &lt;strong&gt;B&lt;/strong&gt;. Add or remove some of the sentences where you feel they are not fitting. Spend sometime to include &lt;em&gt;&lt;strong&gt;scientific jargon&lt;/strong&gt;&lt;/em&gt; and to remove layman sentences. You know why this is important, right?&lt;/p&gt;
+&lt;p&gt;I wrote my report with this method. Believe me, it takes a very short time.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Happy writing !&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./writing.jpg&#34; alt=&#34;writing&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics &amp; Biostars QA forum</title>
+      <link>https://itsvenu.github.io/post/bioinformatics-biostars/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/bioinformatics-biostars/</guid>
+      <description>&lt;p&gt;Biostars, (&lt;a href=&#34;https://www.biostars.org/&#34;&gt;https://www.biostars.org/&lt;/a&gt;) is a QA forum for bioinformatics related stuff, much like stack overflow. I have to admit and be grateful to this site and the community as it’s played (&amp;amp; still playing) an important role since I started Bioinformatics after Masters/MS to this day. Today, I’m a PhD student in Bioinformatics, and I frequently get help from this site whenever I’m stuck with problems. Thank you Biostars.&lt;/p&gt;
+&lt;p&gt;There are many questions on this site starting from how to get started with bioinformatics to latest techs in sequencing world. The &lt;em&gt;data scientist&lt;/em&gt; in me was curious to look at the data this site accumulated over the years (2009 - 2019). In this blog post, I will look at some of the questions I’ve been interested about Bioinformatics.&lt;/p&gt;
+&lt;p&gt;Here are the few question I will answer in this blog post&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Which programming language is most used in Bioinformatics in last ~10 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Growing importance of Bioinformatics reflected by total number of questions per year in last ~10 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Frequency of topics discussed on this site&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used web-scraping approach to scrape questions and associated tags and engineered some of the features per each question. Code to reproduce the analysis is available &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;here&lt;/a&gt; (NOTE: Data is scraped on 23/02/2019 there might be slight changes when it is reproduced as new threads are opened after 23rd Feb, 2019).&lt;/p&gt;
+&lt;h4 id=&#34;bioinformatics--programming-languages&#34;&gt;Bioinformatics &amp;amp; programming languages&lt;/h4&gt;
+&lt;p&gt;Here, I took all tags for each question and summarised the number of questions per-year with following tags, &lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt; &amp;amp; &lt;code&gt;Perl&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_perYear_languageQuestions.png&#34; alt=&#34;lan&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The rapid increase in use of &lt;code&gt;R&lt;/code&gt; in Bioinformatics is not surprising given the large community of users, visualization libraries and most importantly &lt;code&gt;Bioconductor&lt;/code&gt; project. Use of &lt;code&gt;Python&lt;/code&gt; is increasing but relatively slow compared to &lt;code&gt;R&lt;/code&gt;, I guess the major reason for this might be lack of a resource such as &lt;code&gt;Bioconductor&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;importance-of-bioinformatics-in-research&#34;&gt;Importance of Bioinformatics in research&lt;/h4&gt;
+&lt;p&gt;Following graph shows the number of questions appeared on Biostars per year. This reflects the number of researchers getting into Bioinformatics and the growing importance of high throughput analysis in basic sciences and disease research.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_perYear_numberOfQuestions.png&#34; alt=&#34;numQ&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;frequency-of-topics-discussed&#34;&gt;Frequency of topics discussed&lt;/h4&gt;
+&lt;p&gt;What’s the most discussed topic on Biostars? Or what’s the topic on which most bioinformaticians get stuck? Following word cloud shows the frequency of each tag associated with all questions from last ~ 10 years.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./Biostars_allTagsWordcloud.png&#34; alt=&#34;tags&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RNA-seq&lt;/strong&gt; it is. This is one of the revolutionary sequencing technology to get informations on transcriptomic changes depending the contexts but it does seem like it is also one of the most difficult topic in terms of computational analysis. Don’t even get me started on &lt;em&gt;single-cell technology&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There are more interesting questions I would like to answer with this resource whose code requires a more expensive computational resource than my laptop. I will update this blog post as I do additional analysis.&lt;/p&gt;
+&lt;h4 id=&#34;further-discussions&#34;&gt;Further discussions&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.biostars.org/p/365738/&#34;&gt;Blog: Evolution of Biostars&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/nerd_yie/status/1099696141577392128&#34;&gt;Twitter thread&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Source code: &lt;a href=&#34;https://github.com/itsvenu/Biostars-datascience&#34;&gt;https://github.com/itsvenu/Biostars-datascience&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>When I hit by a quote on the internet and started writing ...</title>
+      <link>https://itsvenu.github.io/post/when-i-hit/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/when-i-hit/</guid>
+      <description>&lt;p&gt;Every time I begin to work on writing for my blog, something stops me. I always try to fight back and lose. Obviously. I have been &lt;strong&gt;THINKING&lt;/strong&gt; to write on a topic for more than a month. Notice &lt;strong&gt;THINKING&lt;/strong&gt;. Just to stress that I am only thinking. Doing nothing about it.&lt;/p&gt;
+&lt;p&gt;While submitting a new post, I always tell myself &lt;em&gt;&lt;strong&gt;“I should write one post per week. Okay, at least one per 2 weeks, keeping in mind other scientific projects”&lt;/strong&gt;&lt;/em&gt;. Good excuse right! I know.&lt;/p&gt;
+&lt;p&gt;One day, while having a small-talk with a friend of mine, I mentioned “I was planning to write something on this topic”, that I have been thinking. &lt;em&gt;&lt;strong&gt;Well&lt;/strong&gt;&lt;/em&gt;, he said&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;“there is nothing wrong in making plans. You can make as many plans as you want.”&lt;/strong&gt;&lt;/em&gt; Then my face turned like this.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;./facepalm.jpg&#34; alt=&#34;face&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As you see, this comment hides some meaning. We do not see any problems while making plans. Even if we expect to see some, many other problems show up when we actually working on.&lt;/p&gt;
+&lt;p&gt;Similarly, each time I sit to write, I face &lt;em&gt;many&lt;/em&gt; problems and all these forces me to postpone the work. Two most dangerous problems, of &lt;em&gt;many&lt;/em&gt;, are &lt;em&gt;&lt;strong&gt;Procrastination&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Distraction&lt;/strong&gt;&lt;/em&gt; (PD). I am a &lt;strong&gt;PRO&lt;/strong&gt; of &lt;strong&gt;PRO&lt;/strong&gt;crastination. Oh boy! I’m telling you. I love those tomorrows. Everyday, my today’s work would be postponed to tomorrow. And these tomorrows are a never ending chain. If I start talking about my distractions, this post will take you somewhere &lt;em&gt;&lt;strong&gt;off-track&lt;/strong&gt;&lt;/em&gt; and you’ll be distracted. It is difficult for me to resist the temptation of thinking about the vast number of topics in the world which are completely useless to me. I start with topic-A and my brain quickly jumps onto some random topic-K which is no way related to the initial one.&lt;/p&gt;
+&lt;h3 id=&#34;then-this-happened&#34;&gt;Then this happened&lt;/h3&gt;
+&lt;p&gt;As a daily routine, I postponed my writing and started wasting time on random topics on the internet. I stumbled upon a quote.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This hit me in the face. I felt terrible. I felt embarrassed. I know what I want to do. I know how to do. But, why it is not happening? I always imagine myself writing, but never initiated an action. How do I improve myself editing my writing without having anything on the paper ? This really changed my rest of the day. I grabbed a notebook and pencil and drawn an outline on what and how to write.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./outline.jpg&#34; alt=&#34;out&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Added some details to the initial outline. Some more to the second one and so on. Drawn few cartoon pictures. All this while, I fought my temptations to procrastinate, to open a new-tab and waste time on some random internet page and finally made “When I hit by a quote on the internet and started writing&amp;hellip;”&lt;/p&gt;
+&lt;p&gt;If you are also having the same problems like &lt;em&gt;&lt;strong&gt;stupid&lt;/strong&gt;&lt;/em&gt; me, do not wait until something punch you in the face. Nothing is really important, if it is, you obviously find time for it. Stop scrolling  &lt;em&gt;&lt;strong&gt;f&amp;rsquo;ng&lt;/strong&gt;&lt;/em&gt; facebook and install &lt;a href=&#34;https://chrome.google.com/webstore/detail/block-site/eiimnmioipafcokbfikbljfdeojpcgbh?hl=en&#34;&gt;BlockSite&lt;/a&gt; and &lt;a href=&#34;https://chrome.google.com/webstore/detail/pomodoro-timer/hfgjlgjnpkpmnpojkkpfkogapiclopop?hl=en&#34;&gt;Pomodoro&lt;/a&gt;. These two chrome extensions are helping me a lot to increase my productivity step by step. It takes a huge effort to free yourself from &lt;strong&gt;PD&lt;/strong&gt; but it is definitely possible.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A note to my six months younger-self</title>
+      <link>https://itsvenu.github.io/post/note-to-remember/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/note-to-remember/</guid>
+      <description>&lt;p&gt;Hey, you!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Who me?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Yes, you. Seem so excited about starting your PhD?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ofcourse. You know how many nights I burnt to get here?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;That is exactly why I am here. I am your future-self who is six months into your PhD and I would like to give you some suggestions. Please keep them in mind during your PhD.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Suggestions? Meh..&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Please, you have to listen..&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Okay! Tell me&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;research-draw-a-semantic-tree-for-every-new-concept-you-encounter&#34;&gt;Research: Draw a semantic tree for every new concept you encounter&lt;/h4&gt;
+&lt;p&gt;Let me explain it with a simple example. Say, you need to understand the anatomy &amp;amp; physiology of leaves and start your research work around the topic. You can’t directly jump onto literature on leaves and understand everything. First you need to know about tree, different parts of a tree, what role each part is performing in the life of a tree, how each part is connected to other. Then narrow down your focus onto leaves. Dig deeper. Probe the literature on what people tried to reveal about leaves, watch related videos/documentaries, read blog posts ..&lt;em&gt;etc&lt;/em&gt;. Write down the open questions, know what data you have/need to solve one of those open and IMPORTANT questions.&lt;/p&gt;
+&lt;p&gt;Here is a semantic tree for above example to narrow down your focus from a broad context.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./sematic-tree.jpg&#34; alt=&#34;semantic-tree&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is a simple example. You are going to work on one of the complex organs in human body, Brain. Be careful. Don’t just read. For every obscure statement, seek evidence from multiple sources. Don’t afraid to question.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;“Effective questioning brings insight, which fuels curiosity, which cultivates wisdom”&lt;/strong&gt;&lt;/em&gt;  - &lt;em&gt;Chip Bell&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;failure-you-will-fail-multiple-times-but-it-is-okay&#34;&gt;Failure: You will fail. Multiple times. But it is okay!&lt;/h4&gt;
+&lt;p&gt;Yes. It is hard to digest when someone tells you in the face that you are going to fail. Remember that old but GOLD saying? &lt;em&gt;&lt;strong&gt;“Failures are stepping stones to Success”&lt;/strong&gt;&lt;/em&gt;. That is &lt;em&gt;101% true&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Sometimes the method you design to address the problem won’t work as you expected or is just not suitable for the question at your hand. Don’t worry. This is how you learn what works better for the problem. When you fail at something, don’t be hard on yourself. Laugh at your innocence. Do not try to fix it as soon as you realize it failed. Take some time for retrospection. Analyse step by step what you have done. Find at which stage you took a wrong step. Well, there is no obvious wrong step but is just not appropriate for the situation. Ask a question &lt;em&gt;&lt;strong&gt;“How can you modify that procedure to work better”&lt;/strong&gt;&lt;/em&gt; ?&lt;/p&gt;
+&lt;p&gt;Retrospection will be easy when you have documentation on what has been done.
+Do not forget to write down everything you are doing. Every single step. Do not ignore or do not procrastinate. A great anonymous once said &lt;em&gt;&lt;strong&gt;“Documentation is a love letter you write to yourself”&lt;/strong&gt;&lt;/em&gt;. Write it beautifully, so you can read it anytime you want.&lt;/p&gt;
+&lt;h4 id=&#34;non-science-do-not-forget-what-else-you-love-other-than-science&#34;&gt;Non-science: Do not forget what else you love other than science&lt;/h4&gt;
+&lt;p&gt;I have seen you several times drawing cartoons, reading fiction novels, is that you? If yes, keep that habit. &lt;em&gt;&lt;strong&gt;Never abandon what you love other than science&lt;/strong&gt;&lt;/em&gt;. It gives you pleasure. Keep reading. Number of books on different subjects. Reading non-work related areas broadens your knowledge horizons. Do not ask why &amp;amp; how this helps with your PhD. You will understand. Thank me later. Develop writing as a habit. Write about various topics. Do not hesitate to share your failures through writing or public speaking. It helps other fellows. Let them know they are not the only ones.&lt;/p&gt;
+&lt;h4 id=&#34;health--family-last-but-not-least-take-care-of-your-health&#34;&gt;Health &amp;amp; Family: Last but not least, Take care of your health&lt;/h4&gt;
+&lt;p&gt;You are going to live away from your family, away from your friends, away from people you know, away from places you are familiar with. I know you spent overnights for various reasons with no effect on your health. But now it is different. You need to balance your physical and mental health. Follow a healthy diet.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;“Good health is a crown on the head of a well person that only a sick person can see”&lt;/strong&gt;&lt;/em&gt; - &lt;em&gt;Robin Sharma&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Do not be depressed when you fail. Do not get frustrated when things don’t work. Sometimes you will do nothing productive through out a complete day. It is okay. Just take a coffee and walk for a while.&lt;/p&gt;
+&lt;p&gt;Someone is going to break your heart. Do not complain. Respect their decision and move on. It is okay to break your heart a couple of times. Remember &lt;em&gt;&lt;strong&gt;“The more it happens, the less it hurts”&lt;/strong&gt;&lt;/em&gt;. Period. You can handle that. &lt;em&gt;DO NOT EVER CONNECT YOUR EMOTIONS WITH ALCOHOL.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Talk to your family very frequently, more frequent than previous years. Do not pretend you are busy. It is the best medicine when you feel low. Talk to that friend of yours and discuss those stupid topics which do not make sense to anyone in this world, except you and your friend. &lt;em&gt;Laugh a lot, stay healthy&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Have fun with your PhD. Make most out of it. Make memories !&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Is that all?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Yes.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Okay, Thanks!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

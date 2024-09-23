@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datascience | The Data Diary</title>
+    <link>https://itsvenu.github.io/tags/datascience/</link>
+      <atom:link href="https://itsvenu.github.io/tags/datascience/index.xml" rel="self" type="application/rss+xml" />
+    <description>datascience</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>datascience</title>
+      <link>https://itsvenu.github.io/tags/datascience/</link>
+    </image>
+    
+    <item>
+      <title>A Python script to auto join your zoom meetings</title>
+      <link>https://itsvenu.github.io/post/auto-zoom/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/auto-zoom/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Meetings! Aww, the good old days. I remember the days when I was working in the lab and a colleague asking me &amp;lsquo;are you joining the meeting?&amp;rsquo;. Oh yeah, I totally forgot, let&amp;rsquo;s go.&lt;/p&gt;
+&lt;p&gt;But since we have moved online and working from home, your colleague/friend is not around you to remind you &lt;strong&gt;IF YOU FORGET TO JOIN A MEETING&lt;/strong&gt;. For this reason, I wrote the following python script to auto join your zoom meeting. Of course, you can add reminders to your phone, but if you would like to work keeping your phone away, this script will be of great help. (Also, what&amp;rsquo;s the point of being a nerd if you won&amp;rsquo;t exploit tech!)&lt;/p&gt;
+&lt;p&gt;Here is the idea of the python script&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take zoom link, meeting date, meeting time as arguments&lt;/li&gt;
+&lt;li&gt;Sleep until the meeting time since the execution&lt;/li&gt;
+&lt;li&gt;Open the zoom link on time in chrome and open zoom app&lt;/li&gt;
+&lt;li&gt;Maximize zoom app window and mute yourself&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;First import requied modules. In the following only &lt;code&gt;pyautogui&lt;/code&gt; and &lt;code&gt;click&lt;/code&gt; (for command line version) needs to be installed separately, rest come by default with python. &lt;code&gt;pyautogui&lt;/code&gt; helps controlling mouse, keyboard from within python.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pyautogui as pyg
+import webbrowser as wb
+import datetime
+import time
+import click
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Following are the helper functions to convert human readable date, time formats to python interpretable format.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# functions to format date, time
+def format_date(x):
+    date_list = x.split(sep=&amp;quot;-&amp;quot;)
+    return list(map(int, date_list))
+
+def format_time(x):
+    time_list = x.split(sep=&amp;quot;-&amp;quot;)
+    return list(map(int, time_list))
+
+def given_datetime(given_date, given_time):
+
+    # YY, MM, DD, HH, MM
+    return datetime.datetime(given_date[2], given_date[1], given_date[0], given_time[0], given_time[1], given_time[2])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Following is the core of the script to join the meeting. All steps from 1-4 from above are performed here.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# join the meeting
+def join_meeting(zoom_link, meeting_date, meeting_time):
+
+    meeting_date_x = format_date(meeting_date)
+    meeting_time_x = format_time(meeting_time)
+    required_datetime = given_datetime(meeting_date_x, meeting_time_x)
+
+    # time difference between current and meeting time
+    wait_time_sec = (required_datetime - datetime.datetime.now().replace(microsecond=0)).total_seconds()
+    print(&amp;quot;Your ZOOM meeting starts in &amp;quot; + str(wait_time_sec/60) + &amp;quot; min&amp;quot;)
+    time.sleep(wait_time_sec)
+
+    # zoom app related
+    wb.get(using=&#39;chrome&#39;).open(zoom_link, new=2) #open zoom link in a new window
+    time.sleep(5) # given time for the link to show app top-up window
+    pyg.click(x=805, y=254, clicks=1, interval=0, button=&#39;left&#39;) # click on open zoom.app option
+    time.sleep(10) # wait for 10 sec
+    pyg.click(x=195, y=31, clicks=1, interval=0, button=&#39;left&#39;) # maximize zoom app
+    time.sleep(3) # wait for 3 sec
+    pyg.click(x=50, y=776, clicks=1, interval=0, button=&#39;left&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;what-else-we-can-do&#34;&gt;What else we can do?&lt;/h3&gt;
+&lt;p&gt;So far, this script takes one date and time to auto join the meeting. One can also go further and repeat the process over a given days and time periods.&lt;/p&gt;
+&lt;p&gt;The dark side of such automations is even when the actual person is away from the computer, it can still join. The evil benefit of this is attendending a class room lecture and getting credits without actually attending it.&lt;/p&gt;
+&lt;p&gt;Imroved tech comes with both good and bad benefits!&lt;/p&gt;
+&lt;h3 id=&#34;finally&#34;&gt;FINALLY,&lt;/h3&gt;
+&lt;p&gt;the command line version of the tool is available on &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/AutoZOOM/AutoZOOM_v0.03.py&#34;&gt;GitHub here&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;python AutoZOOM_v0.03.py --zoom_link &amp;quot;zoom-meeting-link&amp;quot; --meeting_date &amp;quot;06-09-2020&amp;quot; --meeting_time &amp;quot;13-00-00&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;technical-notes&#34;&gt;Technical notes&lt;/h3&gt;
+&lt;p&gt;I use 13-inch MacBook pro, so the coordinates hardcoded in the script are suitable for this screensize. If you want to use the script for your screen size, I wrote a small notebook to help you guide through it. &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/AutoZOOM/AutoZOOM_GetCoordinates.ipynb&#34;&gt;It is available here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Stay safe!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to start asking questions as a data scientist?</title>
+      <link>https://itsvenu.github.io/post/ds-qa/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/ds-qa/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Asking good questions is the key to success of any data science project. The ‘good’ part includes a long list of conditions to satisfy, for example how much benefit a project will get after we answer a question spending a significant amount of time. However, listing out all the possible questions and prioritizing will be a good beginning for the project.&lt;/p&gt;
+&lt;p&gt;Data science projects involve asking questions in two ways&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A) asking questions when the data already exists without a specific goal (an exploratory analysis)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;B) asking questions for a specific goal and generating/acquiring data to reach that goal&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In most projects, at least in quantitative biology, both of these aspects go together and in some projects the only possible scenario is (A). For example, given a spreadsheet of information, how do you go on asking questions whose results are somehow useful to the company or taking publicly available biological data, how do you produce new insights other than already reported.&lt;/p&gt;
+&lt;p&gt;In this blog post, I will demonstrate, with a spreadsheet of information, how to start asking questions that bring out some relationship among the features (columns) and potentially answer some basic questions and provide simple visualizations for each question. For this purpose, I use single-cell database &lt;a href=&#34;https://twitter.com/vallens/status/1263477436513206273&#34;&gt;I came across on twitter&lt;/a&gt; a few days back shared by &lt;a href=&#34;https://twitter.com/vallens&#34;&gt;Valentine Svensson&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the sample data from this file&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Now, let&amp;rsquo;s start answering some questions. But before, a small sisclaimer&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This analysis is only for demonstration of how one can start asking questions simply from a given spreadsheet. Hopefully to help beginners to give a starting point&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;How many single-cell RNA-seq papers published per-year?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the above database, the first paper reported was from 2002. One can visualize total number of published papers from 2002-2020 as below using features &lt;code&gt;Date&lt;/code&gt; and &lt;code&gt;Title&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;01.png&#34; alt=&#34;01&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As you see, the number of published studies constantly increased from 2002. Especially in the last 5 years, single-cell techs gained enormous popularity and importance.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Journals in which single-cell studies were published&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If there is such an increase in single-cell publications with each year, which journals published these studies. In the following figure, I showed top 50 journals with most published single-cell papers using feature &lt;code&gt;Journal&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;02.png&#34; alt=&#34;02&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Note that some (most) of the papers uploaded to biorxv might have been published in other peer-reviewed journals.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Does paper title contain &amp;lsquo;single-cell&amp;rsquo; in it?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Next, I looked into published paper titles and asked if the title contains &amp;lsquo;single-cell&amp;rsquo; in it. Using features &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Title&lt;/code&gt;, in the following figure, I show what fraction of papers show &amp;lsquo;single-cell&amp;rsquo; in their titles from top 15 journals with most published papers&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;03.png&#34; alt=&#34;03&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Looks like most papers carry &amp;lsquo;single-cell&amp;rsquo; in their title.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Number of cells in each study&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here, I show the distribution of the number of cells published in each study in above 15 journals using features &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Reported cells total&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;04.png&#34; alt=&#34;04&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So far with the available data, it seems like higher the number of cells, a study has the higher chances to get published in journals like nature and cell.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Most used single-cell technologies&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is one of the interesting questions. Here, I took the top 5 single-cell technologies with most publications in 2019 and calculated their status in last eight years. &lt;code&gt;Journal&lt;/code&gt;, &lt;code&gt;Date&lt;/code&gt; and &lt;code&gt;Technique&lt;/code&gt; are the features used for this analysis&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;05.png&#34; alt=&#34;05&#34;&gt;&lt;/p&gt;
+&lt;p&gt;From this figure, &amp;lsquo;SMARTer (C1)&amp;rsquo; tech was on top in the beginning of this decade and its usage was dropped towards the end, while &amp;lsquo;Chromium&amp;rsquo; tech was started in 2017 and quickly became one of the most used technology.&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Which journals published above top technologies?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now that we have top 5 single-cell techs, let&amp;rsquo;s look at the top 5 journals which published papers with these technologies. Features used here are &lt;code&gt;Journal&lt;/code&gt; and &lt;code&gt;Technology&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;06.png&#34; alt=&#34;06&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There are other features such as tissue, organism studied and analysis strategy used (PCA or TSNE). Using the data available within this spreadsheet, one can do further analysis to get associations such as journal and tissue studied. In addition to analysis shown here, it is also possible to do a sophisticated machine learning analysis using different features (e.g. tissue, number of cells, technology used, organism studied) to build a model to predict the most likely journal in which a study gets published.&lt;/p&gt;
+&lt;h4 id=&#34;data-source&#34;&gt;Data source&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1En7-UV0k0laDiIfjFkdn7dggyR7jIk3WH8QgXaMOZF0/edit#gid=0&#34;&gt;Single-cell database&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.biorxiv.org/content/10.1101/742304v2&#34;&gt;A curated database reveals trends in single-cell transcriptomics&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cancer | The Data Diary</title>
+    <link>https://itsvenu.github.io/tags/cancer/</link>
+      <atom:link href="https://itsvenu.github.io/tags/cancer/index.xml" rel="self" type="application/rss+xml" />
+    <description>cancer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://itsvenu.github.io/img/icon-192.png</url>
+      <title>cancer</title>
+      <link>https://itsvenu.github.io/tags/cancer/</link>
+    </image>
+    
+    <item>
+      <title>A deep dive into &#39;Forests&#39;</title>
+      <link>https://itsvenu.github.io/post/brca-random-forests/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://itsvenu.github.io/post/brca-random-forests/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;[&lt;em&gt;Jupyter notebook for this project is available &lt;a href=&#34;https://github.com/itsvenu/DataScience-Projects/blob/master/BreastCancer_RandomForest/BRCA_RandomForests.ipynb&#34;&gt;here&lt;/a&gt;&lt;/em&gt;]&lt;/p&gt;
+&lt;p&gt;I have been spending a lot of time understanding different concepts behind Machine learning techniques (ML), one concept at a time! In this post, I will discuss and try to simplify some of the concepts behind an ML technique, &lt;code&gt;RandomForests&lt;/code&gt;. While there are many resources explaining in which areas this method is useful, I am not going to touch that. So, without much jibber-jabber, let&amp;rsquo;s get into &amp;lsquo;Forests&amp;rsquo;!&lt;/p&gt;
+&lt;h3 id=&#34;randomforests&#34;&gt;RandomForests?&lt;/h3&gt;
+&lt;p&gt;RandomForests are a frequently used ML technique to predict either a continous outcome, e.g. house prices or a discrete outcome e.g. whether a disease is present in a tissue or not.&lt;/p&gt;
+&lt;h3 id=&#34;how-does-randomforests-work&#34;&gt;How does RandomForests work?&lt;/h3&gt;
+&lt;p&gt;Before going into the details of how the method works, we need to familiarise with a couple of terms. Just imagine (or look below) a table with rows and columns&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sample_table.png&#34; alt=&#34;sample&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Features&lt;/code&gt; - a feature is a a type of measurement. It could be continuous e.g. in an examination of a tissue, it can be size, diameter etc or could be discrete e.g. the tissue is narrower or wider. &lt;code&gt;Features&lt;/code&gt; are the most important details in building any ML model&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Instance&lt;/code&gt; - let&amp;rsquo;s say each row in above table is a patient. In a more technical way, these are called &lt;code&gt;Instaces&lt;/code&gt; or &lt;code&gt;Observations&lt;/code&gt; in ML language&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Each value in each cell is a measurement for a particular observation and feature&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Entropy&lt;/code&gt; - from our school physics, we know this as &amp;lsquo;randomness&amp;rsquo;. So here it is randomness in the data. How can one quantify randomness in a given dataset?&lt;/p&gt;
+&lt;p&gt;For the above table, entropy is calculated with the following formula&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;p&lt;/code&gt; - probability of being &amp;lsquo;Present&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;n&lt;/code&gt; - probability of being &amp;lsquo;Absent&amp;rsquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Entropy = I(p,n) = -(p/(p+n)) * log2(p/(p+n)) - (n/(p+n)) * log2(n/(p+n))
+        = I(3,1) = -(3/(3+1)) * log2(3/(3+1)) - (1/(3+1)) * log2(1/(3+1))
+        = 0.811
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So the &lt;code&gt;entropy&lt;/code&gt; or the randomness in our dataset is &lt;code&gt;0.811&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And a few terms that are specific to &lt;code&gt;RandomForests&lt;/code&gt;. The following figure is called a decision tree&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sample_decision.png&#34; alt=&#34;decision&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Root node&lt;/code&gt; - Root node is a feature from which data splitting starts based on a binary decision and two branches emerge&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Decision node&lt;/code&gt; - Decision nodes are branches from &lt;code&gt;root node&lt;/code&gt; at which binary decisions are made to split further&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Leaf node&lt;/code&gt; - Leaf node holds a final predicted outcome label. After a leaf node is generated, there will be no splitting of the data is possible. Leaf nodes are also called as &lt;code&gt;Terminal nodes&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Splitting&lt;/code&gt; - Process of splitting the data into two sets depending on a binary decision&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now that we know a bit of alien terms, let&amp;rsquo;s talk about how RandomForests work. In the above example data, given four &lt;code&gt;features&lt;/code&gt;, we would like to predict the &lt;code&gt;outcome&lt;/code&gt; label.&lt;/p&gt;
+&lt;p&gt;Behind the scenes, RandomForests work by randomly choosing a &lt;code&gt;feature&lt;/code&gt; and a value within that feature (making it a &lt;code&gt;Root node&lt;/code&gt;) and splitting the data into two branches. One branch contains the feature values above the chosen value (&lt;code&gt;TRUE&lt;/code&gt;) and the other branch contains feature values below the chosen value (&lt;code&gt;FALSE&lt;/code&gt;), &lt;strong&gt;a binary decision&lt;/strong&gt;. The random feature and random value are chosen in a way that the resulting two branches contains the &lt;code&gt;entropy&lt;/code&gt; lower than the entropy of the &lt;code&gt;Root node&lt;/code&gt; or the raw data. The process continues on each node generated from the root node until the final &lt;code&gt;leaf node&lt;/code&gt;s are generated or the final &lt;code&gt;entropy&lt;/code&gt; becomes zero, meaning each observation is classified according to the given label.&lt;/p&gt;
+&lt;p&gt;For example, in the above table, we calculated that our initial entropy is 0.811. If we choose the feature &lt;code&gt;Feature-1&lt;/code&gt; and the value &lt;code&gt;5.4&lt;/code&gt; and split the data into two branches, one that contains &lt;code&gt;Feature-1&lt;/code&gt; values &lt;code&gt;&amp;lt;=5.4&lt;/code&gt; [&lt;code&gt;TRUE&lt;/code&gt;] other that contains &lt;code&gt;Feature-1&lt;/code&gt; values &lt;code&gt;&amp;gt;5.4&lt;/code&gt; [&lt;code&gt;FALSE&lt;/code&gt;]. With this split, although one branch contains pure &lt;code&gt;Present&lt;/code&gt; label, the other branch&amp;rsquo;s &lt;code&gt;entropy&lt;/code&gt; is higher than the initial entropy, suggests the split is not ideal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;example_decisions.png&#34; alt=&#34;ex&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Instead, if we choose &lt;code&gt;Feature-1&lt;/code&gt; and value &lt;code&gt;0.5&lt;/code&gt; as the splitting point, we will end up with 2 branches whose &lt;code&gt;entropy&lt;/code&gt; is lower than the root node and contains a homogenous set of samples.&lt;/p&gt;
+&lt;p&gt;That is the basic idea behind a &lt;code&gt;RandomForest&lt;/code&gt;. But the question is, is that all we need to get the results we want? or close to the results we want? Of course not. To get better results, we build many many trees as the one above and at the end, average of all trees is taken as the final results. Higher the number of trees, higher the accuracy of the final results. Of these many trees, each tree is ran with a random subsample of the original data or the random data of same size drawn from original data with replacement, which we call &lt;code&gt;bootstraping&lt;/code&gt; in ML terminology. The final results are calculated in two different ways.&lt;/p&gt;
+&lt;p&gt;For example, we have two outcome labels &lt;code&gt;YES&lt;/code&gt; and &lt;code&gt;NO&lt;/code&gt;. If we ran 100 trees and an &lt;code&gt;observation&lt;/code&gt; is classified as &lt;code&gt;YES&lt;/code&gt; more frequently than &lt;code&gt;NO&lt;/code&gt;, the final outcome for this observation will be &lt;code&gt;YES&lt;/code&gt;, basically, the label with majority of votes wins. Instead, each tree can produce the probability for being &lt;code&gt;YES&lt;/code&gt; and proability for being &lt;code&gt;NO&lt;/code&gt; for each observation. At the end, all probabilities for being &lt;code&gt;YES&lt;/code&gt; and &lt;code&gt;NO&lt;/code&gt; are averaged for each observation and the final outcome will be the one with higest probability.&lt;/p&gt;
+&lt;p&gt;Now let&amp;rsquo;s look at a real world, complex cancer data and implement &lt;code&gt;RandomForests&lt;/code&gt; to classify if a patient has &lt;code&gt;Malignant&lt;/code&gt; (cancer tumor) or a &lt;code&gt;Benign&lt;/code&gt; (non-cancer tumor).&lt;/p&gt;
+&lt;h3 id=&#34;classification-of-breast-cancers-with-randomforests&#34;&gt;Classification of Breast cancers with RandomForests&lt;/h3&gt;
+&lt;p&gt;In order to implement RandomForests on Breast cancer data, I downloaded the data from &lt;a href=&#34;https://www.kaggle.com/uciml/breast-cancer-wisconsin-data&#34;&gt;kaggle&lt;/a&gt;. The data contains 569 patients/observations and 30 features and one more column with &lt;code&gt;diagnosis&lt;/code&gt; either as label &lt;code&gt;M&lt;/code&gt; for manlignant or &lt;code&gt;B&lt;/code&gt; for benign, a classification problem. All features are various continuous measurements of breast tissue to classify the tumor type.&lt;/p&gt;
+&lt;p&gt;I will be using &lt;code&gt;python&lt;/code&gt; and a famous machine learning library &lt;code&gt;sklearn&lt;/code&gt; to implement RandomForest classifications.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;load-required-libraries&#34;&gt;Load required libraries&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import seaborn as sns; sns.set(font_scale = 2)
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;read-data-and-clean&#34;&gt;Read data and clean&lt;/h4&gt;
+&lt;p&gt;I downloaded data from above mentioned &lt;code&gt;kaggle&lt;/code&gt; link. Here, we read the data into &lt;code&gt;df_raw&lt;/code&gt; and remove unnecessary columns/features.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## read data
+df_raw = pd.read_csv(&#39;data.csv&#39;, index_col = &#39;id&#39;)
+df_raw.head().transpose()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Remove &lt;code&gt;Unnamed: 32&lt;/code&gt; as it has only &lt;code&gt;NaN&lt;/code&gt; values in it.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## id is patient ID
+## remove &#39;Unnamed: 32&#39;
+
+df_raw = df_raw.drop(&#39;Unnamed: 32&#39;, axis=1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;split-the-data-into-train-and-test-sets&#34;&gt;Split the data into train and test sets&lt;/h4&gt;
+&lt;p&gt;In order to build a model and validate it&amp;rsquo;s performance, we need to split the data into training and test set. After training the RandomForest model on training data, we&amp;rsquo;ll test it&amp;rsquo;s performance on test set. Here we split the 569 patients into 75% as training data and 25% as test data.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## split into training and test sets
+train_df, test_df = train_test_split(df_raw, test_size=0.25)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(train_df)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;426
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(test_df)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;143
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;B    95
+M    48
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;train_df.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;B    262
+M    164
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df_raw.diagnosis.value_counts()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;B    357
+M    212
+Name: diagnosis, dtype: int64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;binarize-the-outcome-labels&#34;&gt;Binarize the outcome labels&lt;/h4&gt;
+&lt;p&gt;As the computers do not understand Malignant or Benign, we need to convert them to &lt;code&gt;1&lt;/code&gt; and &lt;code&gt;0&lt;/code&gt; for &lt;code&gt;M&lt;/code&gt; and &lt;code&gt;B&lt;/code&gt; respectively.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## binarize &#39;diagnosis&#39;
+outcome_label = np.where(train_df[&#39;diagnosis&#39;] == &#39;M&#39;, 1, 0)
+outcome_label
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;array([1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+       0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+       0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1,
+       0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0,
+       0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0,
+       1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1,
+       0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1,
+       1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1,
+       0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1,
+       1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0,
+       1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0,
+       0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+       0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0,
+       0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0,
+       0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1,
+       0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0,
+       0, 1, 0, 0, 0, 0, 0, 1])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;train_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;selecting-features&#34;&gt;Selecting &lt;code&gt;Features&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;Here, I selected all the 30 features that were present in the data to train the model. While testing the performance of the model, we need to provide data for all the &lt;code&gt;feature&lt;/code&gt;s used during training&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## get features to be used = remove &#39;diagnosis&#39; column
+features = train_df.columns[1:]
+features
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Index([&#39;radius_mean&#39;, &#39;texture_mean&#39;, &#39;perimeter_mean&#39;, &#39;area_mean&#39;,
+       &#39;smoothness_mean&#39;, &#39;compactness_mean&#39;, &#39;concavity_mean&#39;,
+       &#39;concave points_mean&#39;, &#39;symmetry_mean&#39;, &#39;fractal_dimension_mean&#39;,
+       &#39;radius_se&#39;, &#39;texture_se&#39;, &#39;perimeter_se&#39;, &#39;area_se&#39;, &#39;smoothness_se&#39;,
+       &#39;compactness_se&#39;, &#39;concavity_se&#39;, &#39;concave points_se&#39;, &#39;symmetry_se&#39;,
+       &#39;fractal_dimension_se&#39;, &#39;radius_worst&#39;, &#39;texture_worst&#39;,
+       &#39;perimeter_worst&#39;, &#39;area_worst&#39;, &#39;smoothness_worst&#39;,
+       &#39;compactness_worst&#39;, &#39;concavity_worst&#39;, &#39;concave points_worst&#39;,
+       &#39;symmetry_worst&#39;, &#39;fractal_dimension_worst&#39;],
+      dtype=&#39;object&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;randomforestclassifier&#34;&gt;RandomForestClassifier&lt;/h4&gt;
+&lt;p&gt;Here, we implement &lt;code&gt;RandomForestClassifier&lt;/code&gt; function imported from the &lt;code&gt;sklearn.ensemble&lt;/code&gt; library above.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;n_estimators&lt;/code&gt; - sklearn library calls trees as estimators. Here, I asked the function to run &lt;code&gt;100&lt;/code&gt; trees and provide me the average of these 100 trees.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## implement RF
+brca_clf = RandomForestClassifier(n_jobs=2, random_state=0, n_estimators=100)
+brca_clf.fit(train_df[features], outcome_label)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;RandomForestClassifier(bootstrap=True, class_weight=None, criterion=&#39;gini&#39;,
+            max_depth=None, max_features=&#39;auto&#39;, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=2,
+            oob_score=False, random_state=0, verbose=0, warm_start=False)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;implement-the-model-on-test-data&#34;&gt;Implement the model on test data&lt;/h4&gt;
+&lt;p&gt;Following command implements the &lt;code&gt;RandomForestClassifier&lt;/code&gt; model we built above on test data set we saved for performance evaluation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;brca_clf.predict(test_df[features])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;array([0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1,
+       0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1,
+       0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0,
+       1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1,
+       0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;map-the-m-or-b-labels-to-binary-outcomes&#34;&gt;Map the &lt;code&gt;M&lt;/code&gt; or &lt;code&gt;B&lt;/code&gt; labels to binary outcomes&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_labels = test_df[&amp;quot;diagnosis&amp;quot;].unique()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## map labels to ooutcomes from the model
+test_predictions = test_labels[brca_clf.predict(test_df[features])]
+test_predictions[0:10]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;array([&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;M&#39;, &#39;B&#39;, &#39;B&#39;, &#39;M&#39;, &#39;B&#39;, &#39;M&#39;, &#39;M&#39;], dtype=object)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;build-a-confusion-matrix-with-groud-truth-and-model-predictions&#34;&gt;Build a confusion matrix with &lt;code&gt;Groud Truth&lt;/code&gt; and &lt;code&gt;Model predictions&lt;/code&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## ground truth from the test_df and predictions
+
+conf_matrix = pd.crosstab(test_df[&amp;quot;diagnosis&amp;quot;], test_predictions, rownames=[&amp;quot;Ground Truth&amp;quot;], colnames=[&amp;quot;Model Predictions&amp;quot;])
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;plt.figure(figsize = (5,4))
+sns.heatmap(conf_matrix, annot=True, linecolor=&#39;white&#39;, linewidths=1.5, annot_kws={&amp;quot;size&amp;quot;: 30})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2b8ef6d8&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_19_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;accuracy&#34;&gt;Accuracy&lt;/h4&gt;
+&lt;p&gt;In our test data, there are 95 Benign and 48 Malignant labels out of 143 obsevrations. However, we misclassified 1 Benign case as Malignant and misclassified 2 Malignant cases as Benign cases. In total, there are 3 misclassifications and 140 correct predictions. Let&amp;rsquo;s look at the accuracy percentage&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  (140/143) * 100 = 97.90%
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A whooping accuracy of &lt;code&gt;~98%&lt;/code&gt;. Looks like we built a reasonably very good model. Well done!&lt;/p&gt;
+&lt;h4 id=&#34;feature-importance&#34;&gt;Feature importance&lt;/h4&gt;
+&lt;p&gt;It is often of high interest to look at the features that were most important in predicting the labels. Meaning, shuffling the values of this feature will reduce the accuracy we are supposed to achieve. Feature importance can be calculated and visualized by following functions&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot feature importance scores
+feat_importances = pd.Series(brca_clf.feature_importances_, index=train_df.columns[1:])
+feat_importances.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;radius_mean        0.023095
+texture_mean       0.019641
+perimeter_mean     0.059293
+area_mean          0.032830
+smoothness_mean    0.007325
+dtype: float64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;plt.figure(figsize = (9,5))
+feat_importances.nlargest(10).plot(kind=&#39;barh&#39;, color=&#39;black&#39;)
+plt.title(&amp;quot;Feature importance&amp;quot;)
+plt.ylabel(&amp;quot;Measured feature&amp;quot;)
+plt.xlabel(&amp;quot;importance score&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Text(0.5, 0, &#39;importance score&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_21_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s briefly look at the important feature values in test data and how their values are distributed in &lt;code&gt;Malignant&lt;/code&gt; and &lt;code&gt;Benign&lt;/code&gt; tumors. Important feature value distribution must be high in one or the other class&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot box plots for M and B for first 5 features
+## see how much they differ
+test_df.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df[[&amp;quot;diagnosis&amp;quot;, &amp;quot;perimeter_worst&amp;quot;]].boxplot(by = &amp;quot;diagnosis&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2a282b38&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_23_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;test_df[[&amp;quot;diagnosis&amp;quot;, &amp;quot;concave points_worst&amp;quot;]].boxplot(by = &amp;quot;diagnosis&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x1a2a2c48d0&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_24_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;visualize-decision-trees&#34;&gt;Visualize decision trees&lt;/h4&gt;
+&lt;p&gt;In this section, I visualize a decision tree and what&amp;rsquo;s happening at each binary decision point. As we ran 100 trees, I randomly chose tree number &lt;code&gt;25&lt;/code&gt; to show splittings. The code to visualize the decision trees is from &lt;a href=&#34;https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;## plot decision trees
+
+from sklearn.tree import export_graphviz
+
+train_labels = train_df[&amp;quot;diagnosis&amp;quot;].unique()
+
+## randomly chose tree-9 to plot
+estimator = brca_clf.estimators_[25]
+
+# Export as dot file
+export_graphviz(estimator, out_file=&#39;tree.dot&#39;, 
+                feature_names = features,
+                class_names = train_labels,
+                rounded = True, proportion = False, 
+                precision = 2, filled = True)
+
+# Convert to png using system command (requires Graphviz)
+from subprocess import call
+call([&#39;dot&#39;, &#39;-Tpng&#39;, &#39;tree.dot&#39;, &#39;-o&#39;, &#39;tree.png&#39;, &#39;-Gdpi=600&#39;])
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.display import Image
+Image(filename = &#39;tree.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_26_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As one can see from the above decision tree, the first &lt;code&gt;feature&lt;/code&gt; in tree number 25 is &lt;code&gt;concave points_worst&lt;/code&gt; making it the root node and the splitting value &lt;code&gt;&amp;lt;=0.14&lt;/code&gt; producing two branches with lower &lt;code&gt;entropy&lt;/code&gt; than the root node. Further, the two branch nodes are splitting again by selecting two different &lt;code&gt;feature&lt;/code&gt;s for each branch. This process will be continued until &lt;code&gt;entropy&lt;/code&gt; value is 0. After all 100 trees are built, the probabilities for being class &lt;code&gt;M&lt;/code&gt; and &lt;code&gt;B&lt;/code&gt; are averaged to give us the final class of each observation.&lt;/p&gt;
+&lt;p&gt;Here, with a basic model, we achieved an accuracy of &lt;code&gt;98%&lt;/code&gt; on a test data that the model has not seen before. By feature scaling, hyper-parameter tuning and further complex feature engineering, just imagine how well &lt;code&gt;RandomForests&lt;/code&gt; can perform!&lt;/p&gt;
+&lt;h3 id=&#34;notes-highly-recommended-if-you-want-to-learn-more&#34;&gt;NOTES (Highly recommended if you want to learn more)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://course18.fast.ai/lessonsml1/lesson1.html&#34;&gt;Jeremy Howard, Fastai - RandomForests&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=DWsJc1xnOZo&amp;amp;t=2016s&#34;&gt;Simplilearn - Machine learning&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@srnghn/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3&#34;&gt;The Mathematics of Decision Trees, Random Forest and Feature Importance in Scikit-learn and Spark&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://victorzhou.com/blog/gini-impurity/&#34;&gt;A Simple Explanation of Gini Impurity&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
